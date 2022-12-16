@@ -19,5 +19,7 @@ Avantages : Optimisation du téléchargement des dépendances
 
 Turbopack currently in alpha phase
 
+`pnpm create vite bread-receipes --template react-swc-ts`
+
 # Monorepo
 - https://monorepo.tools/

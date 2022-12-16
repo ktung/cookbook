@@ -1,0 +1,2 @@
+- https://tailwindcss.com/
+  - https://tailwindcss.com/docs/guides/vite

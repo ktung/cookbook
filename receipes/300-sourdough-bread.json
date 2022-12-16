@@ -1,0 +1,29 @@
+{
+  "name": {
+    "en": "300 - Sourdough bread",
+    "fr": "300 - Pain au levain"
+  },
+  "ingredients": [
+    {
+      "name": "allPurposeFlourT55",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "breadFlourT165",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "water",
+      "bakerPercentage": 59
+    },
+    {
+      "name": "stiffStarter",
+      "bakerPercentage": 0.8
+    },
+    {
+      "name": "salt",
+      "bakerPercentage": 2.5
+    }
+  ],
+  "presetTotalIngredient": 826
+}

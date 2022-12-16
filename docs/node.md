@@ -1,6 +1,8 @@
 # volta vs nvm
 Utilité de volta : set la version de nodejs à utiliser et switch automatique, à la manière de [jenv](https://github.com/jenv/jenv).
 
+`volta pin node`
+
 # pnpm vs npm vs yarn
 ## pnpm
 https://pnpm.io/motivation

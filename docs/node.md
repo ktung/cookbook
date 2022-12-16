@@ -23,5 +23,10 @@ Turbopack currently in alpha phase
 
 `pnpm create vite bread-receipes --template react-swc-ts`
 
+- https://vitejs.dev/guide/assets.html
+
+ToRead :
+- https://cathalmacdonnacha.com/setting-up-eslint-prettier-in-vitejs
+
 # Monorepo
 - https://monorepo.tools/

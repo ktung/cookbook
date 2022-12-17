@@ -1,9 +1,9 @@
 import receipes from '../../assets/receipes/list.json'
-import './ReceipeSelector.scoped.css'
+import css from './ReceipeSelector.module.css'
 
 export function ReceipeSelector() {
   return (
-    <div>
+    <div className={css['receipe-selector']}>
       <h1>RECEIPES</h1>
       <select>
         {receipes.map(receipe => (

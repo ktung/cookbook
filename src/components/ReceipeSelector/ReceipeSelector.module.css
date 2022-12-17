@@ -2,10 +2,10 @@
   color: red;
 }
 
-h1 {
+.receipe-selector h1 {
   font-size: 4em;
 }
-.container {
+.receipe-selector .container {
   background-color: white;
   color: lime;
   text-align: center;

@@ -7,7 +7,7 @@ export function ReceipeSelector() {
       <h1>RECEIPES</h1>
       <select>
         {receipes.map(receipe => (
-          <option value={receipe.filename}>{receipe.name.fr}</option>
+          <option key={receipe.filename} value={receipe.filename}>{receipe.name.fr}</option>
           ))}
       </select>
     </div>

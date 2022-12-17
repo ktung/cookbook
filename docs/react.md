@@ -1,3 +1,12 @@
 # Styling
 css scoped **globally** by default
-- https://github.com/cmseguin/rollup-plugin-react-scoped-css
+Use module css with postcss-nested
+
+# Dom element
+class -> className
+for -> htmlFor
+- https://reactjs.org/docs/dom-elements.html
+
+# With typescript
+- https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets
+- https://www.typescriptlang.org/play/index.html?jsx=2&esModuleInterop=true&e=196#example/typescript-with-react

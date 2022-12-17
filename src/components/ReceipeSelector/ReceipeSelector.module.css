@@ -1,12 +1,12 @@
 .receipe-selector {
   color: red;
-}
-
-.receipe-selector h1 {
-  font-size: 4em;
-}
-.receipe-selector .container {
-  background-color: white;
-  color: lime;
-  text-align: center;
+  
+  h1 {
+    font-size: 4em;
+  }
+  .container {
+    background-color: white;
+    color: lime;
+    text-align: center;
+  }
 }

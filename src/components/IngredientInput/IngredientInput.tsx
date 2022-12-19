@@ -12,4 +12,3 @@ export function IngredientInput(props: IngredientInputProps) {
     </div>
   )
 }
-

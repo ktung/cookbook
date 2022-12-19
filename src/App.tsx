@@ -1,20 +1,37 @@
-import { useState } from 'react'
+import { Component } from 'react'
 import './App.css'
 import { IngredientInput } from './components/IngredientInput/IngredientInput'
 import { ReceipeSelector } from './components/ReceipeSelector/ReceipeSelector'
 import receipe from './assets/receipes/100-pizza-dough.json'
 
-function App() {
-  const [count, setCount] = useState(0);
+interface AppProps {}
+interface AppState {
+  count: number
+}
+
+class App extends Component<AppProps, AppState> {
+
+  constructor(props: AppProps) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
 
   // const receipe = (async function() { 
   //   return await import('./assets/receipes/100-pizza-dough.json');
   // })
 
-  const totalBakerPercentage = receipe.ingredients.map(ingredient => (ingredient.bakerPercentage)).reduce((previous, current) => previous+current, 0);
+  totalBakerPercentage = receipe.ingredients.map(ingredient => (ingredient.bakerPercentage)).reduce((previous, current) => previous+current, 0);
 
-  return (
-    <div className="App">
+  increaseCount() {
+    this.setState({
+      count: this.state.count+1
+    });
+  }
+
+  render() {
+    return <div className="App">
       <ReceipeSelector></ReceipeSelector>
       <a href={receipe.link.fr}>Lien</a>
 
@@ -23,7 +40,7 @@ function App() {
           key={ingredient.name}
           name={ingredient.name}
           percentage={String(ingredient.bakerPercentage)}
-          defaultValue={String(Math.round(receipe.presetTotalIngredient/totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
+          defaultValue={String(Math.round(receipe.presetTotalIngredient/this.totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
       ))}
       Total {receipe.presetTotalIngredient}
 
@@ -37,12 +54,12 @@ function App() {
       </div>
 
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count} 
+        <button onClick={() => this.increaseCount()}>
+          count is {this.state.count}
         </button>
       </div>
     </div>
-  )
+  }
 }
 
 export default App

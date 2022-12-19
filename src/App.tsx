@@ -3,6 +3,7 @@ import './App.css'
 import { IngredientInput } from './components/IngredientInput/IngredientInput'
 import { ReceipeSelector } from './components/ReceipeSelector/ReceipeSelector'
 import receipe from './assets/receipes/100-pizza-dough.json'
+import { NotesList } from './components/NotesList/NotesList'
 
 interface AppProps {}
 interface AppState {
@@ -44,14 +45,7 @@ class App extends Component<AppProps, AppState> {
       ))}
       Total {receipe.presetTotalIngredient}
 
-      <div>
-        <h2>Notes</h2>
-        <ul>
-        {receipe.notes.fr.map((note, index) => (
-          <li key={index}>{note}</li>
-        ))}
-        </ul>
-      </div>
+      <NotesList notes={receipe.notes}></NotesList>
 
       <div className="card">
         <button onClick={() => this.increaseCount()}>

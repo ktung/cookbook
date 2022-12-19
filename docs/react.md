@@ -21,3 +21,6 @@ for -> htmlFor
   - https://reactjs.org/docs/react-component.html
 - https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/class_components/
 - https://www.geeksforgeeks.org/differences-between-functional-components-and-class-components-in-react/
+
+# Events
+- https://reactjs.org/docs/handling-events.html

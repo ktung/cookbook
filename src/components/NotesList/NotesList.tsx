@@ -8,9 +8,15 @@ interface NotesListProps {
 }
 
 export function NotesList(props: NotesListProps) {
+  if (!props.notes) {
+    return null;
+  }
+
   let notes: Array<string> = [];
   if (!!props.notes.fr) {
     notes = props.notes.fr;
+  } else {
+    return null;
   }
 
   return (

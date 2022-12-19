@@ -40,12 +40,22 @@ class App extends Component<AppProps, AppState> {
     this.state = {
       receipeFilename: '100-pizza-dough'
     };
+
+    this.onChangeReceipe = this.onChangeReceipe.bind(this);
   }
 
   componentDidMount(): void {
-    import(`./assets/receipes/${this.state.receipeFilename}.json`).then((data: Receipe) => {
+    this.importReceipe(this.state.receipeFilename);
+  }
+
+  onChangeReceipe(receipeFilename: string) {
+    this.importReceipe(receipeFilename);
+  }
+
+  importReceipe(receipeFilename: string) {
+    import(`./assets/receipes/${receipeFilename}.json`).then((data: Receipe) => {
       this.setState({
-        receipeFilename: this.state.receipeFilename,
+        receipeFilename: receipeFilename,
         receipeJSON: data
       });
 
@@ -56,23 +66,25 @@ class App extends Component<AppProps, AppState> {
   }
 
   render() {
-    if (!!this.state.receipeJSON) {
-      return <div className="App">
-        <ReceipeSelector></ReceipeSelector>
-        <a href={this.state.receipeJSON.link.fr}>Lien</a>
-
-        {this.state.receipeJSON.ingredients.map(ingredient => (
-          <IngredientInput
-            key={ingredient.name}
-            name={ingredient.name}
-            percentage={String(ingredient.bakerPercentage)}
-            defaultValue={String(Math.round(this.state.receipeJSON.presetTotalIngredient/this.totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
-        ))}
-        Total {this.state.receipeJSON.presetTotalIngredient}
-
-        <NotesList notes={this.state.receipeJSON.notes}></NotesList>
-      </div>
+    if (!this.state.receipeJSON) {
+      return null;
     }
+
+    return <div className="App">
+      <ReceipeSelector onChange={this.onChangeReceipe}></ReceipeSelector>
+      { !!this.state.receipeJSON.link && !!this.state.receipeJSON.link.fr && <a href={this.state.receipeJSON.link.fr}>Lien</a> }
+
+      {this.state.receipeJSON.ingredients.map(ingredient => (
+        <IngredientInput
+          key={ingredient.name}
+          name={ingredient.name}
+          percentage={String(ingredient.bakerPercentage)}
+          defaultValue={String(Math.round(this.state.receipeJSON.presetTotalIngredient/this.totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
+      ))}
+      Total {this.state.receipeJSON.presetTotalIngredient}
+
+      <NotesList notes={this.state.receipeJSON.notes}></NotesList>
+    </div>
   }
 }
 

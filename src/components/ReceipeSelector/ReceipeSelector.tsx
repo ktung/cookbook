@@ -8,7 +8,7 @@ export function ReceipeSelector() {
       <select>
         {receipes.map(receipe => (
           <option key={receipe.filename} value={receipe.filename}>{receipe.name.fr}</option>
-          ))}
+        ))}
       </select>
     </div>
   )

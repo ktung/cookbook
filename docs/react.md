@@ -10,3 +10,7 @@ for -> htmlFor
 # With typescript
 - https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets
 - https://www.typescriptlang.org/play/index.html?jsx=2&esModuleInterop=true&e=196#example/typescript-with-react
+
+# Lists
+- https://reactjs.org/docs/lists-and-keys.html
+- https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/

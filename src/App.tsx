@@ -3,12 +3,13 @@ import './App.css'
 import { IngredientInput } from './components/IngredientInput/IngredientInput'
 import { ReceipeSelector } from './components/ReceipeSelector/ReceipeSelector'
 import { NotesList } from './components/NotesList/NotesList'
+import i18n from 'i18next'
 
 interface AppProps {}
 interface AppState {
   receipeFilename: string,
   receipeJSON?: Receipe,
-  totalBakerPercentage: number
+  totalBakerPercentage?: number
 }
 
 interface Receipe {
@@ -35,17 +36,19 @@ interface Receipe {
 
 class App extends Component<AppProps, AppState> {
 
+  private lngs = {
+    en: { nativeName: 'English' },
+    fr: { nativeName: 'Français' }
+  };
+
   constructor(props: AppProps) {
     super(props);
-    this.state = {
-      receipeFilename: '100-pizza-dough'
-    };
 
     this.onChangeReceipe = this.onChangeReceipe.bind(this);
   }
 
   componentDidMount(): void {
-    this.importReceipe(this.state.receipeFilename);
+    this.importReceipe('100-pizza-dough');
   }
 
   onChangeReceipe(receipeFilename: string) {
@@ -65,11 +68,19 @@ class App extends Component<AppProps, AppState> {
   }
 
   render() {
-    if (!this.state.receipeJSON) {
+    if (!this.state || !this.state.receipeJSON) {
       return null;
     }
 
     return <div className="App">
+      <div>
+          {Object.keys(this.lngs).map((lng) => (
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+              {this.lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
+
       <ReceipeSelector onChange={this.onChangeReceipe}></ReceipeSelector>
       { !!this.state.receipeJSON.link && !!this.state.receipeJSON.link.fr && <a href={this.state.receipeJSON.link.fr}>Lien</a> }
 

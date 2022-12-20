@@ -28,6 +28,13 @@ for -> htmlFor
 # i18n
 - https://github.com/formatjs/formatjs/tree/main/packages/react-intl
 - https://github.com/alibaba/react-intl-universal
-- https://github.com/i18next/react-i18next
 - https://github.com/lingui/js-lingui
 - https://phrase.com/blog/posts/react-i18n-best-libraries/
+- https://github.com/i18next/react-i18next
+  - https://react.i18next.com/latest/using-with-hooks
+  - https://github.com/i18next/i18next-browser-languageDetector
+  - https://github.com/i18next/i18next-http-backend
+
+# Hooks
+- https://infinum.com/blog/how-to-use-react-hooks-in-class-components/
+- https://reactjs.org/docs/hooks-faq.html

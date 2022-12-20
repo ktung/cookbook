@@ -62,6 +62,14 @@ class App extends Component<AppProps, AppState> {
     });
   }
 
+  computeDefaultValue(bakerPercentage: number): number {
+    if (!this.state.receipeJSON || !this.state.totalBakerPercentage) {
+      return 0;
+    }
+
+    return Math.round(this.state.receipeJSON.presetTotalIngredient/this.state.totalBakerPercentage*bakerPercentage);
+  }
+
   render() {
     if (!this.state || !this.state.receipeJSON) {
       return null;
@@ -77,7 +85,7 @@ class App extends Component<AppProps, AppState> {
           key={ingredient.name}
           name={ingredient.name}
           percentage={String(ingredient.bakerPercentage)}
-          defaultValue={String(Math.round(this.state.receipeJSON.presetTotalIngredient/this.state.totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
+          defaultValue={String(this.computeDefaultValue(ingredient.bakerPercentage))}></IngredientInput>
       ))}
       Total {this.state.receipeJSON.presetTotalIngredient}
 

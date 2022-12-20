@@ -7,7 +7,7 @@
 - [ ] Translate english and french
 
 ## V1.1.0
-- [ ] Add ins
+- [ ] Add calcutrice ? (simple division de total/parts)
 
 ## V1.1.1
 - [ ] Add timeline graph

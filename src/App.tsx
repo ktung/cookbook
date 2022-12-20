@@ -7,7 +7,8 @@ import { NotesList } from './components/NotesList/NotesList'
 interface AppProps {}
 interface AppState {
   receipeFilename: string,
-  receipeJSON?: Receipe
+  receipeJSON?: Receipe,
+  totalBakerPercentage: number
 }
 
 interface Receipe {
@@ -33,7 +34,6 @@ interface Receipe {
 }
 
 class App extends Component<AppProps, AppState> {
-  totalBakerPercentage = 0;
 
   constructor(props: AppProps) {
     super(props);
@@ -54,14 +54,13 @@ class App extends Component<AppProps, AppState> {
 
   importReceipe(receipeFilename: string) {
     import(`./assets/receipes/${receipeFilename}.json`).then((data: Receipe) => {
+      const totalBakerPercentage = data.ingredients.map(ingredient => (ingredient.bakerPercentage)).reduce((previous, current) => previous+current, 0);
+
       this.setState({
         receipeFilename: receipeFilename,
-        receipeJSON: data
+        receipeJSON: data,
+        totalBakerPercentage: totalBakerPercentage
       });
-
-      if (!!this.state.receipeJSON) {
-        this.totalBakerPercentage = this.state.receipeJSON.ingredients.map(ingredient => (ingredient.bakerPercentage)).reduce((previous, current) => previous+current, 0);
-      }
     });
   }
 
@@ -79,7 +78,7 @@ class App extends Component<AppProps, AppState> {
           key={ingredient.name}
           name={ingredient.name}
           percentage={String(ingredient.bakerPercentage)}
-          defaultValue={String(Math.round(this.state.receipeJSON.presetTotalIngredient/this.totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
+          defaultValue={String(Math.round(this.state.receipeJSON.presetTotalIngredient/this.state.totalBakerPercentage*ingredient.bakerPercentage))}></IngredientInput>
       ))}
       Total {this.state.receipeJSON.presetTotalIngredient}
 

@@ -6,24 +6,24 @@
   "ingredients": [
     {
       "name": "allPurposeFlourT55",
-      "bakerPercentage": 100
+      "bakerPercentage": 87.5
     },
     {
       "name": "breadFlourT165",
-      "bakerPercentage": 100
+      "bakerPercentage": 12.5
     },
     {
       "name": "water",
-      "bakerPercentage": 59
+      "bakerPercentage": 75
     },
     {
       "name": "stiffStarter",
-      "bakerPercentage": 0.8
+      "bakerPercentage": 17.5
     },
     {
       "name": "salt",
-      "bakerPercentage": 2.5
+      "bakerPercentage": 2
     }
   ],
-  "presetTotalIngredient": 826
+  "presetTotalIngredient": 778
 }

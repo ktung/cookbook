@@ -24,3 +24,10 @@ for -> htmlFor
 
 # Events
 - https://reactjs.org/docs/handling-events.html
+
+# i18n
+- https://github.com/formatjs/formatjs/tree/main/packages/react-intl
+- https://github.com/alibaba/react-intl-universal
+- https://github.com/i18next/react-i18next
+- https://github.com/lingui/js-lingui
+- https://phrase.com/blog/posts/react-i18n-best-libraries/

@@ -3,7 +3,7 @@ import './App.css'
 import { IngredientInput } from './components/IngredientInput/IngredientInput'
 import { ReceipeSelector } from './components/ReceipeSelector/ReceipeSelector'
 import { NotesList } from './components/NotesList/NotesList'
-import i18n from 'i18next'
+import { LanguageSelector } from './components/LanguageSelector/LanguageSelector'
 
 interface AppProps {}
 interface AppState {
@@ -35,11 +35,6 @@ interface Receipe {
 }
 
 class App extends Component<AppProps, AppState> {
-
-  private lngs = {
-    en: { nativeName: 'English' },
-    fr: { nativeName: 'Français' }
-  };
 
   constructor(props: AppProps) {
     super(props);
@@ -73,14 +68,7 @@ class App extends Component<AppProps, AppState> {
     }
 
     return <div className="App">
-      <div>
-          {Object.keys(this.lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-              {this.lngs[lng].nativeName}
-            </button>
-          ))}
-        </div>
-
+      <LanguageSelector></LanguageSelector>
       <ReceipeSelector onChange={this.onChangeReceipe}></ReceipeSelector>
       { !!this.state.receipeJSON.link && !!this.state.receipeJSON.link.fr && <a href={this.state.receipeJSON.link.fr}>Lien</a> }
 

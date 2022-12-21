@@ -2,14 +2,16 @@ import { useTranslation } from "react-i18next";
 
 type LanguageList = {
   en: { nativeName: string },
-  fr: { nativeName: string },
+  "fr-FR": { nativeName: string },
+  "fr-CA": { nativeName: string },
 }
 
 export function LanguageSelector() {
   const { i18n } = useTranslation();
   const lngs: LanguageList = {
     en: { nativeName: 'English' },
-    fr: { nativeName: 'Français' }
+    "fr-FR": { nativeName: 'Français' },
+    "fr-CA": { nativeName: 'Français canadien' }
   };
 
   return (

@@ -62,7 +62,7 @@ export function ReceipePanel(props: ReceipePanelProps) {
 
   return (
     <div>
-      { !!receipeJSON.link && !!receipeJSON.link.fr && <a href={receipeJSON.link.fr}>Lien</a> }
+      { !!receipeJSON.link && !!receipeJSON.link.fr && <a href={receipeJSON.link.fr}>{t('link')}</a> }
 
       {receipeJSON.ingredients.map(ingredient => (
         <IngredientInput
@@ -71,7 +71,7 @@ export function ReceipePanel(props: ReceipePanelProps) {
           percentage={String(ingredient.bakerPercentage)}
           defaultValue={String(computeDefaultValue(ingredient.bakerPercentage))}></IngredientInput>
       ))}
-      Total {receipeJSON.presetTotalIngredient}
+      {t('total')} {receipeJSON.presetTotalIngredient}
 
       <NotesList notes={receipeJSON.notes}></NotesList>
     </div>

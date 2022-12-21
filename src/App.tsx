@@ -27,7 +27,9 @@ export class App extends Component<AppProps, AppState> {
     return <div className="App">
       <LanguageSelector></LanguageSelector>
       <ReceipeSelector onChange={this.onChangeReceipe}></ReceipeSelector>
-      {!!this.state && !!this.state.receipeFilename && <ReceipePanel receipeFilename={this.state.receipeFilename}></ReceipePanel>}
+      {!!this.state && !!this.state.receipeFilename &&
+        <ReceipePanel receipeFilename={this.state.receipeFilename}></ReceipePanel>
+      }
     </div>
   }
 }

@@ -41,5 +41,8 @@ for -> htmlFor
 - https://reactjs.org/docs/hooks-reference.html
 - https://stackoverflow.blog/2021/10/20/why-hooks-are-the-best-thing-to-happen-to-react/
 
+# Controller/Uncontroller components
+- https://reactjs.org/docs/uncontrolled-components.html#default-values
+
 # Resources
 - https://www.youtube.com/watch?v=GGo3MVBFr1A

@@ -9,10 +9,14 @@ interface IngredientInputProps {
 export function IngredientInput(props: IngredientInputProps) {
   const { t } = useTranslation();
 
+  function onChange(ev: any) {
+    console.log(ev);
+  }
+
   return (
     <div>
-      <label htmlFor="field_allPurposeFlour">{t(props.name)} <span>{props.percentage}%</span></label>
-      <input id="field_allPurposeFlour" name="field_allPurposeFlour" type="number" value={props.defaultValue} />
+      <label htmlFor={'field_'+props.name}>{t(props.name)} <span>{props.percentage}%</span></label>
+      <input id={'field_'+props.name} name={'field_'+props.name} type="number" onChange={onChange} defaultValue={props.defaultValue} />
     </div>
   )
 }

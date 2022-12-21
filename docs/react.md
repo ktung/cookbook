@@ -38,3 +38,8 @@ for -> htmlFor
 # Hooks
 - https://infinum.com/blog/how-to-use-react-hooks-in-class-components/
 - https://reactjs.org/docs/hooks-faq.html
+- https://reactjs.org/docs/hooks-reference.html
+- https://stackoverflow.blog/2021/10/20/why-hooks-are-the-best-thing-to-happen-to-react/
+
+# Resources
+- https://www.youtube.com/watch?v=GGo3MVBFr1A

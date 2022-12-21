@@ -34,7 +34,7 @@ interface Receipe {
   }
 }
 
-class App extends Component<AppProps, AppState> {
+export class App extends Component<AppProps, AppState> {
 
   constructor(props: AppProps) {
     super(props);
@@ -93,5 +93,3 @@ class App extends Component<AppProps, AppState> {
     </div>
   }
 }
-
-export default App

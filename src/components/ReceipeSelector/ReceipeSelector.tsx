@@ -13,7 +13,6 @@ export function ReceipeSelector(props: ReceipeSelectorProps) {
   const [receipeName, setReceipeName] = useState('');
 
   useEffect(() => {
-    // setReceipeName(receipesList[0].filename);
     props.onChange(receipesList[0].filename);
   }, [receipeName]);
 

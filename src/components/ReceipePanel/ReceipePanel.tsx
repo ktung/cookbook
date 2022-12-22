@@ -35,6 +35,7 @@ export function ReceipePanel(props: ReceipePanelProps) {
 
   const [receipeJSON, setReceipeJSON] = useState({} as Receipe);
   const [totalBakerPercentage, setTotalBakerPercentage] = useState(0);
+  const [totalIngredient, setTotalIngredient] = useState(0);
 
   useEffect(() => {
     importReceipe(props.receipeFilename);
@@ -46,15 +47,12 @@ export function ReceipePanel(props: ReceipePanelProps) {
 
       setReceipeJSON(data);
       setTotalBakerPercentage(totalBakerPercentage);
+      setTotalIngredient(data.presetTotalIngredient);
     });
   }
 
-  function computeDefaultValue(bakerPercentage: number): number {
-    if (!receipeJSON || !totalBakerPercentage) {
-      return 0;
-    }
-
-    return Math.round(receipeJSON.presetTotalIngredient/totalBakerPercentage*bakerPercentage);
+  function onIngredientValueChange(newTotal: number) {
+    setTotalIngredient(newTotal)
   }
 
   if (!receipeJSON || !receipeJSON.ingredients) {
@@ -69,10 +67,12 @@ export function ReceipePanel(props: ReceipePanelProps) {
         <IngredientInput
           key={ingredient.name}
           name={ingredient.name}
-          percentage={String(ingredient.bakerPercentage)}
-          defaultValue={String(computeDefaultValue(ingredient.bakerPercentage))}></IngredientInput>
+          percentage={ingredient.bakerPercentage}
+          totalReceipePercentage={totalBakerPercentage}
+          totalIngredient={totalIngredient}
+          onChange={onIngredientValueChange}></IngredientInput>
       ))}
-      {t('total')} {receipeJSON.presetTotalIngredient}
+      {t('total')} {totalIngredient}
 
       <NotesList notes={receipeJSON.notes}></NotesList>
     </div>

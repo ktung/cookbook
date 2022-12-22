@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { ChangeEvent, useEffect, useState } from 'react'
 import receipesList from '../../assets/receipes/list.json'
 import css from './ReceipeSelector.module.css'
 import { useTranslation } from "react-i18next";
@@ -13,12 +13,20 @@ export function ReceipeSelector(props: ReceipeSelectorProps) {
   const [receipeName, setReceipeName] = useState('');
 
   useEffect(() => {
-    props.onChange(receipesList[0].filename);
+    if (receipeName === '') {
+      setReceipeName(() => {
+        return receipesList[0].filename;
+      });
+      props.onChange(receipesList[0].filename);
+    }
   }, [receipeName]);
 
-  const handleChange = (ev: any) => {
-    setReceipeName(ev.target.value);
-    props.onChange(ev.target.value);
+  const handleChange = (ev: ChangeEvent<HTMLSelectElement>) => {
+    ev.preventDefault();
+    setReceipeName(() => {
+      props.onChange(ev.currentTarget.value);
+      return ev.currentTarget.value;
+    });
   }
 
   return (

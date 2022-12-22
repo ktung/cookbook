@@ -44,5 +44,10 @@ for -> htmlFor
 # Controller/Uncontroller components
 - https://reactjs.org/docs/uncontrolled-components.html#default-values
 
+# PureComponent
+- https://reactjs.org/docs/react-api.html#reactpurecomponent
+- https://reactjs.org/docs/react-component.html#shouldcomponentupdate
+- https://blog.logrocket.com/what-are-react-pure-functional-components/
+
 # Resources
 - https://www.youtube.com/watch?v=GGo3MVBFr1A

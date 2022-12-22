@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IngredientInput } from "../IngredientInput/IngredientInput";
 import { NotesList } from "../NotesList/NotesList";
+import { ReceipeLink } from "../ReceipeLink/ReceipeLink";
 
 interface Receipe {
   name: {
@@ -62,7 +63,7 @@ export function ReceipePanel(props: ReceipePanelProps) {
 
   return (
     <div>
-      { !!receipeJSON.link && !!receipeJSON.link.fr && <a href={receipeJSON.link.fr}>{t('link')}</a> }
+      <ReceipeLink link={receipeJSON.link}></ReceipeLink>
 
       {receipeJSON.ingredients.map(ingredient => (
         <IngredientInput

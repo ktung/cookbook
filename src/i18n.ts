@@ -12,6 +12,9 @@ i18n
     fallbackLng: 'fr-CA',
     interpolation: {
       escapeValue: false
+    },
+    backend: {
+      loadPath: '/bread-receipes/locales/{{lng}}/{{ns}}.json',
     }
   });
 

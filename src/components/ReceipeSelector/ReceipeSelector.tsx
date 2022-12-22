@@ -24,8 +24,8 @@ export function ReceipeSelector(props: ReceipeSelectorProps) {
   const handleChange = (ev: ChangeEvent<HTMLSelectElement>) => {
     ev.preventDefault();
     setReceipeName(() => {
-      props.onChange(ev.currentTarget.value);
-      return ev.currentTarget.value;
+      props.onChange(ev.target.value);
+      return ev.target.value;
     });
   }
 

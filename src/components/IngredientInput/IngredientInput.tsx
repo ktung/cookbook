@@ -37,7 +37,7 @@ export function IngredientInput(props: IngredientInputProps) {
   return (
     <div>
       <label htmlFor={'field_'+props.name}>{t(props.name)} <span>{props.percentage}%</span></label>
-      <input id={'field_'+props.name} name={'field_'+props.name} type="number" onChange={onChange} defaultValue={defaultValue} />
+      <input id={'field_'+props.name} name={'field_'+props.name} type="number" onChange={onChange} value={defaultValue} />
     </div>
   )
 }

@@ -1,14 +1,21 @@
 [
   {
     "filename": "100-pizza-dough",
-    "name": { 
+    "name": {
       "en": "100 - Pizza dough",
       "fr": "100 - Pâte à pizza"
     }
   },
   {
+    "filename": "100-white-bread",
+    "name": {
+      "en": "100 - White bread",
+      "fr": "100 - Pain courant"
+    }
+  },
+  {
     "filename": "300-sourdough-bread",
-    "name": { 
+    "name": {
       "en": "300 - Sourdough bread",
       "fr": "300 - Pain au levain"
     }

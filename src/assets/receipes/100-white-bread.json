@@ -1,0 +1,33 @@
+{
+  "name": {
+    "en": "100 - White bread",
+    "fr": "100 - Pain courant"
+  },
+  "link": {
+    "fr": "https://ptung.netlify.app/breads/100-pate-pizza/"
+  },
+  "ingredients": [
+    {
+      "name": "allPurposeFlour",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "water",
+      "bakerPercentage": 64
+    },
+    {
+      "name": "activeDryYeast",
+      "bakerPercentage": 0.5
+    },
+    {
+      "name": "salt",
+      "bakerPercentage": 1.8
+    }
+  ],
+  "presetTotalIngredient": 832,
+  "notes": {
+    "fr": [
+      "1 baguette ~= 250g"
+    ]
+  }
+}

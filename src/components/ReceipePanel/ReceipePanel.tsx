@@ -72,7 +72,10 @@ export function ReceipePanel(props: ReceipePanelProps) {
           totalIngredient={totalIngredient}
           onChange={onIngredientValueChange}></IngredientInput>
       ))}
-      {t('total')} {totalIngredient}
+      <div>
+      <label htmlFor={'field_total'}>{t('total')}</label>
+      <input id={'field_total'} name={'field_total'} type="number" onChange={(ev) => setTotalIngredient(ev.currentTarget.valueAsNumber)} value={totalIngredient} />
+    </div>
 
       <NotesList notes={receipeJSON.notes}></NotesList>
     </div>

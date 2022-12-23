@@ -1,0 +1,16 @@
+[
+  {
+    "filename": "100-pizza-dough",
+    "name": { 
+      "en": "100 - Pizza dough",
+      "fr": "100 - Pâte à pizza"
+    }
+  },
+  {
+    "filename": "300-sourdough-bread",
+    "name": { 
+      "en": "300 - Sourdough bread",
+      "fr": "300 - Pain au levain"
+    }
+  }
+]

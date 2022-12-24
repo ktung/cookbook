@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import './App.css'
 import { ReceipeSelector } from './components/ReceipeSelector/ReceipeSelector'
 import { LanguageSelector } from './components/LanguageSelector/LanguageSelector'
 import { ReceipePanel } from './components/ReceipePanel/ReceipePanel'
@@ -24,12 +23,15 @@ export class App extends Component<AppProps, AppState> {
   }
 
   render() {
-    return <div className="App">
-      <LanguageSelector></LanguageSelector>
+    return <>
+      <header>
+        <LanguageSelector></LanguageSelector>
+        <h1 className='text-center my-2 text-3xl font-mono'>Bread Receipes</h1>
+      </header>
       <ReceipeSelector onChange={this.onChangeReceipe}></ReceipeSelector>
       {!!this.state && !!this.state.receipeFilename &&
         <ReceipePanel receipeFilename={this.state.receipeFilename}></ReceipePanel>
       }
-    </div>
+    </>
   }
 }

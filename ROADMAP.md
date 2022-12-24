@@ -12,6 +12,7 @@
 # Backlog infini
 - Deploy to github pages
 - Add prettier, ESLint, TS ?
+  - https://tailwindcss.com/docs/editor-setup#automatic-class-sorting-with-prettier
 - Add [turborepo](https://turbo.build/repo/docs)
 - Monorepo ?
   - pnpm workspaces https://pnpm.io/workspaces (+npm+yarn)
@@ -20,3 +21,10 @@
   - https://github.com/Decathlon/vitamin-web
   - https://storybook.js.org/
 - JSON schema
+- pnpm outdated step pipeline
+- package.json variables
+  - https://dev.to/tykok/use-variables-in-your-packagejson-331j
+  - https://stackoverflow.com/questions/43705195/how-can-i-use-variables-in-package-json
+  - env var : https://docs.npmjs.com/cli/v9/configuring-npm/package-json#config
+- Script + pre-commit to generate list.json?
+- Change html lang attribute dynamically ?

@@ -60,22 +60,22 @@ export function ReceipePanel(props: ReceipePanelProps) {
   }
 
   return (
-    <div>
+    <div className="w-2/4 mx-auto border border-yellow-400 rounded-md p-4">
       <ReceipeLink link={receipeJSON.link}></ReceipeLink>
 
-      {receipeJSON.ingredients.map(ingredient => (
-        <IngredientInput
-          key={ingredient.name}
-          name={ingredient.name}
-          percentage={ingredient.bakerPercentage}
-          totalReceipePercentage={totalBakerPercentage}
-          totalIngredient={totalIngredient}
-          onChange={onIngredientValueChange}></IngredientInput>
-      ))}
-      <div>
-      <label htmlFor={'field_total'}>{t('total')}</label>
-      <input id={'field_total'} name={'field_total'} type="number" onChange={(ev) => setTotalIngredient(ev.currentTarget.valueAsNumber)} value={totalIngredient} />
-    </div>
+      <form>
+        {receipeJSON.ingredients.map(ingredient => (
+          <IngredientInput
+            key={ingredient.name}
+            name={ingredient.name}
+            percentage={ingredient.bakerPercentage}
+            totalReceipePercentage={totalBakerPercentage}
+            totalIngredient={totalIngredient}
+            onChange={onIngredientValueChange}></IngredientInput>
+        ))}
+        <label htmlFor="field_total">{t('total')}</label>
+        <input id="field_total" name="field_total" type="number" min="0" onChange={(ev) => setTotalIngredient(ev.currentTarget.valueAsNumber)} value={totalIngredient} />
+      </form>
 
       <NotesList notes={receipeJSON.notes}></NotesList>
     </div>

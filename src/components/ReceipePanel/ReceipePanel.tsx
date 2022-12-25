@@ -27,22 +27,23 @@ interface Receipe {
   }
 }
 
-interface ReceipePanelProps {
-  receipeFilename: string;
-}
-
-export function ReceipePanel(props: ReceipePanelProps) {
+export function ReceipePanel() {
   const { t } = useTranslation();
 
+  const [receipeFilename, setReceipeFilename] = useState("");
   const [receipeJSON, setReceipeJSON] = useState({} as Receipe);
   const [totalBakerPercentage, setTotalBakerPercentage] = useState(0);
   const [totalIngredient, setTotalIngredient] = useState(0);
 
   useEffect(() => {
-    importReceipe(props.receipeFilename);
-  }, [props.receipeFilename])
+    importReceipe(receipeFilename);
+  }, [receipeFilename])
 
   function importReceipe(receipeFilename: string) {
+    if (!receipeFilename) {
+      return;
+    }
+
     import(`../../assets/receipes/${receipeFilename}.json`).then((data: Receipe) => {
       const totalBakerPercentage = data.ingredients.map(ingredient => (ingredient.bakerPercentage)).reduce((previous, current) => previous+current, 0);
 
@@ -56,11 +57,16 @@ export function ReceipePanel(props: ReceipePanelProps) {
     setTotalIngredient(newTotal)
   }
 
-  function onReceipeChange() {
+  function onReceipeChange(receipeFilename: string) {
+    setReceipeFilename(receipeFilename);
   }
 
   if (!receipeJSON || !receipeJSON.ingredients) {
-    return null;
+    return (
+      <div className="w-2/4 mx-auto border-2 border-yellow-400 rounded-xl p-4">
+        <ReceipeSelector onChange={onReceipeChange}></ReceipeSelector>
+      </div>
+    );
   }
 
   return (

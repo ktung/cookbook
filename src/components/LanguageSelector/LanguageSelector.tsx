@@ -18,8 +18,7 @@ export function LanguageSelector() {
     <div className="flex justify-end space-x-4 mr-2">
       {Object.keys(lngs).map((lng) => (
         <button key={lng} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-          {/* {lngs[lng as keyof LanguageList].nativeName} */}
-          <img className={`${ i18n.resolvedLanguage === lng ? 'w-14' : 'w-10' } mt-2`} src={`/lang/${lngs[lng as keyof LanguageList].flag}.svg`} alt={lngs[lng as keyof LanguageList].flag} />
+          <img className={`${ i18n.resolvedLanguage === lng ? 'w-14' : 'w-10' } mt-2`} src={`lang/${lngs[lng as keyof LanguageList].flag}.svg`} alt={lngs[lng as keyof LanguageList].flag} />
         </button>
       ))}
     </div>

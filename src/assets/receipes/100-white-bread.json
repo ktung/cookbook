@@ -3,9 +3,6 @@
     "en": "100 - White bread",
     "fr": "100 - Pain courant"
   },
-  "link": {
-    "fr": "https://ptung.netlify.app/breads/100-pate-pizza/"
-  },
   "ingredients": [
     {
       "name": "allPurposeFlour",
@@ -27,7 +24,7 @@
   "presetTotalIngredient": 832,
   "notes": {
     "fr": [
-      "1 baguette ~= 250g"
+      "1 baguette ~= 250g cuit"
     ]
   }
 }

@@ -1,24 +1,25 @@
 import { useTranslation } from "react-i18next";
 
 type LanguageList = {
-  en: { nativeName: string },
-  "fr-FR": { nativeName: string },
-  "fr-CA": { nativeName: string },
+  en: { nativeName: string, flag: string },
+  "fr-FR": { nativeName: string, flag: string },
+  "fr-CA": { nativeName: string, flag: string },
 }
 
 export function LanguageSelector() {
   const { i18n } = useTranslation();
   const lngs: LanguageList = {
-    en: { nativeName: 'English' },
-    "fr-FR": { nativeName: 'Français' },
-    "fr-CA": { nativeName: 'Français canadien' }
+    en: { nativeName: 'English', flag: 'en' },
+    "fr-FR": { nativeName: 'Français', flag: 'fr' },
+    "fr-CA": { nativeName: 'Français canadien', flag: 'qc' }
   };
 
   return (
-    <div>
+    <div className="flex justify-end space-x-4 mr-2">
       {Object.keys(lngs).map((lng) => (
-        <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-          {lngs[lng as keyof LanguageList].nativeName}
+        <button key={lng} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+          {/* {lngs[lng as keyof LanguageList].nativeName} */}
+          <img className={`${ i18n.resolvedLanguage === lng ? 'w-14' : 'w-10' } mt-2`} src={`/lang/${lngs[lng as keyof LanguageList].flag}.svg`} alt={lngs[lng as keyof LanguageList].flag} />
         </button>
       ))}
     </div>

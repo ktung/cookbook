@@ -30,7 +30,7 @@ export function ReceipeSelector(props: ReceipeSelectorProps) {
   }
 
   return (
-    <div className={css['receipe-selector']}>
+    <div className={`${css['receipe-selector']} lg:w-2/4 mx-auto mb-10 text-center`}>
       <h1>{t('receipes')}</h1>
       <select onChange={handleChange} defaultValue={receipeName}>
         {receipesList.map(receipe => (

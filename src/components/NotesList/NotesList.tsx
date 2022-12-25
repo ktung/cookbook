@@ -24,8 +24,8 @@ export function NotesList(props: NotesListProps) {
   }
 
   return (
-    <div>
-        <h2>{t('notes')}</h2>
+    <div className="rounded-lg text-center mt-2">
+        <h2 className="text-xl">{t('notes')}</h2>
         <ul>
         {notes.map((note, index) => (
           <li key={index}>{note}</li>

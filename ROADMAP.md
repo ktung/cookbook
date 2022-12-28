@@ -11,8 +11,6 @@
 
 # Backlog infini
 - Deploy to github pages
-- Add prettier, ESLint, TS ?
-  - https://tailwindcss.com/docs/editor-setup#automatic-class-sorting-with-prettier
 - Add [turborepo](https://turbo.build/repo/docs)
 - Monorepo ?
   - pnpm workspaces https://pnpm.io/workspaces (+npm+yarn)

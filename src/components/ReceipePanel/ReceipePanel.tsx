@@ -70,7 +70,7 @@ export function ReceipePanel() {
   }
 
   return (
-    <div className="w-2/4 mx-auto border-2 border-yellow-400 rounded-xl p-4">
+    <div className="mx-6 lg:w-1/2 lg:mx-auto border-2 border-yellow-400 rounded-xl p-4">
       <ReceipeSelector onChange={onReceipeChange}></ReceipeSelector>
 
       <form className="flex flex-col gap-y-2">

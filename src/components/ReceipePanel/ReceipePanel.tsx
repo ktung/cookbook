@@ -7,24 +7,24 @@ import { ReceipeSelector } from "../ReceipeSelector/ReceipeSelector";
 
 interface Receipe {
   name: {
-    en: string,
-    fr: string
-  },
+    en: string;
+    fr: string;
+  };
   link: {
-    en: string,
-    fr: string
-  }
+    en: string;
+    fr: string;
+  };
   ingredients: [
     {
-      name: string,
-      bakerPercentage: number
+      name: string;
+      bakerPercentage: number;
     }
-  ],
-  presetTotalIngredient: number,
+  ];
+  presetTotalIngredient: number;
   notes: {
-    en: Array<string>,
-    fr: Array<string>
-  }
+    en: Array<string>;
+    fr: Array<string>;
+  };
 }
 
 export function ReceipePanel() {
@@ -37,24 +37,28 @@ export function ReceipePanel() {
 
   useEffect(() => {
     importReceipe(receipeFilename);
-  }, [receipeFilename])
+  }, [receipeFilename]);
 
   function importReceipe(receipeFilename: string) {
     if (!receipeFilename) {
       return;
     }
 
-    import(`../../assets/receipes/${receipeFilename}.json`).then((data: Receipe) => {
-      const totalBakerPercentage = data.ingredients.map(ingredient => (ingredient.bakerPercentage)).reduce((previous, current) => previous+current, 0);
+    import(`../../assets/receipes/${receipeFilename}.json`).then(
+      (data: Receipe) => {
+        const totalBakerPercentage = data.ingredients
+          .map((ingredient) => ingredient.bakerPercentage)
+          .reduce((previous, current) => previous + current, 0);
 
-      setReceipeJSON(data);
-      setTotalBakerPercentage(totalBakerPercentage);
-      setTotalIngredient(data.presetTotalIngredient);
-    });
+        setReceipeJSON(data);
+        setTotalBakerPercentage(totalBakerPercentage);
+        setTotalIngredient(data.presetTotalIngredient);
+      }
+    );
   }
 
   function onIngredientValueChange(newTotal: number) {
-    setTotalIngredient(newTotal)
+    setTotalIngredient(newTotal);
   }
 
   function onReceipeChange(receipeFilename: string) {
@@ -63,18 +67,18 @@ export function ReceipePanel() {
 
   if (!receipeJSON || !receipeJSON.ingredients) {
     return (
-      <div className="w-2/4 mx-auto border-2 border-yellow-400 rounded-xl p-4">
+      <div className="mx-auto w-2/4 rounded-xl border-2 border-yellow-400 p-4">
         <ReceipeSelector onChange={onReceipeChange}></ReceipeSelector>
       </div>
     );
   }
 
   return (
-    <div className="w-2/4 mx-auto border-2 border-yellow-400 rounded-xl p-4">
+    <div className="mx-6 rounded-xl border-2 border-yellow-400 p-4 lg:mx-auto lg:w-1/2">
       <ReceipeSelector onChange={onReceipeChange}></ReceipeSelector>
 
       <form className="flex flex-col gap-y-2">
-        {receipeJSON.ingredients.map(ingredient => (
+        {receipeJSON.ingredients.map((ingredient) => (
           <IngredientInput
             key={ingredient.name}
             name={ingredient.name}
@@ -84,13 +88,25 @@ export function ReceipePanel() {
             onChange={onIngredientValueChange}></IngredientInput>
         ))}
         <div className="flex">
-          <label className="w-1/2" htmlFor="field_total">{t('total')}</label>
-          <input className="w-1/2 lg:w-1/6" id="field_total" name="field_total" type="number" min="0" onChange={(ev) => setTotalIngredient(ev.currentTarget.valueAsNumber)} value={totalIngredient} />
+          <label className="w-1/2" htmlFor="field_total">
+            {t("total")}
+          </label>
+          <input
+            className="w-1/2 lg:w-1/6"
+            id="field_total"
+            name="field_total"
+            type="number"
+            min="0"
+            onChange={(ev) =>
+              setTotalIngredient(ev.currentTarget.valueAsNumber)
+            }
+            value={totalIngredient}
+          />
         </div>
       </form>
 
       <ReceipeLink link={receipeJSON.link}></ReceipeLink>
       <NotesList notes={receipeJSON.notes}></NotesList>
     </div>
-  )
+  );
 }

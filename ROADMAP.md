@@ -4,7 +4,7 @@
 - [x] Translate english and french
 - [x] Deploy to github pages
   - [x] pnpm outdated step pipeline
-
+- Add [turborepo](https://turbo.build/repo/docs)
 
 ## V1.1.0
 - [ ] Add calcutrice ? (simple division de total/parts)
@@ -13,7 +13,6 @@
 
 
 # Backlog infini
-- Add [turborepo](https://turbo.build/repo/docs)
 - Monorepo ?
   - pnpm workspaces https://pnpm.io/workspaces (+npm+yarn)
 - Atomic design ?

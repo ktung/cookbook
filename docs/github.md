@@ -10,11 +10,6 @@
 - Setup node : https://github.com/marketplace/actions/setup-node-js-environment
 - Setup pnpm : https://github.com/marketplace/actions/setup-pnpm
 
-<!-- - Artefacts
-  - Upload : https://github.com/marketplace/actions/upload-a-build-artifact
-  - Download : https://github.com/marketplace/actions/download-a-build-artifact -->
-
-
 - Deploy to gh-pages
   - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
   - Configure : https://github.com/marketplace/actions/configure-github-pages

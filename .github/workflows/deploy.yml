@@ -31,7 +31,7 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: pnpm run build
+        run: pnpm turbo build lint
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -64,7 +64,7 @@ jobs:
         run: pnpm install
 
       - name: Lint project
-        run: pnpm run lint
+        run: pnpm run eslint
 
       - name: Check outdated
         continue-on-error: true

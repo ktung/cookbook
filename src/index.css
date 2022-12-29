@@ -10,5 +10,5 @@
 
 input,
 select {
-  @apply rounded border border-zinc-400/50 bg-yellow-400 p-1 text-grey-400;
+  @apply rounded border border-zinc-400/50 p-1 text-grey-400;
 }

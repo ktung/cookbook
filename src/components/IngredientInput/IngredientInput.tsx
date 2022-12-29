@@ -40,12 +40,12 @@ export function IngredientInput(props: IngredientInputProps) {
   }
 
   return (
-    <div className="flex">
+    <div className="flex justify-evenly">
       <label className="w-1/2" htmlFor={"field_" + props.name}>
         {t(props.name)} <span>{props.percentage}%</span>
       </label>
       <input
-        className="w-1/2 lg:w-1/6"
+        className="w-1/2 text-right lg:w-1/4"
         id={"field_" + props.name}
         name={"field_" + props.name}
         type="number"

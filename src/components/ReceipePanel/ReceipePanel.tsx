@@ -67,17 +67,17 @@ export function ReceipePanel() {
 
   if (!receipeJSON || !receipeJSON.ingredients) {
     return (
-      <div className="mx-auto w-2/4 rounded-xl border-2 border-yellow-400 p-4">
+      <div className="mx-auto w-2/4 rounded-xl border-2 border-orange-400 p-4">
         <ReceipeSelector onChange={onReceipeChange}></ReceipeSelector>
       </div>
     );
   }
 
   return (
-    <div className="mx-6 rounded-xl border-2 border-yellow-400 p-4 lg:mx-auto lg:w-1/2">
+    <div className="mx-6 rounded-xl border-2 border-orange-400 p-4 lg:mx-auto lg:w-1/2">
       <ReceipeSelector onChange={onReceipeChange}></ReceipeSelector>
 
-      <form className="flex flex-col gap-y-2">
+      <form className="mx-auto flex w-fit flex-col gap-y-2">
         {receipeJSON.ingredients.map((ingredient) => (
           <IngredientInput
             key={ingredient.name}
@@ -87,12 +87,12 @@ export function ReceipePanel() {
             totalIngredient={totalIngredient}
             onChange={onIngredientValueChange}></IngredientInput>
         ))}
-        <div className="flex">
+        <div className="flex justify-evenly">
           <label className="w-1/2" htmlFor="field_total">
             {t("total")}
           </label>
           <input
-            className="w-1/2 lg:w-1/6"
+            className="w-1/2 text-right lg:w-1/4"
             id="field_total"
             name="field_total"
             type="number"

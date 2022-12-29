@@ -15,13 +15,13 @@ export function ReceipeLink(props: ReceipeLinkProps) {
   }
 
   return (
-    <>
+    <div className="text-center">
       {i18n.language.includes("fr") && !!props.link.fr && (
         <a href={props.link.fr}>{t("link")}</a>
       )}
       {i18n.language.includes("en") && !!props.link.en && (
         <a href={props.link.en}>{t("link")}</a>
       )}
-    </>
+    </div>
   );
 }

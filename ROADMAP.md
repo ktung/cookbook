@@ -24,5 +24,7 @@
   - https://dev.to/tykok/use-variables-in-your-packagejson-331j
   - https://stackoverflow.com/questions/43705195/how-can-i-use-variables-in-package-json
   - env var : https://docs.npmjs.com/cli/v9/configuring-npm/package-json#config
-- Script + pre-commit to generate list.json?
+- precommit
+  - Script generate list.json ?
+  - https://github.com/mpalmer/action-validator
 - Change html lang attribute dynamically ?

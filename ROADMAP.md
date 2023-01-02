@@ -30,3 +30,5 @@
   - Script generate list.json ?
   - https://github.com/mpalmer/action-validator
 - Rajouter un footer ?
+- Change receipe => change title
+- dark mode

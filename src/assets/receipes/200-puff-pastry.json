@@ -1,0 +1,29 @@
+{
+  "name": {
+    "en": "200 - Puff pastry",
+    "fr": "200 - Pâte feuilletée"
+  },
+  "ingredients": [
+    {
+      "name": "allPurposeFlour",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "water",
+      "bakerPercentage": 44
+    },
+    {
+      "name": "meltedButter",
+      "bakerPercentage": 10
+    },
+    {
+      "name": "salt",
+      "bakerPercentage": 2.4
+    },
+    {
+      "name": "butter",
+      "bakerPercentage": 76
+    }
+  ],
+  "presetTotalIngredient": 500
+}

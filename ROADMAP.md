@@ -5,6 +5,7 @@
 - [x] Deploy to github pages
   - [x] pnpm outdated step pipeline
 - Add [turborepo](https://turbo.build/repo/docs)
+- Change html lang attribute dynamically
 
 ## V1.1.0
 - [ ] Add calcutrice ? (simple division de total/parts)
@@ -21,11 +22,13 @@
   - https://storybook.js.org/
 - JSON schema
 
-- package.json variables
+- package.json variables ?
   - https://dev.to/tykok/use-variables-in-your-packagejson-331j
   - https://stackoverflow.com/questions/43705195/how-can-i-use-variables-in-package-json
   - env var : https://docs.npmjs.com/cli/v9/configuring-npm/package-json#config
 - precommit
   - Script generate list.json ?
   - https://github.com/mpalmer/action-validator
-- Change html lang attribute dynamically ?
+- Rajouter un footer ?
+- Change receipe => change title
+- dark mode

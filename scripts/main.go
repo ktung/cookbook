@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 )
 
 type Multilang struct {
@@ -42,7 +43,7 @@ func main() {
 
 		var receipe Receipe
 		json.Unmarshal([]byte(content), &receipe)
-		list = append(list, ListDetail{file.Name(), receipe.Name})
+		list = append(list, ListDetail{strings.TrimSuffix(file.Name(), ".json"), receipe.Name})
 	}
 
 	data, err := json.Marshal(list)

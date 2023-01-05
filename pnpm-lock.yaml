@@ -12,6 +12,7 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-jsx-a11y: ^6.6.1
   eslint-plugin-react: ^7.31.11
+  husky: ^8.0.3
   i18next: ^22.4.6
   i18next-browser-languagedetector: ^7.0.1
   i18next-http-backend: ^2.1.1
@@ -46,6 +47,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_smw3o7qjeokkcohbvp7rylsoqq
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.30.0
   eslint-plugin-react: 7.31.11_eslint@8.30.0
+  husky: 8.0.3
   postcss: 8.4.20
   prettier: 2.8.1
   prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
@@ -1523,6 +1525,12 @@ packages:
     dependencies:
       void-elements: 3.1.0
     dev: false
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /i18next-browser-languagedetector/7.0.1:
     resolution: {integrity: sha512-Pa5kFwaczXJAeHE56CHG2aWzFBMJNUNghf0Pm4SwSrEMps/PTKqW90EYWlIvhuYStf3Sn1K0vw+gH3+TLdkH1g==}

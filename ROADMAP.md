@@ -4,8 +4,10 @@
 - [x] Translate english and french
 - [x] Deploy to github pages
   - [x] pnpm outdated step pipeline
-- Add [turborepo](https://turbo.build/repo/docs)
-- Change html lang attribute dynamically
+- [x] Add [turborepo](https://turbo.build/repo/docs)
+- [x] Change html lang attribute dynamically
+- [x] precommit
+  - [x] Script generate list.json
 
 ## V1.1.0
 - [ ] Add calcutrice ? (simple division de total/parts)
@@ -27,7 +29,6 @@
   - https://stackoverflow.com/questions/43705195/how-can-i-use-variables-in-package-json
   - env var : https://docs.npmjs.com/cli/v9/configuring-npm/package-json#config
 - precommit
-  - Script generate list.json ?
   - https://github.com/mpalmer/action-validator
 - Rajouter un footer ?
 - Change receipe => change title

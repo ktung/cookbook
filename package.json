@@ -12,10 +12,10 @@
     "eslint": "eslint . --ext .ts,.tsx",
     "prepare": "husky install"
   },
-  "packageManager": "pnpm@7.21.0",
+  "packageManager": "pnpm@7.27.0",
   "engines": {
-    "node": "=18.12.1",
-    "pnpm": "=7.21.0"
+    "node": "=18.14.0",
+    "pnpm": "=7.27.0"
   },
   "dependencies": {
     "i18next": "^22.4.6",
@@ -47,6 +47,6 @@
     "vite": "^4.0.0"
   },
   "volta": {
-    "node": "18.12.1"
+    "node": "18.14.0"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "name": {
+    "en": "100 - Madeleines",
+    "fr": "100 - Madeleines"
+  },
+  "ingredients": [
+    {
+      "name": "allPurposeFlour",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "bakingPowder",
+      "bakerPercentage": 4.17
+    },
+    {
+      "name": "whiteSugar",
+      "bakerPercentage": 75
+    },
+    {
+      "name": "oatMilk",
+      "bakerPercentage": 25
+    },
+    {
+      "name": "meltedButter",
+      "bakerPercentage": 50
+    },
+    {
+      "name": "egg",
+      "bakerPercentage": 83.3
+    }
+  ],
+  "presetTotalIngredient": 405
+}

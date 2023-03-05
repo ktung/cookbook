@@ -33,3 +33,7 @@
 - Rajouter un footer ?
 - Change receipe => change title
 - dark mode
+- Fix traduction
+  - Notes
+  - Select champ
+- pre commit reorganize i18n ordre alphabétique

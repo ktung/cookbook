@@ -1,6 +1,6 @@
 # Roadmap
 ## V1.0.0
-- [x] Form with all ingredients based on receipes preset
+- [x] Form with all ingredients based on recipes preset
 - [x] Translate english and french
 - [x] Deploy to github pages
   - [x] pnpm outdated step pipeline
@@ -31,7 +31,7 @@
 - precommit
   - https://github.com/mpalmer/action-validator
 - Rajouter un footer ?
-- Change receipe => change title
+- Change recipe => change title
 - dark mode
 - Fix traduction
   - Notes

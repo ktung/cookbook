@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 go run ./scripts/main.go
-git add ./src/assets/receipes/list.json
+git add ./src/assets/recipes/list.json

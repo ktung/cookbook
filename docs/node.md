@@ -21,7 +21,7 @@ Avantages : Optimisation du téléchargement des dépendances
 
 Turbopack currently in alpha phase
 
-`pnpm create vite bread-receipes --template react-swc-ts`
+`pnpm create vite bread-recipes --template react-swc-ts`
 
 - https://vitejs.dev/guide/assets.html
 

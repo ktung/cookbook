@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 interface IngredientInputProps {
   name: string;
   percentage: number;
-  totalReceipePercentage: number;
+  totalRecipePercentage: number;
   totalIngredient: number;
   onChange: onChange;
 }
@@ -16,7 +16,7 @@ function round2IfNecessary(number: number) {
   return Math.round(number);
 }
 
-type onChange = (newTotalReceipe: number) => void;
+type onChange = (newTotalRecipe: number) => void;
 
 export function IngredientInput(props: IngredientInputProps) {
   const { t } = useTranslation();
@@ -27,14 +27,14 @@ export function IngredientInput(props: IngredientInputProps) {
 
   function computeDefaultValue(): number {
     const defaultValue =
-      (props.totalIngredient / props.totalReceipePercentage) * props.percentage;
+      (props.totalIngredient / props.totalRecipePercentage) * props.percentage;
     return round2IfNecessary(defaultValue);
   }
 
   function onChange(ev: ChangeEvent<HTMLInputElement>): void {
     ev.preventDefault();
     const newTotal =
-      (ev.currentTarget.valueAsNumber * props.totalReceipePercentage) /
+      (ev.currentTarget.valueAsNumber * props.totalRecipePercentage) /
       props.percentage;
     props.onChange(round2IfNecessary(newTotal));
   }

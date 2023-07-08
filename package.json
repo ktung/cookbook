@@ -1,8 +1,8 @@
 {
-  "name": "bread-receipes",
+  "name": "bread-recipes",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/ktung/bread-receipes",
+  "homepage": "https://github.com/ktung/bread-recipes",
   "type": "module",
   "scripts": {
     "dev": "vite",

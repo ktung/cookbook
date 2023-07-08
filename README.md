@@ -1,4 +1,4 @@
-# Bread receipes
+# Bread recipes
 
 ## Local
 ```
@@ -11,6 +11,6 @@ pnpm update
 ```
 
 
-[![Deploy](https://github.com/ktung/bread-receipes/actions/workflows/deploy.yml/badge.svg)](https://github.com/ktung/bread-receipes/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/ktung/bread-recipes/actions/workflows/deploy.yml/badge.svg)](https://github.com/ktung/bread-recipes/actions/workflows/deploy.yml)
 
-https://ktung.github.io/bread-receipes/
+https://ktung.github.io/bread-recipes/

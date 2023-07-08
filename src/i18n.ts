@@ -14,7 +14,7 @@ const i18n =
       escapeValue: false
     },
     backend: {
-      loadPath: '/bread-receipes/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/bread-recipes/locales/{{lng}}/{{ns}}.json',
     }
   });
 

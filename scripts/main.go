@@ -13,7 +13,7 @@ type Multilang struct {
 	En string `json:"en"`
 }
 
-type Receipe struct {
+type Recipe struct {
 	Name Multilang `json:"name"`
 }
 
@@ -22,10 +22,10 @@ type ListDetail struct {
 	Name     Multilang `json:"name"`
 }
 
-const receipeDir = "./src/assets/receipes/"
+const recipeDir = "./src/assets/recipes/"
 
 func main() {
-	files, err := ioutil.ReadDir(receipeDir)
+	files, err := ioutil.ReadDir(recipeDir)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -35,15 +35,15 @@ func main() {
 		if file.Name() == "list.json" {
 			continue
 		}
-		content, err := ioutil.ReadFile(receipeDir + file.Name())
+		content, err := ioutil.ReadFile(recipeDir + file.Name())
 
 		if err != nil {
 			log.Fatal(err)
 		}
 
-		var receipe Receipe
-		json.Unmarshal([]byte(content), &receipe)
-		list = append(list, ListDetail{strings.TrimSuffix(file.Name(), ".json"), receipe.Name})
+		var recipe Recipe
+		json.Unmarshal([]byte(content), &recipe)
+		list = append(list, ListDetail{strings.TrimSuffix(file.Name(), ".json"), recipe.Name})
 	}
 
 	data, err := json.Marshal(list)
@@ -51,7 +51,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = os.WriteFile("./src/assets/receipes/list.json", data, 0644)
+	err = os.WriteFile("./src/assets/recipes/list.json", data, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}

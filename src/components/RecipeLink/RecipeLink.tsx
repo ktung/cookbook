@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next";
 
-interface ReceipeLinkProps {
+interface RecipeLinkProps {
   link?: {
     fr?: string;
     en?: string;
   };
 }
 
-export function ReceipeLink(props: ReceipeLinkProps) {
+export function RecipeLink(props: RecipeLinkProps) {
   const { i18n, t } = useTranslation();
 
   if (!props.link) {

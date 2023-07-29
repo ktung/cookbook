@@ -1,0 +1,41 @@
+{
+  "name": {
+    "en": "100 - Pancakes",
+    "fr": "100 - Pancakes"
+  },
+  "ingredients": [
+    {
+      "name": "allPurposeFlour",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "salt",
+      "bakerPercentage": 1.3
+    },
+    {
+      "name": "whiteSugar",
+      "bakerPercentage": 20.6
+    },
+    {
+      "name": "bakingSoda",
+      "bakerPercentage": 0.33
+    },
+    {
+      "name": "bakingPowder",
+      "bakerPercentage": 4
+    },
+    {
+      "name": "milk",
+      "bakerPercentage": 128.6
+    },
+    {
+      "name": "egg",
+      "bakerPercentage": 16.6
+    },
+    {
+      "name": "meltedButter",
+      "bakerPercentage": 7
+    }
+  ],
+  "presetTotalIngredient": 836
+}

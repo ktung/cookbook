@@ -34,5 +34,7 @@
     }
   ],
   "presetTotalIngredient": 1073,
-  "notes": ["Sponge : 100% levure, 100% eau + équivalent farine"]
+  "notes": {
+    "fr": ["Sponge : 100% levure, 100% eau + équivalent farine"]
+  }
 }

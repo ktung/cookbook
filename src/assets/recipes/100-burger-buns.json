@@ -38,5 +38,7 @@
     }
   ],
   "presetTotalIngredient": 862,
-  "notes": ["1 pain ~= 110g"]
+  "notes": {
+    "fr": ["1 pain ~= 110g"]
+  }
 }

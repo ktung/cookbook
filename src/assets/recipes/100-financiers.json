@@ -26,10 +26,12 @@
     }
   ],
   "presetTotalIngredient": 740,
-  "notes": [
-    "1 blanc oeuf ~= 30g",
-    "Moule rond 60g",
-    "Moule rectangle 100g",
-    "Cuisson 25-30mins 200C conventionnel"
-  ]
+  "notes": {
+    "fr": [
+      "1 blanc oeuf ~= 30g",
+      "Moule rond 60g",
+      "Moule rectangle 100g",
+      "Cuisson 25-30mins 200C conventionnel"
+    ]
+  }
 }

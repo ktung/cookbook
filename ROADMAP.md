@@ -10,10 +10,20 @@
   - [x] Script generate list.json
 
 ## V1.1.0
+- [ ] Have separate URL by recipe
+- [ ] Change recipe => change title
+- [ ] Rajouter un footer : github link
+- [ ] JSON schema to validate recipe json
+
+## V1.1.1
+- [ ] Fix traduction
+  - Notes
+  - Select champ
+
+## V1.2.0
 - [ ] Add calcutrice ? (simple division de total/parts)
 - [ ] Add timeline graph
 - [ ] Export timeline graph as pdf/jpg? to share/save
-
 
 # Backlog infini
 - Monorepo ?
@@ -22,7 +32,6 @@
 - Storybook
   - https://github.com/Decathlon/vitamin-web
   - https://storybook.js.org/
-- JSON schema
 
 - package.json variables ?
   - https://dev.to/tykok/use-variables-in-your-packagejson-331j
@@ -30,10 +39,5 @@
   - env var : https://docs.npmjs.com/cli/v9/configuring-npm/package-json#config
 - precommit
   - https://github.com/mpalmer/action-validator
-- Rajouter un footer ?
-- Change recipe => change title
 - dark mode
-- Fix traduction
-  - Notes
-  - Select champ
 - pre commit reorganize i18n ordre alphabétique

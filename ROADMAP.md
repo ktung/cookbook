@@ -13,7 +13,7 @@
 - [ ] Have separate URL by recipe
 - [ ] Change recipe => change title
 - [x] Rajouter un footer : github link
-- [ ] JSON schema to validate recipe json
+- [x] JSON schema to validate recipe json
 
 ## V1.1.1
 - [x] Fix traduction

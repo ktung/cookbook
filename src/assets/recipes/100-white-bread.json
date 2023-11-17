@@ -1,4 +1,5 @@
 {
+  "$schema": "./schema.json",
   "name": {
     "en": "100 - White bread",
     "fr": "100 - Pain courant"

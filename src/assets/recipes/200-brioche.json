@@ -1,4 +1,5 @@
 {
+  "$schema": "./schema.json",
   "name": {
     "en": "200 - Brioche",
     "fr": "200 - Brioche"

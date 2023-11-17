@@ -35,6 +35,9 @@ func main() {
 		if file.Name() == "list.json" {
 			continue
 		}
+		if file.Name() == "schema.json" {
+			continue
+		}
 		content, err := ioutil.ReadFile(recipeDir + file.Name())
 
 		if err != nil {

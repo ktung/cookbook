@@ -31,7 +31,7 @@ export function RecipeSelector(props: RecipeSelectorProps) {
     });
   };
 
-  const language = i18n.resolvedLanguage.substring(0, 2);
+  const language = i18n.resolvedLanguage?.substring(0, 2);
 
   return (
     <div

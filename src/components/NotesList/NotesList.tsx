@@ -10,16 +10,22 @@ interface NotesListProps {
 }
 
 export function NotesList(props: NotesListProps) {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   if (!props.notes) {
     return null;
   }
 
-  let notes: Array<string> = [];
-  if (!!props.notes.fr) {
-    notes = props.notes.fr;
+  const language = i18n.resolvedLanguage.substring(0, 2);
+
+  let notes: string[] | undefined;
+  if (language == "en") {
+    notes = props.notes.en;
   } else {
+    notes = props.notes.fr;
+  }
+
+  if (!notes) {
     return null;
   }
 

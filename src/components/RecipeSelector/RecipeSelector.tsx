@@ -10,7 +10,7 @@ interface RecipeSelectorProps {
 type onChange = (recipeFilename: string) => void;
 
 export function RecipeSelector(props: RecipeSelectorProps) {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const [recipeName, setRecipeName] = useState("");
 
@@ -31,6 +31,8 @@ export function RecipeSelector(props: RecipeSelectorProps) {
     });
   };
 
+  const language = i18n.resolvedLanguage.substring(0, 2);
+
   return (
     <div
       className={`${css["recipe-selector"]} mx-auto mb-10 text-center lg:w-2/4`}>
@@ -41,7 +43,7 @@ export function RecipeSelector(props: RecipeSelectorProps) {
         defaultValue={recipeName}>
         {recipesList.map((recipe) => (
           <option key={recipe.filename} value={recipe.filename}>
-            {recipe.name.fr}
+            {language == "en" ? recipe.name.en : recipe.name.fr}
           </option>
         ))}
       </select>

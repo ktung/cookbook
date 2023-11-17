@@ -16,7 +16,7 @@
 - [ ] JSON schema to validate recipe json
 
 ## V1.1.1
-- [ ] Fix traduction
+- [x] Fix traduction
   - Notes
   - Select champ
 

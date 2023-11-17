@@ -12,7 +12,7 @@
 ## V1.1.0
 - [ ] Have separate URL by recipe
 - [ ] Change recipe => change title
-- [ ] Rajouter un footer : github link
+- [x] Rajouter un footer : github link
 - [ ] JSON schema to validate recipe json
 
 ## V1.1.1

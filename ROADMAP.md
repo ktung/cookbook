@@ -22,7 +22,7 @@
 
 ## V1.2.0
 - [ ] Add calcutrice ? (simple division de total/parts)
-- [ ] Add timeline graph
+- [ ] Add timeline graph https://github.com/mermaid-js/mermaid
 - [ ] Export timeline graph as pdf/jpg? to share/save
 
 # Backlog infini

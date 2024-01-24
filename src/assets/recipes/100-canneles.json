@@ -1,0 +1,45 @@
+{
+  "$schema": "./schema.json",
+  "name": {
+    "en": "100 - Canneles",
+    "fr": "100 - Cannelés"
+  },
+  "ingredients": [
+    {
+      "name": "milk",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "butter",
+      "bakerPercentage": 10
+    },
+    {
+      "name": "vanillaExtract",
+      "bakerPercentage": 3
+    },
+    {
+      "name": "egg",
+      "bakerPercentage": 20
+    },
+    {
+      "name": "eggYolk",
+      "bakerPercentage": 8
+    },
+    {
+      "name": "allPurposeFlour",
+      "bakerPercentage": 20
+    },
+    {
+      "name": "whiteSugar",
+      "bakerPercentage": 20
+    },
+    {
+      "name": "rhum",
+      "bakerPercentage": 5
+    }
+  ],
+  "presetTotalIngredient": 930,
+  "notes": {
+    "fr": ["1 cannelés ~= 58g"]
+  }
+}

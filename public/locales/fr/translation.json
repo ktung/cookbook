@@ -20,5 +20,9 @@
   "whiteSugar": "Sucre",
   "honey": "Miel",
   "almondFlour": "Poudre d'amandes",
-  "eggWhite": "Blanc d'oeuf"
+  "eggWhite": "Blanc d'oeuf",
+  "eggYolk": "Jaune d'œuf",
+  "milk": "Lait",
+  "rhum": "Rhum",
+  "vanillaExtract": "Extrait de vanille"
 }

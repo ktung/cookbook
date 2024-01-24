@@ -10,6 +10,11 @@ pnpm run dev
 pnpm update
 ```
 
+## Update list recipes
+```
+go run ./scripts/main.go
+```
+
 
 [![Deploy](https://github.com/ktung/bread-recipes/actions/workflows/deploy.yml/badge.svg)](https://github.com/ktung/bread-recipes/actions/workflows/deploy.yml)
 

@@ -31,14 +31,14 @@
     },
     {
       "name": "whiteSugar",
-      "bakerPercentage": 20
+      "bakerPercentage": 36
     },
     {
       "name": "rhum",
       "bakerPercentage": 5
     }
   ],
-  "presetTotalIngredient": 930,
+  "presetTotalIngredient": 1010,
   "notes": {
     "fr": ["1 cannelés ~= 58g"]
   }

@@ -1,0 +1,44 @@
+{
+  "$schema": "./schema.json",
+  "name": {
+    "en": "100 - Chocolate cake",
+    "fr": "100 - Moelleux chocolat"
+  },
+  "ingredients": [
+    {
+      "name": "darkChocolate",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "butter",
+      "bakerPercentage": 80
+    },
+    {
+      "name": "egg",
+      "bakerPercentage": 100
+    },
+    {
+      "name": "brownSugar",
+      "bakerPercentage": 80
+    },
+    {
+      "name": "allPurposeFlour",
+      "bakerPercentage": 30
+    },
+    {
+      "name": "salt",
+      "bakerPercentage": 2
+    }
+  ],
+  "presetTotalIngredient": 392,
+  "notes": {
+    "fr": [
+      "Faire fondre le chocolat et le beurre",
+      "Blanchir les oeufs",
+      "Ajouter le mélange chocolat beurre",
+      "Ajouter farine et sel",
+      "Diviser en 8 portions",
+      "Cuisson 10mins 180°C ventilé"
+    ]
+  }
+}

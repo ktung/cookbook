@@ -1,0 +1,35 @@
+{
+  "$schema": "./schema.json",
+  "name": {
+    "en": "100 - Creme brulee",
+    "fr": "100 - Crème brûlée"
+  },
+  "ingredients": [
+    {
+      "name": "cream35",
+      "bakerPercentage": 50
+    },
+    {
+      "name": "wholeMilk",
+      "bakerPercentage": 50
+    },
+    {
+      "name": "eggYolk",
+      "bakerPercentage": 16
+    },
+    {
+      "name": "whiteSugar",
+      "bakerPercentage": 8
+    }
+  ],
+  "presetTotalIngredient": 620,
+  "notes": {
+    "fr": [
+      "1 jaune d'oeuf ~= 20g",
+      "Cuisson 110°C 1h10 ventilé (mesuré à 15.5°C à froid)",
+      "Xg par ramequin",
+      "Testé avec 20-23% de jaune d'oeuf",
+      "Testé avec 75/25 creme/lait"
+    ]
+  }
+}

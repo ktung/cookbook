@@ -15,21 +15,23 @@
     },
     {
       "name": "eggYolk",
-      "bakerPercentage": 16
+      "bakerPercentage": 20
     },
     {
       "name": "whiteSugar",
       "bakerPercentage": 8
     }
   ],
-  "presetTotalIngredient": 620,
+  "presetTotalIngredient": 640,
   "notes": {
     "fr": [
       "1 jaune d'oeuf ~= 20g",
       "Cuisson 110°C 1h10 ventilé (mesuré à 15.5°C à froid)",
-      "Xg par ramequin",
+      "Cuisson 110°C 1h07 conventionel (mesuré à 17.5°C à froid)",
+      "106g par ramequin",
       "Testé avec 20-23% de jaune d'oeuf",
-      "Testé avec 75/25 creme/lait"
+      "Testé avec 75/25 creme/lait",
+      "Testé avec 83/17 creme/lait (15% sucre, 17% jaune oeuf)"
     ]
   }
 }

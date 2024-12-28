@@ -14,7 +14,7 @@ const i18n =
       escapeValue: false
     },
     backend: {
-      loadPath: '/bread-recipes/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/cookbook/locales/{{lng}}/{{ns}}.json',
     }
   });
 

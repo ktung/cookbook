@@ -16,7 +16,7 @@ export function App() {
       </header>
 
       <RecipePanel></RecipePanel>
-      <footer className="my-2 text-center"><a target="_blank" href="https://github.com/ktung/bread-recipes/">Github</a></footer>
+      <footer className="my-2 text-center"><a target="_blank" href="https://github.com/ktung/cookbook/">Github</a></footer>
     </>
   );
 }

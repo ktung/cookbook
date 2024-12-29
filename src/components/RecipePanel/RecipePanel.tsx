@@ -44,7 +44,7 @@ export function RecipePanel() {
       return;
     }
 
-    import(`../../assets/recipes/${recipeFilename}.json`).then(
+    import(`../../assets/recipes/${recipeFilename}`).then(
       (data: Recipe) => {
         const totalBakerPercentage = data.ingredients
           .map((ingredient) => ingredient.bakerPercentage)

@@ -42,3 +42,6 @@
 - dark mode
 - pre commit reorganize i18n ordre alphabétique
 - Button "Surprise me!" : show a random recipe
+- Architecture microfrontends ?
+  - https://single-spa.js.org/
+  - https://martinfowler.com/articles/micro-frontends.html

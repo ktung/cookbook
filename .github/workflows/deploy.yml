@@ -31,7 +31,10 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: pnpm turbo build lint
+        run: |
+          export TURBO_TELEMETRY_DISABLED=1
+          pnpm turbo telemetry status
+          pnpm turbo build lint
 
       - name: Setup Pages
         uses: actions/configure-pages@v2

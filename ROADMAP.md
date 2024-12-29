@@ -1,31 +1,13 @@
 # Roadmap
-## V1.0.0
-- [x] Form with all ingredients based on recipes preset
-- [x] Translate english and french
-- [x] Deploy to github pages
-  - [x] pnpm outdated step pipeline
-- [x] Add [turborepo](https://turbo.build/repo/docs)
-- [x] Change html lang attribute dynamically
-- [x] precommit
-  - [x] Script generate list.json
-
-## V1.1.0
-- [ ] Have separate URL by recipe
-- [ ] Change recipe => change title
-- [x] Rajouter un footer : github link
-- [x] JSON schema to validate recipe json
-
-## V1.1.1
-- [x] Fix traduction
-  - Notes
-  - Select champ
 
 ## V1.2.0
 - [ ] Add calcutrice ? (simple division de total/parts)
 - [ ] Add timeline graph https://github.com/mermaid-js/mermaid
 - [ ] Export timeline graph as pdf/jpg? to share/save
+- [ ] Have separate URL by recipe
+- [ ] Change recipe => change title
 
-# Backlog infini
+## Backlog infini
 - Monorepo ?
   - pnpm workspaces https://pnpm.io/workspaces (+npm+yarn)
 - Atomic design ?
@@ -49,3 +31,22 @@
   - multiline string
 - Add categories
 - bakerPercentage vs percent/total
+
+## V1.1.1
+- [x] Fix traduction
+  - Notes
+  - Select champ
+
+## V1.1.0
+- [x] Rajouter un footer : github link
+- [x] JSON schema to validate recipe json
+
+## V1.0.0
+- [x] Form with all ingredients based on recipes preset
+- [x] Translate english and french
+- [x] Deploy to github pages
+  - [x] pnpm outdated step pipeline
+- [x] Add [turborepo](https://turbo.build/repo/docs)
+- [x] Change html lang attribute dynamically
+- [x] precommit
+  - [x] Script generate list.json

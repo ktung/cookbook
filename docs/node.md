@@ -1,5 +1,5 @@
 # volta vs nvm
-Utilité de volta : set la version de nodejs à utiliser et switch automatique, à la manière de [jenv](https://github.com/jenv/jenv).
+Utilité de [volta](https://volta.sh/) : set la version de nodejs à utiliser et switch automatique, à la manière de [jenv](https://github.com/jenv/jenv).
 
 `volta pin node`
 

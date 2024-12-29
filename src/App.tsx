@@ -12,7 +12,7 @@ export function App() {
     <>
       <header className="mb-16">
         <LanguageSelector></LanguageSelector>
-        <h1 className="my-2 text-center font-mono text-3xl">Bread Recipes</h1>
+        <h1 className="my-2 text-center font-mono text-3xl">Cookbook</h1>
       </header>
 
       <RecipePanel></RecipePanel>

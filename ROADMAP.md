@@ -45,3 +45,7 @@
 - Architecture microfrontends ?
   - https://single-spa.js.org/
   - https://martinfowler.com/articles/micro-frontends.html
+- Use YAML format for recipes ?
+  - multiline string
+- Add categories
+- bakerPercentage vs percent/total

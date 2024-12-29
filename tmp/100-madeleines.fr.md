@@ -1,0 +1,48 @@
+---
+title: "100 - Madeleines"
+categories: ["Cooking"]
+date: 2023-02-24T20:58:42-04:00
+draft: true
+---
+
+| 28 madeleines |-|
+|-|-|
+|Farine T45|120|
+|Levure chimique|5|
+|Sucre|90|
+|Lait avoine|30|
+|Beurre fondu|60|
+|Oeuf|100|
+|Vanille liquide|3gouttes|
+|Total|405|
+
+- Blanchir les oeufs
+- Ajouter lait + arome
+- Ajouter farine + levure
+- Ajouter beurre
+
+Cuisson
+2 types cuisson :
+Fort pour faire monter la bosser
+Moins forte pour cuire à coeur sans bruler
+
+- 240 4mins, 180 3mins
+
+2 couches de beurre pour pas coller
+Position milieu bas
+
+à tester
+- Préchauffe 215, Cuisson 2mins 205, puis 6mins 160
+- 235 Xmins, 180 Xmins
+
+- Sechage 2mins, demoulage, Sechage 5mins
+
+# Notes
+- Attention aux débordements, c'est fin ça crame
+
+# Resources
+- https://www.marmiton.org/recettes/recette_madeleines-faciles_17700.aspx
+- https://www.instagram.com/p/Col-vEwsnRW/
+- https://www.instagram.com/p/CclCQL1oqz9/
+
+

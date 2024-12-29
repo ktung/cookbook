@@ -41,3 +41,4 @@
   - https://github.com/mpalmer/action-validator
 - dark mode
 - pre commit reorganize i18n ordre alphabétique
+- Button "Surprise me!" : show a random recipe

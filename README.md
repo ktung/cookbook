@@ -8,6 +8,7 @@ pnpm run dev
 ## Update dependancies
 ```
 pnpm update
+pnpm outdated
 ```
 
 ## Update list recipes

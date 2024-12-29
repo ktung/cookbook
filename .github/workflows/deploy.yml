@@ -13,10 +13,17 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20]
+        node-version: [22]
 
     steps:
       - uses: actions/checkout@v3
+      - name: Cache turbo build setup
+        uses: actions/cache@v4
+        with: 
+          path: .turbo
+          key: ${{ runner.os }}-turbo-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-turbo-
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
 
@@ -39,7 +46,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload production-ready build files for gh-pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -59,4 +66,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4

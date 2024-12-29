@@ -9,46 +9,49 @@
     "build": "vite build",
     "lint": "tsc",
     "preview": "vite preview",
-    "eslint": "eslint . --ext .ts,.tsx",
-    "prepare": "husky install"
+    "eslint": "eslint src",
+    "prepare": "husky"
   },
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@9.15.2",
   "engines": {
-    "node": ">=18.14.0",
-    "pnpm": ">=8.7.1"
+    "node": ">=22.12.0",
+    "pnpm": ">=9.15.2"
+  },
+  "volta": {
+    "node": "22.12.0",
+    "pnpm": "9.15.2"
   },
   "dependencies": {
-    "i18next": "^23.16.4",
-    "i18next-browser-languagedetector": "^7.2.1",
-    "i18next-http-backend": "^2.6.2",
-    "pnpm": "^9.15.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-i18next": "^13.5.0"
+    "i18next": "^24.2.0",
+    "i18next-browser-languagedetector": "^8.0.2",
+    "i18next-http-backend": "^3.0.1",
+    "pnpm": "^9.15.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
-    "@vitejs/plugin-react-swc": "^3.7.1",
+    "@eslint/compat": "^1.2.4",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "@vitejs/plugin-react-swc": "^3.7.2",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.1",
+    "eslint": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.2",
-    "husky": "^8.0.3",
-    "postcss": "^8.4.47",
-    "prettier": "3.1.0",
-    "prettier-plugin-tailwindcss": "^0.5.14",
-    "tailwindcss": "^3.4.14",
-    "turbo": "^1.13.4",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.10"
-  },
-  "volta": {
-    "node": "20.18.0",
-    "pnpm": "9.12.2"
+    "eslint-plugin-react": "^7.37.3",
+    "husky": "~9.1.7",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.17",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.6"
   }
 }

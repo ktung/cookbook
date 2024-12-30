@@ -5,7 +5,7 @@
   "homepage": "https://github.com/ktung/cookbook",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "react-router dev",
     "build": "vite build",
     "lint": "tsc",
     "preview": "vite preview",
@@ -22,18 +22,22 @@
     "pnpm": "9.15.2"
   },
   "dependencies": {
+    "@react-router/node": "^7.1.1",
     "i18next": "^24.2.0",
     "i18next-browser-languagedetector": "^8.0.2",
     "i18next-http-backend": "^3.0.1",
+    "isbot": "^5",
     "pnpm": "^9.15.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-i18next": "^15.2.0"
+    "react-i18next": "^15.2.0",
+    "react-router": "^7.1.1"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.4",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.17.0",
+    "@react-router/dev": "^7.1.1",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@typescript-eslint/eslint-plugin": "^8.18.2",

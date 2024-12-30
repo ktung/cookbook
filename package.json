@@ -8,6 +8,15 @@
     "start": "cross-env NODE_ENV=production react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
+  "packageManager": "pnpm@9.15.2",
+  "engines": {
+    "node": ">=22.12.0",
+    "pnpm": ">=9.15.2"
+  },
+  "volta": {
+    "node": "22.12.0",
+    "pnpm": "9.15.2"
+  },
   "dependencies": {
     "@react-router/node": "^7.1.1",
     "@react-router/serve": "^7.1.1",

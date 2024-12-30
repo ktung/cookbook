@@ -1,0 +1,33 @@
+name:
+  en: 200 - Frangipane
+  fr: 200 - Frangipane
+ingredients:
+  - name: cremePatissiere
+    percentage: 33
+  - name: cremeAmande
+    percentage: 67
+totalPercentage: 100
+presetTotalIngredient: 100
+process:
+  fr: |
+    ..
+notes:
+  fr: |
+    ..
+references:
+  - https://www.youtube.com/watch?v=i8oCOJ9H-tI
+  - https://parissecret.com/la-recette-de-la-galette-des-rois-a-la-frangipane-de-cyril-lignac/
+
+# Abaisse 2mm d'épaisseur
+# Dorrure
+# scarif
+# 190C ventilé 25mins, 175C 25mins
+
+# Sirop tant pour tant eau/sucre (20g/20g)
+
+# Frangipane
+# - Mélangez la crème pâtissière à la crème d’amandes en ajoutant un bouchon de rhum puis versez le mélange dans une poche à douille.
+
+# Cuisson
+# Placez la galette au réfrigérateur pendant 1h.
+# Préchauffez votre four à 200°, enfournez la galette pendant 10 minutes puis baissez la température à 180°. Poursuivez la cuisson pendant 30 minutes environ.

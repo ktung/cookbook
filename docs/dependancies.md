@@ -1,0 +1,11 @@
+# Changelog
+- [Svelte](https://github.com/sveltejs/svelte/blob/main/packages/svelte/CHANGELOG.md)
+- [Sveltekit](https://github.com/sveltejs/kit/blob/main/packages/kit/CHANGELOG.md)
+- [Svelte-Check](https://github.com/sveltejs/language-tools/releases)
+- [eslint](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [@eslint/compat](https://github.com/eslint/rewrite/blob/main/packages/compat/CHANGELOG.md)
+- [Marked](https://github.com/markedjs/marked/releases)
+- [Typescript](https://github.com/microsoft/TypeScript/releases)
+- [Typescript-Eslint](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md)
+- [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte/blob/version-3/CHANGELOG.md)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md)

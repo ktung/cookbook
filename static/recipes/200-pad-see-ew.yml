@@ -1,0 +1,26 @@
+name:
+  en: 200 - Pad See Ew
+  fr: 200 - Pad See Ew
+ingredients:
+  - name: soySauce
+    percentage: 20
+  - name: darkSoySauce
+    percentage: 20
+  - name: oysterSauce
+    percentage: 20
+  - name: riceVinegar
+    percentage: 20
+  - name: whiteSugar
+    percentage: 20
+totalPercentage: 100
+presetTotalIngredient: 100
+process:
+  fr: |
+    - Réhydrater les nouilles
+    - Cuire les protéines
+    - Cuire les légumes
+    - Mettre de côté
+    - Feu fort, sauté les nouilles avec la sauce
+    - Remettre les légumes et protéines pour réchauffer et mélanger
+references:
+  - https://www.recipetineats.com/thai-stir-fried-noodles-pad-see-ew/

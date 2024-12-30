@@ -1,0 +1,22 @@
+name:
+  en: 100 - Pancakes
+  fr: 100 - Pancakes
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: salt
+    percentage: 1.3
+  - name: whiteSugar
+    percentage: 20.6
+  - name: bakingSoda
+    percentage: 0.33
+  - name: bakingPowder
+    percentage: 4
+  - name: milk
+    percentage: 128.6
+  - name: egg
+    percentage: 16.6
+  - name: meltedButter
+    percentage: 7
+totalPercentage: 278.43
+presetTotalIngredient: 836

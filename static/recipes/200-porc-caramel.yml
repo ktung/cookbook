@@ -1,0 +1,39 @@
+name:
+  en: 200 - Porc caramel
+  fr: 200 - Porc caramel
+ingredients:
+  - name: porkBelly
+    percentage: 900
+  - name: ginger
+    percentage: 6
+  - name: neutralOil
+    percentage: 2
+  - name: whiteSugar
+    percentage: 3
+  - name: shaoxingWine
+    percentage: 0.5 # 0.1420653 L
+  - name: lightSoySauce
+    percentage: 3
+  - name: darkSoySauce
+    percentage: 1.5
+  - name: water
+    percentage: 113
+totalPercentage: 194.5
+presetTotalIngredient: 778
+process:
+  fr: |
+    - Blanchir le porc pour retirer les impuretés : cuire à froid jusqu'à ébuilliton. Puis réduire le feu, laisser cuire 1 min
+    - Démarrer le caramel avec un peu d'huile sur feu doux
+    - Ajouter le porc, le gingenbre et mélanger pour bien caramelisé tout le porc
+    - Ajouter shaoxing wine, soy sauce, dark soy sauce, et couvrir d'eau à hauteur
+    - Laisser mijoter à feu moyen pendant 1h
+notes:
+  fr: |
+    - Prendre poitrine de porc avec peau
+references:
+  - https://thewoksoflife.com/red-braised-pork-belly-mao/
+  - https://www.marmiton.org/recettes/recette_porc-caramel_72335.aspx
+  - https://www.youtube.com/watch?v=FKTexYVuU_0
+
+
+# https://www.kingarthurbaking.com/blog/2022/12/12/how-to-make-caramel

@@ -1,0 +1,116 @@
+- filename: 100-bao-dough.yml
+  name:
+    fr: 100 - Pate à bao
+    en: 100 - Bao Dough
+- filename: 100-burger-buns.yml
+  name:
+    fr: 100 - Pains burger
+    en: 100 - Burger buns
+- filename: 100-canneles.yml
+  name:
+    fr: 100 - Cannelés
+    en: 100 - Canneles
+- filename: 100-creme-amande.yml
+  name:
+    fr: 100 - Crème amande
+    en: 100 - Crème amande
+- filename: 100-creme-brulee.yml
+  name:
+    fr: 100 - Crème brûlée
+    en: 100 - Creme brulee
+- filename: 100-creme-pat.yml
+  name:
+    fr: 100 - Crème patissiere
+    en: 100 - Crème patissiere
+- filename: 100-financiers.yml
+  name:
+    fr: 100 - Financier
+    en: 100 - Financier
+- filename: 100-gnocchis.yml
+  name:
+    fr: 100 - Gnocchis
+    en: 100 - Gnocchis
+- filename: 100-hot-chocolate.yml
+  name:
+    fr: 100 - Chocholat chaud
+    en: 100 - Hot chocolate
+- filename: 100-madeleines.yml
+  name:
+    fr: 100 - Madeleines
+    en: 100 - Madeleines
+- filename: 100-moelleux-chocolat.yml
+  name:
+    fr: 100 - Moelleux chocolat
+    en: 100 - Chocolate cake
+- filename: 100-pain-mie.yml
+  name:
+    fr: 100 - Pain mie
+    en: 100 - Pain mie
+- filename: 100-pancakes.yml
+  name:
+    fr: 100 - Pancakes
+    en: 100 - Pancakes
+- filename: 100-pasta.yml
+  name:
+    fr: 100 - Pasta
+    en: 100 - Pasta
+- filename: 100-pate-brisee.yml
+  name:
+    fr: 100 - Pate brisee
+    en: 100 - Pate brisee
+- filename: 100-pizza-dough.yml
+  name:
+    fr: 100 - Pate à pizza
+    en: 100 - Pizza Dough
+- filename: 100-puff-pastry.yml
+  name:
+    fr: 100 - Pâte feuilletée
+    en: 100 - Rough puff pastry
+- filename: 100-teriyaki-sauce.yml
+  name:
+    fr: 100 - Teriyaki Sauce
+    en: 100 - Teriyaki Sauce
+- filename: 100-teriyaki-tofu.yml
+  name:
+    fr: 100 - Teriyaki Tofu
+    en: 100 - Teriyaki Tofu
+- filename: 100-white-bread.yml
+  name:
+    fr: 100 - Pain courant
+    en: 100 - White bread
+- filename: 101-pasta.yml
+  name:
+    fr: 101 - Pasta
+    en: 101 - Pasta
+- filename: 200-banh-xeo.yml
+  name:
+    fr: 200 - Banh Xeo
+    en: 200 - Banh Xeo
+- filename: 200-brioche.yml
+  name:
+    fr: 200 - Brioche
+    en: 200 - Brioche
+- filename: 200-challah.yml
+  name:
+    fr: 200 - Challah
+    en: 200 - Challah
+- filename: 200-frangipane.yml
+  name:
+    fr: 200 - Frangipane
+    en: 200 - Frangipane
+- filename: 200-pad-see-ew.yml
+  name:
+    fr: 200 - Pad See Ew
+    en: 200 - Pad See Ew
+- filename: 200-porc-caramel.yml
+  name:
+    fr: 200 - Porc caramel
+    en: 200 - Porc caramel
+- filename: 200-puff-pastry.yml
+  name:
+    fr: 200 - Pâte feuilletée
+    en: 200 - Puff pastry
+- filename: 300-sourdough-bread.yml
+  name:
+    fr: 300 - Pain au levain
+    en: 300 - Sourdough bread

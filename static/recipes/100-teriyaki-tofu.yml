@@ -1,0 +1,44 @@
+name:
+  en: 100 - Teriyaki Tofu
+  fr: 100 - Teriyaki Tofu
+ingredients:
+  - name: firmTofu
+    percentage: 400
+  - name: cornstarch
+    percentage: 0
+  - name: vegetableOil
+    percentage: 0
+  - name: ginger
+    percentage: 0
+  - name: onion
+    percentage: 0
+  - name: mirin
+    percentage: 0
+  - name: soySauce
+    percentage: 0
+  - name: darkSoySauce
+    percentage: 0
+  - name: brownSugar
+    percentage: 0
+  - name: sesameOil
+    percentage: 0
+  - name: water
+    percentage: 0
+totalPercentage: 0
+presetTotalIngredient: 0
+process:
+  fr: |
+    Pat the tofu dry with paper towels and cut into 1-inch cubes.
+    Toss the tofu cubes with cornstarch until lightly coated.
+    Heat a large non-stick pan over medium high heat.
+    Add 2 tablespoons of oil and the tofu cubes.
+    Cook until golden brown on all sides.
+    Remove the tofu from the pan and set aside.
+    Add the remaining 1 tablespoon of oil to the pan along with the ginger and onion.
+    Cook for 1-2 minutes.
+    Add the mirin, soy sauce, dark soy sauce, brown sugar, sesame oil, and water.
+    Bring to a simmer and cook for 2 minutes.
+    Add the tofu back to the pan and toss to coat.
+    Serve over rice or noodles.
+references:
+  - https://thewoksoflife.com/teriyaki-tofu/

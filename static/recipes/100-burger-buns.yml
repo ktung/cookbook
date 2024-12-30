@@ -1,0 +1,26 @@
+name:
+  en: 100 - Burger buns
+  fr: 100 - Pains burger
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: activeDryYeast
+    percentage: 1.6
+  - name: salt
+    percentage: 1.8
+  - name: brownSugar
+    percentage: 3
+  - name: egg
+    percentage: 10
+  - name: oatMilk
+    percentage: 6
+  - name: water
+    percentage: 40
+  - name: butter
+    percentage: 10
+totalPercentage: 172.4
+presetTotalIngredient: 862
+process:
+  fr: |
+    1 pain ~= 110g
+    1 mini pain ~= 35g

@@ -1,0 +1,23 @@
+name:
+  en: 200 - Challah
+  fr: 200 - Challah
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: activeDryYeast
+    percentage: 0.6
+  - name: honey
+    percentage: 18.8
+  - name: salt
+    percentage: 1.8
+  - name: egg
+    percentage: 16.6
+  - name: water
+    percentage: 28.3
+  - name: oliveOil
+    percentage: 12.5
+totalPercentage: 178.6
+presetTotalIngredient: 1073
+notes:
+  fr: |
+    Sponge : 100% levure, 100% eau + équivalent farine

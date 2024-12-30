@@ -1,0 +1,22 @@
+:root {
+  --font-sans: 'Inter', 'Avenir', 'Helvetica', 'Arial', 'sans-serif';
+  --font-serif: 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman';
+  --font-mono: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco';
+}
+body {
+  font-family: var(--font-sans);
+  background-color: hsl(43, 100%, 69%);
+  color: #575757;
+}
+
+a {
+  color: #575757;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: rgb(87 87 87);
+  font-size: 1rem;
+}

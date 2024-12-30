@@ -1,0 +1,35 @@
+name:
+  en: 100 - White bread
+  fr: 100 - Pain courant
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: water
+    percentage: 64
+  - name: activeDryYeast
+    percentage: 0.5
+  - name: salt
+    percentage: 1.8
+totalPercentage: 166.3
+presetTotalIngredient: 832
+process:
+  fr: |
+    1. Pointage
+      1. 2h
+      2. 30mins + rabat + 12h + Remontée en témpérature 17°C
+    2. Détaillage en 3 (baguette : 250-325g)
+    3. Mise en forme batard
+    4. Façonnage baguette
+    5. Apprêt 1h
+    6. Préchauffage haut+bas+ventilé 240° 20mins
+    7. Cuisson 240° 14-18mins
+    8. Ressuage 15mins
+notes:
+  fr: |
+    1 baguette ~= 250g cuit
+    - Hydratation 63-64%
+    - Verre doseur 525g
+references:
+  - https://www.youtube.com/watch?v=hBA5OFrOst4
+  - https://planetepain.com/nos-produits/petit-pain/
+  - https://www.youtube.com/watch?v=v9tPXTlbYxM

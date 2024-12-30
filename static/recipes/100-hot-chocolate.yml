@@ -1,0 +1,20 @@
+name:
+  en: 100 - Hot chocolate
+  fr: 100 - Chocholat chaud
+ingredients:
+  - name: milk
+    percentage: 92.10526316
+  - name: cocoaPowder
+    percentage: 3.50877193
+  - name: whiteSugar
+    percentage: 4.385964912
+totalPercentage: 100
+presetTotalIngredient: 342
+process:
+  fr: |
+    - Chauffer le lait avec le sucre à feu moyen 70-80C
+    - A l'ébuilliton, rajouter le cacao est remuer jusqu'à homogène
+references:
+  - https://ici.radio-canada.ca/mordu/recettes/1877/chocolat-chaud-maison
+  - https://www.youtube.com/watch?v=pn-W0DVQw8Y
+  - https://www.youtube.com/shorts/buFbKP9z4kY

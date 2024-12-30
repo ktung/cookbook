@@ -1,0 +1,3 @@
+- https://validator.w3.org/
+  - https://blog.loginradius.com/engineering/w3c-validation/
+- https://nextjs.org/learn/seo/introduction-to-seo

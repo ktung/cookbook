@@ -1,0 +1,17 @@
+name:
+  en: 100 - Teriyaki Sauce
+  fr: 100 - Teriyaki Sauce
+ingredients:
+  - name: mirin
+    percentage: 50
+  - name: soySauce
+    percentage: 50
+totalPercentage: 100
+presetTotalIngredient: 100
+process:
+  fr: |
+    Mix
+    Reduce to concentrate flavor
+references:
+  - https://www.bonappetit.com/recipe/salmon-teriyaki
+  - https://thewoksoflife.com/teriyaki-tofu/

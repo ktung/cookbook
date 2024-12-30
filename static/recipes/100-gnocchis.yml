@@ -1,0 +1,16 @@
+name:
+  en: 100 - Gnocchis
+  fr: 100 - Gnocchis
+ingredients:
+  - name: potato
+    percentage: 75
+  - name: egg
+    percentage: 4.14
+  - name: allPurposeFlour
+    percentage: 21
+  - name: water
+    percentage: 0
+totalPercentage: 100
+presetTotalIngredient: 1207
+references:
+  - https://www.joshuaweissman.com/post/gnocchi

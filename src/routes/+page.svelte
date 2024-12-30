@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div>
+  BODY HOME
+  <div>
+    <a href="/recipes/breads">breads</a>
+  </div>
+
+  <ol>
+    <li><a href="/r/1">Recipe 1</a></li>
+  </ol>
+</div>

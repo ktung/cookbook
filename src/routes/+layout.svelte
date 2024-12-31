@@ -1,7 +1,9 @@
 <script>
-    import { page } from '$app/state';
+  import { page } from '$app/state';
 
-let { children } = $props();
+  export const prerender = true;
+
+  let { children } = $props();
 </script>
 
 <div>

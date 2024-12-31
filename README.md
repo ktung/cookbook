@@ -12,4 +12,9 @@ pnpm update
 pnpm outdated
 ```
 
+## Preview build
+```
+pnpm run build && pnpm run preview
+```
+
 https://ktung.github.io/cookbook/

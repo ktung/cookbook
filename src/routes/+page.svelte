@@ -1,10 +1,14 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <div>
   BODY HOME
   <div>
-    <a href="/recipes/breads">breads</a>
+    <a href="{base}/recipes/breads">breads</a>
   </div>
 
   <ol>
-    <li><a href="/r/1">Recipe 1</a></li>
+    <li><a href="{base}/r/1">Recipe 1</a></li>
   </ol>
 </div>

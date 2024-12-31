@@ -1,2 +1,4 @@
-- id: 1
-  title: notes1 yaml
+- slug: 1
+  title: fake note
+- slug: 100-materiel
+  title: 100 Matériel

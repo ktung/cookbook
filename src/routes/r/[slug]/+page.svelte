@@ -18,7 +18,7 @@
   
   {#each recipe.ingredients as ingredient}
     <div>
-      <span>{translate(ingredient.name)} - {ingredient.bakerPercentage}</span>
+      <span>{translate(ingredient.name)} {ingredient.bakerPercentage}%</span>
     </div>
   {/each}
 

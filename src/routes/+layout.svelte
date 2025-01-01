@@ -8,12 +8,16 @@
 
   let { children } = $props();
 </script>
-<ParaglideJS {i18n}>
 
+<ParaglideJS {i18n}>
 <div>
   <Navigation />
   <LanguageSelector />
 
   {@render children()}
 </div>
+
+<footer>
+  <a target="_blank" href="https://github.com/ktung/cookbook/">Github</a>
+</footer>
 </ParaglideJS>

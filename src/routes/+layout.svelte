@@ -1,14 +1,19 @@
 <script>
+	import { ParaglideJS } from '@inlang/paraglide-sveltekit'
+	import { i18n } from '$lib/i18n'
+
   import '../app.css';
-  import { base } from '$app/paths';
-  import { page } from '$app/state';
+  import Navigation from '$lib/components/Navigation.svelte';
+  import LanguageSelector from '$lib/components/LanguageSelector.svelte';
 
   let { children } = $props();
 </script>
+<ParaglideJS {i18n}>
 
 <div>
-  <a href="{base}/" aria-current={page.url.pathname === '/'}>Home</a>
-  <a href="{base}/notes">Notes</a>
+  <Navigation />
+  <LanguageSelector />
 
   {@render children()}
 </div>
+</ParaglideJS>

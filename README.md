@@ -17,4 +17,10 @@ pnpm outdated
 pnpm run build && pnpm run preview
 ```
 
+## i18n
+```
+npx @inlang/cli lint --project project.inlang
+npx @inlang/cli machine translate --project project.inlang
+```
+
 https://ktung.github.io/cookbook/

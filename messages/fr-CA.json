@@ -1,5 +1,10 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"home": "Accueil",
-	"notes": "Notes CA"
+	"notes": "Notes CA",
+	"allPurposeFlour": "Farine tout usage",
+	"water": "Eau",
+	"activeDryYeast": "Levure sèche active",
+	"bakingPowder": "Poudre à pâte",
+	"whiteSugar": "Sucre"
 }

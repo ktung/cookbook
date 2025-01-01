@@ -1,5 +1,10 @@
 {
     "$schema": "https://inlang.com/schema/inlang-message-format",
     "home": "Home",
-    "notes": "Notes"
+    "notes": "Notes",
+    "allPurposeFlour": "All purpose flour",
+    "water": "Water",
+    "activeDryYeast": "Active dry yeast",
+    "bakingPowder": "Baking powder",
+    "whiteSugar": "White sugar"
 }

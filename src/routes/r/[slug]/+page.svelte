@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { translate } from "$lib/services/ingredient-translator";
   import type { PageData } from "./$types";
 
   let { data }: { data: PageData } = $props();
@@ -14,7 +15,7 @@
   
   {#each recipe.ingredients as ingredient}
     <div>
-      <span>{ingredient.name} - {ingredient.bakerPercentage}</span>
+      <span>{translate(ingredient.name)} - {ingredient.bakerPercentage}</span>
     </div>
   {/each}
 

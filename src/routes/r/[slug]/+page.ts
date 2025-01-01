@@ -3,10 +3,10 @@ import type { PageLoad } from './$types';
 import { load as loadYaml } from 'js-yaml';
 
 interface Recipe {
-  name: { en: string; fr: string };
+  name: { en?: string; fr: string };
   ingredients: { name: string; bakerPercentage: number }[];
   presetTotalIngredient: number;
-  notes: { fr: string };
+  notes: { fr: string; en?: string };
 }
 
 export const load: PageLoad = async ({ params, fetch }) => {

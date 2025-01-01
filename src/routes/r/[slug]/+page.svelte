@@ -1,9 +1,12 @@
 <script lang="ts">
+  import { languageTag } from "$lib/paraglide/runtime";
   import { translate } from "$lib/services/ingredient-translator";
   import type { PageData } from "./$types";
 
   let { data }: { data: PageData } = $props();
   let recipe = data.recipe;
+
+  let currentLang: 'en' | 'fr' = languageTag().substring(0, 2) as 'en' | 'fr';
 </script>
 
 <svelte:head>
@@ -11,7 +14,7 @@
 </svelte:head>
 
 <div>
-  <h2>{recipe.name.fr}</h2>
+  <h2>{recipe.name[currentLang]}</h2>
   
   {#each recipe.ingredients as ingredient}
     <div>
@@ -21,6 +24,6 @@
 
   {#if recipe.notes}
     <h3>Notes</h3>
-    {recipe.notes.fr}
+    {recipe.notes[currentLang]}
   {/if}
 </div>

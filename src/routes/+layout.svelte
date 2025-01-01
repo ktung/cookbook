@@ -1,4 +1,5 @@
 <script>
+  import '../app.css';
   import { base } from '$app/paths';
   import { page } from '$app/state';
 

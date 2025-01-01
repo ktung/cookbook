@@ -1,14 +1,30 @@
-<script>
+<script lang="ts">
   import { base } from "$app/paths";
+  import Autocomplete from "$lib/components/Autocomplete.svelte";
+  import type { PageData } from "./$types";
+
+  let { data }: { data: PageData } = $props();
 </script>
 
-<div>
-  BODY HOME
-  <div>
-    <a href="{base}/recipes/breads">breads</a>
-  </div>
+<svelte:head>
+  <title>Cookbook</title>
+</svelte:head>
 
-  <ol>
-    <li><a href="{base}/r/1">Recipe 1</a></li>
-  </ol>
+<div>
+  <div>
+    {#each data.recipes as recipe}
+      <a href={`${base}/r/${recipe.slug}`}>{recipe.title}</a>
+    {/each}
+  </div>
 </div>
+
+<Autocomplete />
+<!-- <input type="text" placeholder="Search" />
+<select>
+  {#each Object.entries(data.recipes) as [key, value]}
+      {#each value.recipes as recipe}
+      <option value="1">{recipe.title}</option>
+      {/each}
+    {/each}
+</select> -->
+<button>Find me something</button>

@@ -1,0 +1,20 @@
+import { base } from '$app/paths';
+import type { PageLoad } from './$types';
+import { load as loadYaml } from 'js-yaml';
+
+interface Recipe {
+  name: { en: string; fr: string };
+  ingredients: { name: string; bakerPercentage: number }[];
+  presetTotalIngredient: number;
+  notes: { fr: string };
+}
+
+export const load: PageLoad = async ({ params, fetch }) => {
+  const responseyml = await fetch(`${base}/recipes/${params.slug}.yml`);
+  const yamlText = await responseyml.text();
+  const recipe = loadYaml(yamlText) as Recipe;
+
+  return {
+    recipe: recipe,
+  };
+};

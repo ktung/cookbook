@@ -15,8 +15,8 @@ const config = {
       fallback: '404.html',
     }),
     paths: {
-      assets: 'https://ktung.github.io/cookbook',
-      base: process.argv.includes('dev') ? '/cookbook' : process.env.BASE_PATH
+      assets: !!process.env.ASSETS_PATH ? process.env.ASSETS_PATH : '',
+      base: !!process.env.BASE_PATH ? process.env.BASE_PATH : '/cookbook'
     }
   }
 };

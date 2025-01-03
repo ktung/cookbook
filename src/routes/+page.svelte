@@ -4,6 +4,12 @@
   import type { PageData } from "./$types";
 
   let { data }: { data: PageData } = $props();
+
+  function redirectRandomRecipe() {
+    let recipes = data.recipes;
+    let randomRecipe = recipes[Math.floor(Math.random() * recipes.length)];
+    window.location.href = `${base}/r/${randomRecipe.slug}`;
+  }
 </script>
 
 <svelte:head>
@@ -12,12 +18,4 @@
 
 <Autocomplete
   recipes={data.recipes} />
-<!-- <input type="text" placeholder="Search" />
-<select>
-  {#each Object.entries(data.recipes) as [key, value]}
-      {#each value.recipes as recipe}
-      <option value="1">{recipe.title}</option>
-      {/each}
-    {/each}
-</select> -->
-<button>Find me something</button>
+<button onclick={redirectRandomRecipe()}>Find me something</button>

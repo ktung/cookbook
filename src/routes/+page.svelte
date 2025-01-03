@@ -10,15 +10,8 @@
   <title>Cookbook</title>
 </svelte:head>
 
-<div>
-  <div>
-    {#each data.recipes as recipe}
-      <a href={`${base}/r/${recipe.slug}`}>{recipe.title}</a>
-    {/each}
-  </div>
-</div>
-
-<Autocomplete />
+<Autocomplete
+  recipes={data.recipes} />
 <!-- <input type="text" placeholder="Search" />
 <select>
   {#each Object.entries(data.recipes) as [key, value]}

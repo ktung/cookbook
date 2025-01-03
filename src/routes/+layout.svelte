@@ -1,6 +1,4 @@
 <script>
-  export const prerender = true;
-
   import { ParaglideJS } from '@inlang/paraglide-sveltekit'
   import { i18n } from '$lib/i18n'
 

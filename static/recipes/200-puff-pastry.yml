@@ -3,13 +3,14 @@ name:
   fr: 200 - Pâte feuilletée
 ingredients:
   - name: allPurposeFlour
-    bakerPercentage: 100
+    percentage: 100
   - name: water
-    bakerPercentage: 44
+    percentage: 44
   - name: meltedButter
-    bakerPercentage: 10
+    percentage: 10
   - name: salt
-    bakerPercentage: 2.4
+    percentage: 2.4
   - name: butter
-    bakerPercentage: 76
+    percentage: 76
+totalPercentage: 232.4
 presetTotalIngredient: 500

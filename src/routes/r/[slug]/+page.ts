@@ -4,7 +4,8 @@ import { load as loadYaml } from 'js-yaml';
 
 interface Recipe {
   name: { en?: string; fr: string };
-  ingredients: { name: string; bakerPercentage: number }[];
+  ingredients: { name: string; percentage: number }[];
+  totalPercentage: number;
   presetTotalIngredient: number;
   notes: { fr: string; en?: string };
 }

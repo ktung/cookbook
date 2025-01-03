@@ -3,15 +3,16 @@ name:
   fr: 100 - Pate à bao
 ingredients:
   - name: allPurposeFlour
-    bakerPercentage: 100
+    percentage: 100
   - name: water
-    bakerPercentage: 50
+    percentage: 50
   - name: activeDryYeast
-    bakerPercentage: 1
+    percentage: 1
   - name: bakingPowder
-    bakerPercentage: 1
+    percentage: 1
   - name: whiteSugar
-    bakerPercentage: 6
+    percentage: 6
+totalPercentage: 158
 presetTotalIngredient: 790
 notes:
   fr: >

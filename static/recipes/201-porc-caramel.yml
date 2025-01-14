@@ -1,0 +1,36 @@
+name:
+  en: 201 - Porc caramel
+  fr: 201 - Porc caramel
+ingredients:
+  - name: whiteSugar
+    percentage: 0.0355366027
+  - name: water
+    percentage: 0.02842928216
+  - name: porkBelly
+    percentage: 0.4619758351
+  - name: onion
+    percentage: 0.06396588486
+  - name: garlic
+    percentage: 0.01776830135
+  - name: ginger
+    percentage: 0.001421464108
+  - name: fishSauce
+    percentage: 0.0355366027
+  - name: water
+    percentage: 0.355366027
+presetTotalIngredient: 1407
+process:
+  fr: |
+    - Démarrer le caramel avec l'eau
+    - Ajouter le porc et remuer
+    - Ajouter oignon, ail, gingenbre et mélanger
+    - Ajouter gros poivre
+    - Laisser mijoter à feu moyen pendant 3h
+notes:
+  fr: |
+    - Prendre poitrine de porc avec peau
+references:
+  - https://www.youtube.com/watch?v=FKTexYVuU_0
+
+
+# https://www.kingarthurbaking.com/blog/2022/12/12/how-to-make-caramel

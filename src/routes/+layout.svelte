@@ -5,8 +5,15 @@
   import '../app.css';
   import Navigation from '$lib/components/Navigation.svelte';
   import LanguageSelector from '$lib/components/LanguageSelector.svelte';
+  import Footer from './footer.svelte';
+
+  import { injectAnalytics } from '@vercel/analytics/sveltekit'
+  import { injectSpeedInsights } from '@vercel/speed-insights';
 
   let { children } = $props();
+
+  injectAnalytics();
+  injectSpeedInsights();
 </script>
 
 <ParaglideJS {i18n}>
@@ -19,22 +26,17 @@
     {@render children()}
   </div>
 
-  <footer>
-    <a target="_blank" href="https://github.com/ktung/cookbook/">Github</a>
-  </footer>
+  <Footer />
 </ParaglideJS>
 
 <style>
-  header, footer {
+  header {
     margin: 0 auto;
     text-align: center;
   }
 
   header {
     margin-bottom: 4rem;
-  }
-  footer {
-    margin-top: 4rem;
   }
 
   .main {

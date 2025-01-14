@@ -12,7 +12,6 @@ ingredients:
     percentage: 20
   - name: whiteSugar
     percentage: 20
-totalPercentage: 100
 presetTotalIngredient: 100
 process:
   fr: |

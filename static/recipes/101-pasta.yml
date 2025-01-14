@@ -4,11 +4,10 @@ name:
 ingredients:
   - name: allPurposeFlour
     percentage: 40
-  - name: allPurposeFlour
+  - name: semolinaFlour
     percentage: 40
   - name: egg
     percentage: 20
-totalPercentage: 100
 presetTotalIngredient: 250
 process:
   fr: |
@@ -41,3 +40,4 @@ references:
 # - https://www.youtube.com/watch?v=Rjxt--TP4I4
 # - https://www.youtube.com/watch?v=jD-jZ5xZ3jA&list
 # - https://www.recettesduchef.fr/Recettes/Machine-a-pates/pates-fraiches-maison-a-la-semoule.html
+# https://www.webstaurantstore.com/blog/2924/semolina-flour.html

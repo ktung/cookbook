@@ -10,19 +10,18 @@ ingredients:
     percentage: 75
   - name: oatMilk
     percentage: 25
-  - name: meltedButter
+  - name: butter # meltedButter
     percentage: 50
   - name: egg
     percentage: 83.3
-totalPercentage: 410.9
 presetTotalIngredient: 405
 
----
-title: "100 - Madeleines"
-categories: ["Cooking"]
-date: 2023-02-24T20:58:42-04:00
-draft: true
----
+# ---
+# title: "100 - Madeleines"
+# categories: ["Cooking"]
+# date: 2023-02-24T20:58:42-04:00
+# draft: true
+# ---
 
 # | 28 madeleines |-|
 # |-|-|

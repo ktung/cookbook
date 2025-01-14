@@ -1,0 +1,43 @@
+name:
+  en: 200 - Lasagna
+  fr: 200 - Lasagna
+ingredients:
+  - name: groundedBeef
+    percentage: 1000
+  - name: garlic
+    percentage: 1000
+  - name: oignon
+    percentage: 1000
+  - name: tomatoPaste
+    percentage: 6
+  - name: crushedTomato
+    percentage: 28
+  - name: butter
+    percentage: 50
+  - name: allPurposeFlour
+    percentage: 50
+  - name: milk
+    percentage: 600
+  - name: mozzarella
+    percentage: 28
+presetTotalIngredient: 100
+process:
+  fr: |
+    - Cuire le boeuf haché grossierement et réserver
+    - Faire suer l'ail et l'oignon
+    - Ajouter le concentré de tomate
+    - Ajouter tomates
+    - Ajouter le boeuf haché
+    - Préparer la béchamel : beurre, farine, lait, cumin moulu, poivre
+    - Assemblage : sauce, pate, béchamel, fromage, sauce.....fromage
+    - Cuire au four convetionnel 190C 25 mins sous alu, 30mins sans alu
+    - Laisser refroidir 15mins
+# notes:
+#   fr: |
+#     ..
+references:
+  - https://www.youtube.com/watch?v=0Af_M6NFV-k
+  - https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx
+  - https://www.ricardocuisine.com/recettes/8713-lasagne-cremeuse-aux-legumes-et-saucisses
+  - https://www.youtube.com/watch?v=7Rp3etXNy3c
+  - https://www.youtube.com/watch?v=7sfi90B4fMg

@@ -10,14 +10,102 @@ ingredients:
     percentage: 20
   - name: whiteSugar
     percentage: 8
-totalPercentage: 128
 presetTotalIngredient: 640
 process:
   fr: |
-    1 jaune d'oeuf ~= 20g
     Cuisson 110°C 1h10 ventilé (mesuré à 15.5°C à froid)
     Cuisson 110°C 1h07 conventionel (mesuré à 17.5°C à froid)
     106g par ramequin
     Testé avec 20-23% de jaune d'oeuf
     Testé avec 75/25 creme/lait
     Testé avec 83/17 creme/lait (15% sucre, 17% jaune oeuf)
+notes:
+  fr: |
+    1 jaune d'oeuf ~= 20g
+
+
+# | Creme brulée      |
+# | ----------------- | -------- |
+# | Lait entier       | 250      |
+# | Creme entiere 30% | 250      |
+# | Jaune oeuf        | 5        | 83 |
+# | Sucre             | 40       |
+# | Gousse vanille    | 1        |
+# | Sel               | 1 pincée |
+# | Cassonade         | 20       |
+# | Total             | -        |
+
+# - Faire chauffer à ébullition lait, creme, vanille et laisser tiédir
+# - Blanchir jaune oeuf + sucre
+# - Cuisson 100C 45min-1h
+#   - avec vapeur ?
+
+# - Tester 60g sucre 103/20
+
+# # References
+# - https://www.youtube.com/watch?v=sEtosp-_z1I
+
+# ---
+# | Creme brulée      |
+# | ----------------- | --- |
+# | Lait entier       | 50  |
+# | Creme entiere 30% | 500 |
+# | Jaune oeuf        | 6   |
+# | Sucre             | 75  |
+# | Cassonade         | 50  |
+# | Total             | -   |
+
+# - Blanchir jaune oeuf + sucre
+# - Ajouter le lait, ajouter la creme
+# - Cuisson 110C 1h-1h15 avec vapeur
+# - Cassonade + chahumeau
+
+# # References
+# - https://www.youtube.com/watch?v=lROX8gJ8SPE
+# ventilé ?
+
+
+
+# | Creme brulée      |
+# | ----------------- | -------- |
+# | Lait entier       | 250      |
+# | Creme entiere 30% | 250      |
+# | Jaune oeuf        | 5        | 83 |
+# | Sucre             | 40       |
+# | Gousse vanille    | 1        |
+# | Sel               | 1 pincée |
+# | Cassonade         | 20       |
+# | Total             | -        |
+
+# - Faire chauffer à ébullition lait, creme, vanille et laisser tiédir
+# - Blanchir jaune oeuf + sucre
+# - Cuisson 100C 45min-1h
+#   - avec vapeur ?
+
+# # Notes
+# - Jaune oeuf ~17g
+# - Tester 60g sucre 103/20
+
+# # References
+# - https://www.youtube.com/watch?v=sEtosp-_z1I
+
+# ---
+# | Creme brulée      |
+# | ----------------- | --- |
+# | Lait entier       | 50  |
+# | Creme entiere 30% | 500 |
+# | Jaune oeuf        | 6   |
+# | Sucre             | 75  |
+# | Cassonade         | 50  |
+# | Total             | -   |
+
+# - Blanchir jaune oeuf + sucre
+# - Ajouter le lait, ajouter la creme
+# - Cuisson 110C 1h-1h15 avec vapeur
+# - Cassonade + chahumeau
+
+# - https://www.ricardocuisine.com/recettes/4016-creme-brulee
+# - https://www.lesoeufs.ca/recettes/creme-brulee
+# - https://erableduquebec.ca/recettes/creme-brulee-a-lerable/
+# - https://ici.radio-canada.ca/tele/la-cuisine-d-isabelle-et-ricardo/site/segments/recette/478943/creme-brulee-dessert
+# - https://philippe-etchebest.com/la-creme-brulee/?utm_source=Youtube&utm_medium=Description&utm_campaign=100

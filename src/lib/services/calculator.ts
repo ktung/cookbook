@@ -9,3 +9,7 @@ export function round2IfNecessary(number: number) {
 export function round2(num: number): number {
   return Math.round((num + Number.EPSILON) * 100) / 100;
 }
+
+export function ceil2(num: number): number {
+  return Math.ceil((num + Number.EPSILON) * 100) / 100;
+}

@@ -1,7 +1,6 @@
 1. Fondant chocolat
 2. Kouign amann
 3. Brownie
-4. Financier
 
 bread undercooked / fully cooked / overcooked
 underproof / nicely proof / overproof
@@ -76,7 +75,6 @@ cuisson 15-20mins
 
 
 
-https://www.ricardocuisine.com/recettes/5615-financiers-au-sucre-d-erable-de-patrice-demers
 ---
 https://www.ricardocuisine.com/recettes/5944-creme-au-beurre-a-la-vanille-sans-oeufs
 https://encoreungateau.com/tarte-tropezienne-vraie-recette-micka/
@@ -137,10 +135,6 @@ https://www.youtube.com/watch?v=2RoUoMnDHlc
 macarons
 https://www.youtube.com/watch?v=TVWp229G890
 https://www.youtube.com/watch?v=jN6fnRmpDfo
-
-financier
-https://www.youtube.com/watch?v=ObKCj92Gubw
-https://www.instagram.com/p/C7tS69aoRBS/
 
 creme pat
 https://www.youtube.com/watch?v=XnbuetJnOEw
@@ -249,3 +243,24 @@ https://sallysbakingaddiction.com/easy-coconut-shrimp/
 https://www.marmiton.org/recettes/recette_crumble-simple_12173.aspx
 
 https://marcwiner.com/le-poulet-du-bonheur/
+
+
+# ---
+# egg tart
+# - 4 jaune oeuf (20gx4)
+# - 85 sucre
+# - 10 fecule mais
+# - 200 creme à fouetter
+# - 150 lait
+# - 3 vanille extract
+
+
+# - oeuf+sucre
+# - + fécule
+# - sur le feu
+#   - creme + lait + vanille
+#   - petite ebuillition
+# - mélanger tout petit à petit
+# - filter à la passoire
+# - Cuisson 30mins 180°C ventilé
+# ---

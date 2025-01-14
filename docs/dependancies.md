@@ -9,3 +9,10 @@
 - [Typescript-Eslint](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md)
 - [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte/blob/version-3/CHANGELOG.md)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md)
+- [@inlang/paraglide-js](https://inlang.com/m/gerre34r/library-inlang-paraglideJs/changelog)
+- [@inlang/paraglide-sveltekit](https://inlang.com/m/dxnzrydw/paraglide-sveltekit-i18n/changelog)
+- [vite](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md)
+- [Node](https://github.com/nodejs/node/blob/main/CHANGELOG.md)
+- [pnpm](https://github.com/pnpm/pnpm/releases)
+
+`pnpm update <pkg>`

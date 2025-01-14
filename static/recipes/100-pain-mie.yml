@@ -16,26 +16,32 @@ ingredients:
     percentage: 1.5
   - name: water
     percentage: 64
-  - name: vegetableOil
-    percentage: 10
-totalPercentage: 196.3
-presetTotalIngredient: 850
+  - name: butter
+    percentage: 4
+presetTotalIngredient: 880
 process:
   fr: |
+    Préparer le Tangzhong
     Pétrissage 10mins
     Pointage 1h
     Rabat
     Pointage 1h
     Façonnage dans moule bien graissé
     Apprêt 1h30 (doit remplir à 80%)
-    Cuisson 30min 180C ventilé, puis 10mins sans couvercle
+    Cuisson 30min 180C ventilé avec bol d'eau en bas, puis 10mins sans couvercle
     Ressuage 30mins hors du moule
+notes:
+  fr: |
+    Yudane 10-25% du poids de la farine
+references:
+  - https://www.yumelise.fr/pain-lait-japonais-shokupan-methode-yudane/
+  - https://www.youtube.com/watch?v=COGZOn9Rdyc
+  - https://www.chainbaker.com/pain-de-mie-sandwich-bread-pullman-loaf-recipe/
+  - http://technomitron.aainb.com/recettes-2/pains-speciaux/pain-de-mie/
+  - https://www.youtube.com/watch?v=QXPh7ofJR0I
+  - https://www.youtube.com/watch?v=pMIqsA0ln3c
+  - https://www.chainbaker.com/tangzhong-yudane/
 
-# ---
-# title: "Pain de mie"
-# categories: ["Cooking"]
-# date: 2022-04-25T20:58:42-04:00
-# draft: true
 # ---
 # |Pain de mie|-||
 # |-|-|-|
@@ -48,7 +54,6 @@ process:
 # |Beurre|100g|50g| // 40
 # |Total|1663g|826g|
 
-
 # |Pain de mie|-|~876|
 # |-|-|-|
 # |Farine T45|1000g|450g|
@@ -59,8 +64,6 @@ process:
 # |Lait amande froid|622g|280g|
 # |Beurre pommade|133g|60g|
 # |Total|1966g|885g|
-
-# Yudane 10-25% du poids de la farine
 
 
 
@@ -86,18 +89,3 @@ process:
 
 # # Conservation
 # - Congélateur en tranche, puis au toaster
-
-# ## Ressources
-# - https://www.yumelise.fr/pain-lait-japonais-shokupan-methode-yudane/
-# - https://www.youtube.com/watch?v=COGZOn9Rdyc
-# - https://www.chainbaker.com/pain-de-mie-sandwich-bread-pullman-loaf-recipe/
-# - http://technomitron.aainb.com/recettes-2/pains-speciaux/pain-de-mie/
-# - https://www.youtube.com/watch?v=QXPh7ofJR0I
-# - https://www.youtube.com/watch?v=pMIqsA0ln3c
-# - https://www.chainbaker.com/tangzhong-yudane/
-
-
-
-# # Notes
-# - - de lait, faire un yudane avec de l'eau
-# - Laisser + ressuer, pour avoir une belle mie bien structuré

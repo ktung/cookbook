@@ -98,6 +98,10 @@
   name:
     fr: 200 - Frangipane
     en: 200 - Frangipane
+- filename: 200-lasagna.yml
+  name:
+    fr: 200 - Lasagna
+    en: 200 - Lasagna
 - filename: 200-pad-see-ew.yml
   name:
     fr: 200 - Pad See Ew
@@ -110,6 +114,10 @@
   name:
     fr: 200 - Pâte feuilletée
     en: 200 - Puff pastry
+- filename: 201-porc-caramel.yml
+  name:
+    fr: 201 - Porc caramel
+    en: 201 - Porc caramel
 - filename: 300-sourdough-bread.yml
   name:
     fr: 300 - Pain au levain

@@ -2,6 +2,7 @@ import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 import { marked } from 'marked';
 import { currentLanguage } from '$lib/services/language-util';
+import sanitizeHtml from 'sanitize-html';
 
 const notesFr = import.meta.glob('/static/notes/fr/*.md', {
   as: 'raw',
@@ -30,6 +31,6 @@ export const load: PageLoad = async ({ params }) => {
 
   return {
     title: 'test slug',
-    content: marked.parse(content),
+    content: sanitizeHtml(marked.parse(content) as string),
   };
 };

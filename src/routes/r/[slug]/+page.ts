@@ -7,6 +7,7 @@ interface Recipe {
   ingredients: { name: string; percentage: number }[];
   totalPercentage: number;
   presetTotalIngredient: number;
+  process: { fr: string; en?: string };
   notes: { fr: string; en?: string };
   references?: string[];
 }

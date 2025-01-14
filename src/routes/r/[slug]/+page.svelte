@@ -5,6 +5,7 @@
   import * as m from "$lib/paraglide/messages.js"
   import { currentLanguage } from "$lib/services/language-util";
   import { round2 } from "$lib/services/calculator";
+  import sanitizeHtml from 'sanitize-html';
 
   let { data }: { data: PageData } = $props();
   let recipe = data.recipe;
@@ -17,11 +18,13 @@
     .map(line => line.trim())
     .filter(line => line.length > 0)
     .map(line => `${line}<br />`)
+    .map(content => sanitizeHtml(content))
     .join('');
   let htmlNotes = !recipe.notes || !recipe.notes[currentLang] ? '' : recipe.notes[currentLang].split('\n')
     .map(line => line.trim())
     .filter(line => line.length > 0)
     .map(line => `${line}<br />`)
+    .map(content => sanitizeHtml(content))
     .join('');
 
   function ingredientOninput(newTotal: number) {
@@ -55,6 +58,7 @@
   <div class="process">
     {#if htmlProcess}
       <h3>Process</h3>
+      <!-- eslint-disable-next-line svelte/no-at-html-tags -- html is already sanitize -->
       <p>{@html htmlProcess}</p>
     {/if}
   </div>
@@ -62,6 +66,7 @@
   <div class="notes">
     {#if htmlNotes}
       <h3>Notes</h3>
+      <!-- eslint-disable-next-line svelte/no-at-html-tags -- html is already sanitize -->
       <p>{@html htmlNotes}</p>
     {/if}
   </div>

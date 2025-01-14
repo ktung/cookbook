@@ -13,11 +13,11 @@ const notesEn = import.meta.glob('/static/notes/en/*.md', {
   eager: true,
 });
 
-export const load: PageLoad = async ({ params, fetch }) => {
-  let currentLang = currentLanguage();
+export const load: PageLoad = async ({ params }) => {
+  const currentLang = currentLanguage();
 
   const path = `/static/notes/${currentLang}/${params.slug}.md`;
-  var content;
+  let content;
   if (currentLang === 'fr') {
     content = notesFr[path];
   } else {

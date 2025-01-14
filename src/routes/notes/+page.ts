@@ -9,7 +9,7 @@ interface Note {
 }
 
 export const load: PageLoad = async ({ fetch }) => {
-  let currentLang = currentLanguage();
+  const currentLang = currentLanguage();
 
   const responseyml = await fetch(`${base}/notes/${currentLang}/list.yml`);
   const yamlText = await responseyml.text();

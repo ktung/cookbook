@@ -2,7 +2,7 @@
   import { base } from "$app/paths";
   import { page } from "$app/state";
   import { i18n } from "$lib/i18n";
-  import { availableLanguageTags, languageTag, setLanguageTag } from "$lib/paraglide/runtime";
+  import { availableLanguageTags, languageTag } from "$lib/paraglide/runtime";
 </script>
 
 <div>

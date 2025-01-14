@@ -9,15 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20]
+        node-version: [22]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
 
       - name: Lint project
-        run: pnpm run eslint
+        run: pnpm run lint
 
       - name: Check outdated
         continue-on-error: true

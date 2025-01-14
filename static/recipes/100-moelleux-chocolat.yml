@@ -1,0 +1,26 @@
+name:
+  en: 100 - Chocolate cake
+  fr: 100 - Moelleux chocolat
+ingredients:
+  - name: darkChocolate
+    percentage: 100
+  - name: butter
+    percentage: 80
+  - name: egg
+    percentage: 100
+  - name: brownSugar
+    percentage: 80
+  - name: allPurposeFlour
+    percentage: 30
+  - name: salt
+    percentage: 2
+totalPercentage: 392
+presetTotalIngredient: 392
+process:
+  fr: |
+    Faire fondre le chocolat et le beurre
+    Blanchir les oeufs
+    Ajouter le mélange chocolat beurre
+    Ajouter farine et sel
+    Diviser en 8 portions
+    Cuisson 10mins 180°C ventilé

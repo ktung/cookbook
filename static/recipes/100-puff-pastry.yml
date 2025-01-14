@@ -1,0 +1,43 @@
+name:
+  en: 100 - Rough puff pastry
+  fr: 100 - Pâte feuilletée
+ingredients:
+  - name: allPurposeFlour
+    percentage: 40.2
+  - name: butter
+    percentage: 40.2
+  - name: water
+    percentage: 16.1
+  - name: salt
+    percentage: 0.4024144869
+  - name: whiteSugar
+    percentage: 3.01
+totalPercentage: 100
+presetTotalIngredient: 497
+process:
+  fr: |
+    - Ingrédients froid
+    - Mélange rapide non homogene, à la feuille, ajout de l'eau petit à petit jusqu'à consistence pate
+    - 1 tour double + 1 tour simple
+references:
+  - https://www.encoreungateau.com/pate-feuilletee-rapide-de-christophe-felder/
+  - https://www.iletaitunefoislapatisserie.com/2016/09/pate-feuilletee-rapide-et-facile.html
+  - https://www.youtube.com/watch?v=Enzpm9EzgrQ
+
+
+# - tourage 4mm
+# - beurre 190
+# - eau 80-100
+
+# |Farine T45|-|200g|
+# |Beurre froid|-|240g|
+# |Sucre|-|12-15|
+# |Sel|-|3g|
+# |Eau froide|-|90g|
+# |Total|548|
+
+# |Farine T45|-|500g|->200
+# |Beurre froid|-|400g|->160
+# |Sel|-|3| -> 1.2
+# |Eau froide|-|200g|-> 80
+# |Total|1113|

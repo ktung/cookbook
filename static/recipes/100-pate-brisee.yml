@@ -1,0 +1,19 @@
+name:
+  en: 100 - Pate brisee
+  fr: 100 - Pate brisee
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: eggYolk
+    percentage: 9
+  - name: water
+    percentage: 18
+  - name: salt
+    percentage: 3.65
+  - name: butter
+    percentage: 45.5
+totalPercentage: 278.43
+presetTotalIngredient: 388
+notes:
+  fr: |
+    ~1 cercle 24cm 4mm épaisseur

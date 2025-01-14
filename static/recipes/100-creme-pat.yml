@@ -1,0 +1,54 @@
+name:
+  en: 100 - Crème patissiere
+  fr: 100 - Crème patissiere
+ingredients:
+  - name: milk
+    percentage: 150
+  - name: cream35
+    percentage: 100
+  - name: eggYolk
+    percentage: 60
+  - name: whiteSugar
+    percentage: 50
+  - name: cornStrach
+    percentage: 25
+totalPercentage: 385
+presetTotalIngredient: 385
+process:
+  fr: |
+    - Faire chauffer le lait (70-80C)
+    - Blanchir les oeufs
+    - Ajouter la fécule aux oeufs
+    - Ajouter un peu de lait chaud
+    - Remettre le tout à la casserole jusqu'à consistence
+notes:
+  fr: |
+    - un peu de sucre au fond de la casserole pour éviter que la caséine accroche
+references:
+  - https://www.youtube.com/watch?v=i8oCOJ9H-tI
+  - https://parissecret.com/la-recette-de-la-galette-des-rois-a-la-frangipane-de-cyril-lignac/
+  - https://www.lesdouceursdemanon.fr/post/galette-des-rois
+
+# |Creme patissiere|-|-|
+# |-|-|-|
+# |Lait|-|150|
+# |Creme fraiche|-|100|
+# |Sucre|-|50|
+# |Jaunes oeuf|-|60|
+# |Gousse vanille|-|1|
+# |Fécule mais|-|25|
+# |Total|-|385|
+
+# |Creme patissiere|-|-|
+# |-|-|-|
+# |Lait|-|250|
+# |Sucre|-|50|
+# |Oeuf|-|100|
+# |Farine|-|30|
+# |Gousse vanille|-|1|
+# |Total|-|430|
+
+# - Fouettez les oeufs avec le sucre jusqu’à ce que le mélange blanchisse
+# - Ajoutez la farine, mélangez.
+# - Fendez la gousse de vanille en deux. Récupérez les graines et ajoutez-les avec le lait dans une casserole
+# - Faites épaissir à feu doux. Filmez avec du film alimentaire et laissez refroidir une heure.

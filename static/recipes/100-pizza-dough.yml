@@ -1,0 +1,19 @@
+name:
+  en: 100 - Pizza Dough
+  fr: 100 - Pate à pizza
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: water
+    percentage: 59
+  - name: activeDryYeast
+    percentage: 0.8
+  - name: salt
+    percentage: 2.5
+  - name: oliveOil
+    percentage: 3
+totalPercentage: 165.3
+presetTotalIngredient: 826
+notes:
+  fr: |
+    1 pâton = 270g

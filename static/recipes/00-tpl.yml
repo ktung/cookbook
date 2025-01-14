@@ -1,0 +1,16 @@
+name:
+  en: 00 - tpl
+  fr: 00 - tpl
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+totalPercentage: 100
+presetTotalIngredient: 100
+process:
+  fr: |
+    ..
+notes:
+  fr: |
+    ..
+references:
+  - ..

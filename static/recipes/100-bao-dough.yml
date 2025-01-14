@@ -1,0 +1,19 @@
+name:
+  en: 100 - Bao Dough
+  fr: 100 - Pate à bao
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: water
+    percentage: 50
+  - name: activeDryYeast
+    percentage: 1
+  - name: bakingPowder
+    percentage: 1
+  - name: whiteSugar
+    percentage: 6
+totalPercentage: 158
+presetTotalIngredient: 790
+notes:
+  fr: |
+    1 bao ~= 66g

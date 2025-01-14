@@ -1,9 +1,8 @@
 {
   "recommendations": [
-    "csstools.postcss",
-    "lokalise.i18n-ally",
-    "bradlc.vscode-tailwindcss",
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint"
+    "svelte.svelte-vscode",
+    "inlang.vs-code-extension",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one"
   ]
 }

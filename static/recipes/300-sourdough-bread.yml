@@ -1,0 +1,16 @@
+name:
+  en: 300 - Sourdough bread
+  fr: 300 - Pain au levain
+ingredients:
+  - name: allPurposeFlourT55
+    percentage: 87.5
+  - name: breadFlourT165
+    percentage: 12.5
+  - name: water
+    percentage: 75
+  - name: stiffStarter
+    percentage: 17.5
+  - name: salt
+    percentage: 2
+totalPercentage: 194.5
+presetTotalIngredient: 778

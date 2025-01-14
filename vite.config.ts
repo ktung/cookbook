@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { paraglide } from '@inlang/paraglide-sveltekit/vite'
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: '/cookbook/'
-})
+  plugins: [
+    paraglide({ project: './project.inlang', outdir: './src/lib/paraglide' }),
+    sveltekit()
+  ]
+});

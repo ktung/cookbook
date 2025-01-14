@@ -1,0 +1,18 @@
+name:
+  en: 200 - Banh Xeo
+  fr: 200 - Banh Xeo
+# ingredients:
+#   - name: allPurposeFlour
+#     percentage: 100
+# totalPercentage: 100
+# presetTotalIngredient: 100
+process:
+  fr: |
+    ..
+notes:
+  fr: |
+    ..
+references:
+  - https://misstamkitchenette.com/crepe-vietnamienne-farcie-aux-crevettes-au-porc-banh-xeo/
+  - https://www.cookingwithmorgane.com/fr/recette/crepe-banh-xeo.html
+  - https://christinapotvin.com/banh-xeo/

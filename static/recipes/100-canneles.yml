@@ -1,0 +1,25 @@
+name:
+  en: 100 - Canneles
+  fr: 100 - Cannelés
+ingredients:
+  - name: milk
+    percentage: 100
+  - name: butter
+    percentage: 10
+  - name: vanillaExtract
+    percentage: 3
+  - name: egg
+    percentage: 20
+  - name: eggYolk
+    percentage: 8
+  - name: allPurposeFlour
+    percentage: 20
+  - name: whiteSugar
+    percentage: 36
+  - name: rhum
+    percentage: 5
+totalPercentage: 197
+presetTotalIngredient: 1010
+notes:
+  fr: |
+    1 cannelés ~= 58g

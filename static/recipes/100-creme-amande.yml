@@ -1,0 +1,48 @@
+name:
+  en: 100 - Crème amande
+  fr: 100 - Crème amande
+ingredients:
+  - name: milk
+    percentage: 100
+  - name: egg
+    percentage: 100
+  - name: whiteSugar
+    percentage: 100
+  - name: egg
+    percentage: 100
+totalPercentage: 100
+presetTotalIngredient: 100
+process:
+  fr: |
+    ..
+notes:
+  fr: |
+    ..
+references:
+  - https://www.youtube.com/watch?v=i8oCOJ9H-tI
+  - https://parissecret.com/la-recette-de-la-galette-des-rois-a-la-frangipane-de-cyril-lignac/
+
+
+# |Creme amande|-|-|
+# |-|-|-|
+# |Beurre pommade|-|75|
+# |Sucre|-|75|
+# |Poudre amande|-|75|
+# |Jaunes oeuf|-|40|
+# |Fécule mais|-|10|
+# |Total|-|275|
+
+# |Creme amande|-|-|
+# |-|-|-|
+# |Beurre pommade|-|125|
+# |Sucre|-|100|
+# |Poudre amande|-|125|
+# |Jaunes oeuf|-|60|
+# |Total|-|410|
+
+# - mélangez le beurre pommade et le sucre jusqu’à ce que le mélange blanchisse.
+# - Ajoutez les jaunes d’oeufs un à un
+# - puis la poudre d’amandes.
+
+# # Notes
+# - Jaune oeuf ~= 20g

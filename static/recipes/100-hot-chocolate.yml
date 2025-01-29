@@ -3,12 +3,17 @@ name:
   fr: 100 - Chocholat chaud
 ingredients:
   - name: milk
-    percentage: 92.10526316
+    percentage: 80
   - name: cocoaPowder
-    percentage: 3.50877193
+    percentage: 3.5
+  - name: darkChocolate
+    percentage: 20
   - name: whiteSugar
-    percentage: 4.385964912
-totalPercentage: 100
+    percentage: 4
+  - name: cornStartch
+    percentage: 1
+  - name: salt
+    percentage: 0.2
 presetTotalIngredient: 342
 process:
   fr: |
@@ -18,3 +23,13 @@ references:
   - https://ici.radio-canada.ca/mordu/recettes/1877/chocolat-chaud-maison
   - https://www.youtube.com/watch?v=pn-W0DVQw8Y
   - https://www.youtube.com/shorts/buFbKP9z4kY
+  - https://anitalianinmykitchen.com/italian-hot-chocolate/
+
+  # https://www.youtube.com/watch?v=Rsh9jv-2I9o
+
+# 50g ( 2 ounces) Dark Chocolate 70 % cocoa
+# 1 tbsp (7g) Unsweetened Cocoa Powder
+# 1 tbsp (15g) Sugar
+# 1/2 tbsp (5g) Cornstarch (If you want it thicker, add 3/4 tbsp)
+# 240ml (1 cup) Milk
+# Pinch of Salt

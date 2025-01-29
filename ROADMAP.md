@@ -1,15 +1,19 @@
 # Roadmap
+## 2.0.1
+- [x] Remove useless totalPercentage
+- [x] add costs
+- [x] Deploy spa non static : cloudflare/vercel
+- [x] https://developer.mozilla.org/en-US/docs/Web/API/Screen_Wake_Lock_API
+  - Cook Mode Prevent your screen from going dark
+
 ## 2.0.0
-- Redo with sveltekit
+- [x] Redo with sveltekit
 
 ## Backlog
 - dark mode (colors schmes css)
 - pre commit reorganize i18n ordre alphabétique
-- https://developer.mozilla.org/en-US/docs/Web/API/Screen_Wake_Lock_API
-  - Cook Mode Prevent your screen from going dark
+
 - fix notes (import is weird, test with trad)
-- add costs
-- do i need totalPercentage ?
 - color-scheme
 
 ## V1.2.0

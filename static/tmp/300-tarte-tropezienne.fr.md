@@ -129,8 +129,3 @@ https://cuisine.journaldesfemmes.fr/recette/3138894-tarte-tropezienne-la-vraie-r
 |Total|-|-|
 https://www.youtube.com/watch?v=kdNzrRxuFr0
 ---
-- https://www.ricardocuisine.com/recettes/4016-creme-brulee
-- https://www.lesoeufs.ca/recettes/creme-brulee
-- https://erableduquebec.ca/recettes/creme-brulee-a-lerable/
-- https://ici.radio-canada.ca/tele/la-cuisine-d-isabelle-et-ricardo/site/segments/recette/478943/creme-brulee-dessert
-- https://philippe-etchebest.com/la-creme-brulee/?utm_source=Youtube&utm_medium=Description&utm_campaign=100

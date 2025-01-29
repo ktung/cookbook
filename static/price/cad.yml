@@ -1,0 +1,56 @@
+egg:
+  price: 0.005993333333 # 8.99/30/50
+  source: Costco
+  lastCheckDate: 2025-01-09
+whiteSugar:
+  price: 0.001645 # 3.29/2000
+  source: Metro
+  lastCheckDate: 2025-01-09
+allPurposeFlour:
+  price: 0.002 # 20/10000
+  source: Metro
+  lastCheckDate: 2025-01-09
+butter:
+  price: 0.01295154185 # 5.88/454
+  source: Metro
+  lastCheckDate: 2025-01-09
+bakingPowder:
+  price: 0.01467647059 # 4.99/340
+  source: Metro
+  lastCheckDate: 2025-01-09
+oatMilk:
+  price: 0.002565714286 # 4.49/1750
+  source: Metro
+  lastCheckDate: 2025-01-09
+salt:
+  price: 0.008 # 0.8/100
+  source: Metro
+  lastCheckDate: 2025-01-09
+activeDryYeast:
+  price: 0.05123893805 # 5.79/113
+  source: Metro
+  lastCheckDate: 2025-01-09
+semolinaFlour:
+  price: 0.005501653804 # 4.99/907
+  source: Metro
+  lastCheckDate: 2025-01-09
+onion:
+  price: 0.0022 # 0.22/100
+  source: Metro
+  lastCheckDate: 2025-01-26
+garlic:
+  price: 0.01 # 1/100
+  source: Metro
+  lastCheckDate: 2025-01-26
+ginger:
+  price: 0.00877 # 8.77/1000
+  source: Metro
+  lastCheckDate: 2025-01-26
+fishSauce:
+  price: 0.016 # 1.60/100
+  source: Metro
+  lastCheckDate: 2025-01-26
+porkBelly:
+  price: 0.01654696133 # 5.99/362
+  source: Marche Newon
+  lastCheckDate: 2025-01-26

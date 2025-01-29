@@ -12,7 +12,6 @@ ingredients:
     percentage: 0.4024144869
   - name: whiteSugar
     percentage: 3.01
-totalPercentage: 100
 presetTotalIngredient: 497
 process:
   fr: |

@@ -6,7 +6,6 @@ ingredients:
     percentage: 33
   - name: cremeAmande
     percentage: 67
-totalPercentage: 100
 presetTotalIngredient: 100
 process:
   fr: |

@@ -16,7 +16,6 @@ ingredients:
     percentage: 10
   - name: butter
     percentage: 30
-totalPercentage: 205.6
 presetTotalIngredient: 1028
 notes:
   fr: |

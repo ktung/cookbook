@@ -12,7 +12,6 @@ ingredients:
     percentage: 50
   - name: cornStrach
     percentage: 25
-totalPercentage: 385
 presetTotalIngredient: 385
 process:
   fr: |

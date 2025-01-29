@@ -10,7 +10,6 @@ ingredients:
     percentage: 100
   - name: egg
     percentage: 100
-totalPercentage: 100
 presetTotalIngredient: 100
 process:
   fr: |

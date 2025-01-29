@@ -6,11 +6,10 @@ ingredients:
     percentage: 100
   - name: water
     percentage: 44
-  - name: meltedButter
+  - name: butter # meltedButter
     percentage: 10
   - name: salt
     percentage: 2.4
   - name: butter
     percentage: 76
-totalPercentage: 232.4
 presetTotalIngredient: 500

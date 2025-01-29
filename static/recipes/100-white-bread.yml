@@ -10,7 +10,6 @@ ingredients:
     percentage: 0.5
   - name: salt
     percentage: 1.8
-totalPercentage: 166.3
 presetTotalIngredient: 832
 process:
   fr: |

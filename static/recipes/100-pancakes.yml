@@ -16,7 +16,6 @@ ingredients:
     percentage: 128.6
   - name: egg
     percentage: 16.6
-  - name: meltedButter
+  - name: butter # meltedButter
     percentage: 7
-totalPercentage: 278.43
 presetTotalIngredient: 836

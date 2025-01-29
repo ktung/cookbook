@@ -24,7 +24,6 @@ ingredients:
     percentage: 0
   - name: water
     percentage: 0
-totalPercentage: 0
 presetTotalIngredient: 0
 process:
   fr: |

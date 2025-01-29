@@ -10,11 +10,10 @@
 - [x] Redo with sveltekit
 
 ## Backlog
+- fix notes (import is weird, test with trad)
+
 - dark mode (colors schmes css)
 - pre commit reorganize i18n ordre alphabétique
-
-- fix notes (import is weird, test with trad)
-- color-scheme
 
 ## V1.2.0
 - [ ] Add calcutrice ? (simple division de total/parts)

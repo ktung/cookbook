@@ -38,6 +38,10 @@
   name:
     fr: 100 - Madeleines
     en: 100 - Madeleines
+- filename: 100-mashed-potatoes.yml
+  name:
+    fr: 100 - Puree
+    en: 100 - Mashed potates
 - filename: 100-moelleux-chocolat.yml
   name:
     fr: 100 - Moelleux chocolat

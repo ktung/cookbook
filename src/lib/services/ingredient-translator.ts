@@ -35,6 +35,7 @@ export function translate(name: string) {
     case 'garlic': return m.garlic();
     case 'ginger': return m.ginger();
     case 'fishSauce': return m.fishSauce();
+    case 'wholeMilk3_25': return m.wholeMilk3_25();
 
     default: return name;
   }

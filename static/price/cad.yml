@@ -62,3 +62,11 @@ potatoes:
   price: 0.00131938326 # 5.99/4540
   source: IGA
   lastCheckDate: 2025-01-30
+brownSugar:
+  price: 0.00329 # 3.29/1000
+  source: Metro
+  lastCheckDate: 2025-02-02
+semiSaltedButter:
+  price: 0.01295154185 # 5.88/454
+  source: Metro
+  lastCheckDate: 2025-02-02

@@ -12,6 +12,7 @@
 ## Backlog
 - fix notes (import is weird, test with trad)
 - recipes sections
+- indicateur draft ?
 
 - dark mode (colors schmes css)
 - pre commit reorganize i18n ordre alphabétique

@@ -22,6 +22,10 @@
   name:
     fr: 100 - Crème patissiere
     en: 100 - Crème patissiere
+- filename: 100-crepes.yml
+  name:
+    fr: 100 - Crepes
+    en: 100 - Crepes
 - filename: 100-financiers.yml
   name:
     fr: 100 - Financier

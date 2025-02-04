@@ -34,6 +34,10 @@
   name:
     fr: 100 - Gnocchis
     en: 100 - Gnocchis
+- filename: 100-gratin-chou-fleur.yml
+  name:
+    fr: 100 - Gratin chou fleur
+    en: 100 - Gratin Cauliflower
 - filename: 100-hot-chocolate.yml
   name:
     fr: 100 - Chocholat chaud

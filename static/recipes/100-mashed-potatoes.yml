@@ -8,7 +8,13 @@ ingredients:
     percentage: 20
   - name: butter
     percentage: 2
-presetTotalIngredient: 1220
+  - name: salt
+    percentage: 0.4
+  - name: pepper
+    percentage: 0.2
+  - name: nutmeg
+    percentage: 0.2
+presetTotalIngredient: 1228
 process:
   fr: |
     - Cuire les pommes de terre

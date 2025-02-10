@@ -24,7 +24,6 @@
   "rhum": "Rhum",
   "oliveOil": "Huile d'olive",
   "cream35": "Crème 35%",
-  "wholeMilk": "Lait entier",
   "cornStrach": "Fécule mais",
   "vegetableOil": "Huile neutre",
   "stiffStarter": "Levain pateux",
@@ -37,5 +36,10 @@
   "onion": "Oignon",
   "garlic": "Ail",
   "ginger": "Gingembre",
-  "fishSauce": "Sauce poisson"
+  "fishSauce": "Sauce poisson",
+  "wholeMilk3_25": "Lait entier 3.25%",
+  "semiSaltedButter": "Beurre demi-sel",
+  "unsaltedButter": "Beurre non salé",
+  "flour00": "Farine 00",
+  "unsaltedButter82": "Beurre non salé"
 }

@@ -1,7 +1,9 @@
 # Changelog
 - [Svelte](https://github.com/sveltejs/svelte/blob/main/packages/svelte/CHANGELOG.md)
-- [Sveltekit](https://github.com/sveltejs/kit/blob/main/packages/kit/CHANGELOG.md)
+- [@sveltejs/kit](https://github.com/sveltejs/kit/blob/main/packages/kit/CHANGELOG.md)
 - [Svelte-Check](https://github.com/sveltejs/language-tools/releases)
+- [@sveltejs/adapter-cloudflare](https://github.com/sveltejs/kit/blob/main/packages/adapter-cloudflare/CHANGELOG.md)
+- [@sveltejs/adapter-vercel](https://github.com/sveltejs/kit/blob/main/packages/adapter-vercel/CHANGELOG.md)
 - [eslint](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
 - [@eslint/compat](https://github.com/eslint/rewrite/blob/main/packages/compat/CHANGELOG.md)
 - [Marked](https://github.com/markedjs/marked/releases)
@@ -14,5 +16,7 @@
 - [vite](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md)
 - [Node](https://github.com/nodejs/node/blob/main/CHANGELOG.md)
 - [pnpm](https://github.com/pnpm/pnpm/releases)
+- [@vercel/analytics](https://github.com/vercel/analytics/releases)
+- [@vercel/speed-insights](https://github.com/vercel/speed-insights/releases)
 
 `pnpm update <pkg>`

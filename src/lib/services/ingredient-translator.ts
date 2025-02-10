@@ -21,7 +21,6 @@ export function translate(name: string) {
     case 'rhum': return m.rhum();
     case 'oliveOil': return m.oliveOil();
     case 'cream35': return m.cream35();
-    case 'wholeMilk': return m.wholeMilk();
     case 'cornStrach': return m.cornStrach();
     case 'vegetableOil': return m.vegetableOil();
     case 'stiffStarter': return m.stiffStarter();
@@ -35,6 +34,11 @@ export function translate(name: string) {
     case 'garlic': return m.garlic();
     case 'ginger': return m.ginger();
     case 'fishSauce': return m.fishSauce();
+    case 'wholeMilk3_25': return m.wholeMilk3_25();
+    case 'semiSaltedButter': return m.semiSaltedButter();
+    case 'unsaltedButter': return m.unsaltedButter();
+    case 'flour00': return m.flour00();
+    case 'unsaltedButter82': return m.unsaltedButter82();
 
     default: return name;
   }

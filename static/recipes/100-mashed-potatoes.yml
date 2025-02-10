@@ -1,0 +1,25 @@
+name:
+  en: 100 - Mashed potates
+  fr: 100 - Puree
+ingredients:
+  - name: potatoes
+    percentage: 100
+  - name: wholeMilk3_25
+    percentage: 20
+  - name: butter
+    percentage: 2
+  - name: salt
+    percentage: 0.4
+  - name: pepper
+    percentage: 0.2
+  - name: nutmeg
+    percentage: 0.2
+presetTotalIngredient: 1228
+process:
+  fr: |
+    - Cuire les pommes de terre
+    - Passer les pommes de terre à l'écraseur
+    - Ajouter lait et beurre jusqu'à consistence
+    - Assaisonner sel, poivre, muscade
+references:
+  - https://www.marmiton.org/recettes/recette_puree-de-pommes-de-terre-maison_28054.aspx

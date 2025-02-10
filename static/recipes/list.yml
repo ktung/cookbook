@@ -10,6 +10,10 @@
   name:
     fr: 100 - Cannelés
     en: 100 - Canneles
+- filename: 100-ciabatta.yml
+  name:
+    fr: 100 - Ciabatta
+    en: 100 - Ciabatta
 - filename: 100-creme-amande.yml
   name:
     fr: 100 - Crème amande
@@ -22,6 +26,10 @@
   name:
     fr: 100 - Crème patissiere
     en: 100 - Crème patissiere
+- filename: 100-crepes.yml
+  name:
+    fr: 100 - Crepes
+    en: 100 - Crepes
 - filename: 100-financiers.yml
   name:
     fr: 100 - Financier
@@ -30,6 +38,10 @@
   name:
     fr: 100 - Gnocchis
     en: 100 - Gnocchis
+- filename: 100-gratin-chou-fleur.yml
+  name:
+    fr: 100 - Gratin chou fleur
+    en: 100 - Gratin Cauliflower
 - filename: 100-hot-chocolate.yml
   name:
     fr: 100 - Chocholat chaud
@@ -38,6 +50,10 @@
   name:
     fr: 100 - Madeleines
     en: 100 - Madeleines
+- filename: 100-mashed-potatoes.yml
+  name:
+    fr: 100 - Puree
+    en: 100 - Mashed potates
 - filename: 100-moelleux-chocolat.yml
   name:
     fr: 100 - Moelleux chocolat
@@ -118,7 +134,15 @@
   name:
     fr: 201 - Porc caramel
     en: 201 - Porc caramel
+- filename: 300-pate-levee-feuilletee.yml
+  name:
+    fr: 300 - Pâte levée feuilletée
+    en: 300 - Pâte levée feuilletée
 - filename: 300-sourdough-bread.yml
   name:
     fr: 300 - Pain au levain
     en: 300 - Sourdough bread
+- filename: 301-pate-levee-feuilletee.yml
+  name:
+    fr: 301 - Pâte levée feuilletée
+    en: 301 - Pâte levée feuilletée

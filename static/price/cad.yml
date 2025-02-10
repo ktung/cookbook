@@ -54,3 +54,35 @@ porkBelly:
   price: 0.01654696133 # 5.99/362
   source: Marche Newon
   lastCheckDate: 2025-01-26
+wholeMilk3_25:
+  price: 0.00235 # 2.35/1000
+  source: IGA
+  lastCheckDate: 2025-01-30
+potatoes:
+  price: 0.00131938326 # 5.99/4540
+  source: IGA
+  lastCheckDate: 2025-01-30
+brownSugar:
+  price: 0.00329 # 3.29/1000
+  source: Metro
+  lastCheckDate: 2025-02-02
+semiSaltedButter:
+  price: 0.01295154185 # 5.88/454
+  source: Metro
+  lastCheckDate: 2025-02-02
+unsaltedButter:
+  price: 0.01295154185 # 5.88/454
+  source: Metro
+  lastCheckDate: 2025-02-02
+unsaltedButter82:
+  price: 0.01870044053 # 8.49/454
+  source: Adonis
+  lastCheckDate: 2025-02-09
+flour00:
+  price: 0.00599 # 5.99/1000
+  source: Adonis
+  lastCheckDate: 2025-02-09
+tofu:
+  price: 0.005592 # 6.99/1250
+  source: Adonis
+  lastCheckDate: 2025-02-09

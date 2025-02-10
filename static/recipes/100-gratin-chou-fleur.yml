@@ -1,0 +1,22 @@
+name:
+  en: 100 - Gratin Cauliflower
+  fr: 100 - Gratin chou fleur
+ingredients:
+  - name: cautiflower
+    percentage: 1000
+  - name: butter
+    percentage: 40
+  - name: allPurposeFlour
+    percentage: 40
+  - name: wholeMilk3_25
+    percentage: 280
+presetTotalIngredient: 100
+process:
+  fr: |
+    - Cuire le chou fleur (~6-10mins dans l'eau bouillante)
+    - Préparer la béchamel
+    - Mettre chou fleur avec béchamel dans un plat, + fromage
+    - Cuisson 30mins 180C conventionnel
+references:
+  - https://www.marmiton.org/recettes/recette_gratin-de-chou-fleur_23112.aspx
+  - https://www.ricardocuisine.com/recettes/6425-gratin-de-chou-fleur

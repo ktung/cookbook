@@ -36,6 +36,9 @@ export function translate(name: string) {
     case 'fishSauce': return m.fishSauce();
     case 'wholeMilk3_25': return m.wholeMilk3_25();
     case 'semiSaltedButter': return m.semiSaltedButter();
+    case 'unsaltedButter': return m.unsaltedButter();
+    case 'flour00': return m.flour00();
+    case 'unsaltedButter82': return m.unsaltedButter82();
 
     default: return name;
   }

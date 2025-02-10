@@ -1,0 +1,113 @@
+name:
+  en: 300 - Pâte levée feuilletée
+  fr: 300 - Pâte levée feuilletée
+ingredients:
+  - name: allPurposeFlour
+    percentage: 50
+  - name: flour00
+    percentage: 50
+  - name: whiteSugar
+    percentage: 11.53846154
+  - name: honey
+    percentage: 1.923076923
+  - name: salt
+    percentage: 1.923076923
+  - name: activeDryYeast
+    percentage: 1.923076923
+  - name: unsaltedButter
+    percentage: 9.615384615
+  - name: wholeMilk3_25
+    percentage: 19.23076923
+  - name: water
+    percentage: 30.76923077
+  - name: unsaltedButter82
+    percentage: 46.15384615
+presetTotalIngredient: 580
+process:
+  fr: |
+    - Pétrissage 3mins en 1re, 8mins en 2e. Doit etre bien pétri
+    - Pointage 15mins puis passage au froid
+    - Abaisse pate et beurre à 4mm
+    - Tourrage 6mm : 1 tour double, 1 tour simple
+    - Détaillage 4mm
+    - 29x8cm
+    - pousse 25-26°C humide 2h30
+    - dorrure
+    - cuisson 175°C 20mins
+    - ressuage grille 20mins
+  # - ---
+  # - Pétrissage
+  #   - Mélanger l'ensemble des ingrédients, beurre à la fin
+  # - Filmer. Pointage 10-30 mins (20-22°C)
+  # - Abaisse 1-2cm d'épaisseur
+  # - 15-30mins congel pour bloquer la fermentation
+  # - Passage frigo 4°C 30mins - 12h
+  # - Préparer beurre tourrage à la taille L/2 x l et épaisseur bien répartit
+  # - Incorporer le beurre : même consistence que la pate
+  # - Abaisse 4-5mm d'épaisseur (~50x20cm)
+  # - Tour double, ouvrir les plis
+  # - Froid 30mins minimum
+  # - Abaisse 4-5mm d'épaisseur (~47x20cm)
+  # - Tour simple, ouvrir les plis
+  # - Froid 30mins minimum
+  # - Abaisse 27x27cm
+  # - Détaillage
+  #   - 2 croissants : 8x28cm, pis diagonale
+  #   - 1 chocolatine : 8x15x0,04cm
+  # - Façonnage
+  #   - Entaille la base au milieu de 1-1,5cm pour étirer
+  #   - Enrouler sans appuyer pour ne pas abimer le feuillatage
+  #   - Pointe en bas pour pas que ça se décolle à la cuisson
+  # - Apprêt 2h-2h30 27°-28°. Hygrométrie 85% (Pas trop chaud, le beurre ne doit pas fondre)
+  # - Dorer avec un spray pour une pas abimer les feuillets
+  # - Cuisson ventilé sur plaque perforée minimum 16mins
+  #   - Doit bien avoir sécher : peut être soulever sans se plier
+  # - Ressuage grille 20mins
+notes:
+  fr: |
+    - Ingrédient froid, pâte froide
+    - Beurre de tourrage 25 à 27% de la détrempe (~120g)
+    - 1 croissant pro = 70-80g de pate cru
+    - 1 croissant CAP/maison = 65-70g de pate cru
+    - Congel : décongeler la veille dans le four éteint (8h), préchauffer, dorer, cuisson.
+    - 45-50% hydratation (lait + eau)
+    - Lors de la découpe de la pate, si rétrécit = trop chaud
+    - Toujours avoir la même consistence pâte/beurre pour que le beurre ne marbre pas la pâte
+    - Remplacer le beurre de tourrage
+      - Utiliser un beurre avec minimum 82% de matiere grasses
+      - Utiliser un beurre "sec" : avec le plus d'acides gras saturés. Ça devrait augmenter la témpérature de fusion
+references:
+  - https://www.youtube.com/watch?v=KDDj722y3I8
+  # - https://www.youtube.com/watch?v=al--1T_9lgM
+  # - https://www.youtube.com/watch?v=Ku9wAbLbI9A
+  - http://technomitron.aainb.com/constituants-viennoiserie-patisserie/le-beurre/
+  - https://karine-cuisine.blogspot.com/2017/08/les-croissants-la-pate-feuilletee-levee.html
+  - http://technomitron.aainb.com/recettes-2/viennoiserie/pate-levee-feuilletee-riche-sur-poolish-1-3-rapide/
+  - https://www.youtube.com/watch?v=tO4C1Ur-OZA
+  - https://www.youtube.com/watch?v=TN4jkD43ymI
+  - https://www.youtube.com/watch?v=9nqe3Pjh5F8
+  - https://www.youtube.com/watch?v=9-pZt0_wMDQ
+  - https://www.youtube.com/watch?v=50-yxbahn5I
+  - https://www.youtube.com/watch?v=2wsiqF65Dec
+  - https://www.youtube.com/watch?v=QBHdCd0u6UE
+  - https://www.youtube.com/watch?v=zJB0MWkyy4c
+  - https://www.youtube.com/watch?v=bWkqIdZZJdY
+  - https://www.youtube.com/watch?v=6EiPq6q_-kg
+  - https://www.youtube.com/watch?v=d-qe7eaZ2qY
+  - https://www.youtube.com/watch?v=ByARoxgNEjo
+
+# ----
+
+# ## Cuisson
+# > 17mins 200°C ventilé sur plaque perforée :
+# > 17mins 190°C ventilé sur plaque perforée.
+# > 18mins 180°C ventilé sur plaque perforée.
+# > 1min30 200°C ventilé puis 18mins 175°C sur plaque perforée.
+# > choco 175°C 17mins + 3mins 160°C
+
+# # Notes
+# - Cuisson 160-210°C, minimum 16mins
+# - Mise en plaque : ouverture dos au vent de la ventilation du four pour éviter l'ouverture à la cuisson. Sens horaire
+# - Farine forte en protéines pour être plus riche en gluten 13/15g prot/100g
+# - Beurre froid "dur", sortir le beurre. Attendre jusqu'à qu'il soit plastique puis sortir le paton. Pour avoir la même consistence
+# - Test de pétrissage : prendre une part, bouler, étirer. Réseau non créée = le croissant peut casser à la pousse

@@ -10,6 +10,10 @@
   name:
     fr: 100 - Cannelés
     en: 100 - Canneles
+- filename: 100-ciabatta.yml
+  name:
+    fr: 100 - Ciabatta
+    en: 100 - Ciabatta
 - filename: 100-creme-amande.yml
   name:
     fr: 100 - Crème amande
@@ -130,7 +134,15 @@
   name:
     fr: 201 - Porc caramel
     en: 201 - Porc caramel
+- filename: 300-pate-levee-feuilletee.yml
+  name:
+    fr: 300 - Pâte levée feuilletée
+    en: 300 - Pâte levée feuilletée
 - filename: 300-sourdough-bread.yml
   name:
     fr: 300 - Pain au levain
     en: 300 - Sourdough bread
+- filename: 301-pate-levee-feuilletee.yml
+  name:
+    fr: 301 - Pâte levée feuilletée
+    en: 301 - Pâte levée feuilletée

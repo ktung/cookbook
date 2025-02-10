@@ -70,3 +70,19 @@ semiSaltedButter:
   price: 0.01295154185 # 5.88/454
   source: Metro
   lastCheckDate: 2025-02-02
+unsaltedButter:
+  price: 0.01295154185 # 5.88/454
+  source: Metro
+  lastCheckDate: 2025-02-02
+unsaltedButter82:
+  price: 0.01870044053 # 8.49/454
+  source: Adonis
+  lastCheckDate: 2025-02-09
+flour00:
+  price: 0.00599 # 5.99/1000
+  source: Adonis
+  lastCheckDate: 2025-02-09
+tofu:
+  price: 0.005592 # 6.99/1250
+  source: Adonis
+  lastCheckDate: 2025-02-09

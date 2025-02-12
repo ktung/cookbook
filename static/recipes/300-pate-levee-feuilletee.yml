@@ -13,8 +13,8 @@ ingredients:
   - name: salt
     percentage: 1.923076923
   - name: activeDryYeast
-    percentage: 1.923076923
-  - name: unsaltedButter
+    percentage: 2.307692308
+  - name: unsaltedButter82
     percentage: 9.615384615
   - name: wholeMilk3_25
     percentage: 19.23076923
@@ -22,19 +22,19 @@ ingredients:
     percentage: 30.76923077
   - name: unsaltedButter82
     percentage: 46.15384615
-presetTotalIngredient: 580
+presetTotalIngredient: 581
 process:
   fr: |
     - Pétrissage 3mins en 1re, 8mins en 2e. Doit etre bien pétri
-    - Pointage 15mins puis passage au froid
+    - Pointage 15mins (T.26°C) puis passage au froid
     - Abaisse pate et beurre à 4mm
     - Tourrage 6mm : 1 tour double, 1 tour simple
     - Détaillage 4mm
     - 29x8cm
-    - pousse 25-26°C humide 2h30
-    - dorrure
-    - cuisson 175°C 20mins
-    - ressuage grille 20mins
+    - Apprêt 25-26°C humide 2h30
+    - Dorrure
+    - Cuisson 175°C 17mins
+    - Ressuage grille 20mins
   # - ---
   # - Pétrissage
   #   - Mélanger l'ensemble des ingrédients, beurre à la fin
@@ -65,6 +65,7 @@ process:
   # - Ressuage grille 20mins
 notes:
   fr: |
+    - Use instant yeast https://www.youtube.com/watch?v=mz3FAr2z2pI
     - Ingrédient froid, pâte froide
     - Beurre de tourrage 25 à 27% de la détrempe (~120g)
     - 1 croissant pro = 70-80g de pate cru

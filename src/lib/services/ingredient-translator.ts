@@ -39,6 +39,7 @@ export function translate(name: string) {
     case 'unsaltedButter': return m.unsaltedButter();
     case 'flour00': return m.flour00();
     case 'unsaltedButter82': return m.unsaltedButter82();
+    case 'instantYeast': return m.instantYeast();
 
     default: return name;
   }

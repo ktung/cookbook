@@ -102,3 +102,7 @@ lettuce:
   price: 0.02240384615 # 6.99/312
   source: IGA
   lastCheckDate: 2025-02-12
+instantYeast:
+  price: 0.01759911894 # 7.99/454
+  source: Adonis
+  lastCheckDate: 2025-02-14

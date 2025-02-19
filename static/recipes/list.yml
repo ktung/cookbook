@@ -146,6 +146,10 @@
   name:
     fr: 301 - Pâte levée feuilletée
     en: 301 - Pâte levée feuilletée
+- filename: 302-pate-levee-feuilletee.yml
+  name:
+    fr: 302 - Pâte levée feuilletée
+    en: 302 - Pâte levée feuilletée
 - filename: 400-burger.yml
   name:
     fr: 400 - Burger

@@ -1,5 +1,5 @@
 # Changelog
-- [Svelte](https://github.com/sveltejs/svelte/blob/main/packages/svelte/CHANGELOG.md)
+- [svelte](https://github.com/sveltejs/svelte/blob/main/packages/svelte/CHANGELOG.md)
 - [@sveltejs/kit](https://github.com/sveltejs/kit/blob/main/packages/kit/CHANGELOG.md)
 - [Svelte-Check](https://github.com/sveltejs/language-tools/releases)
 - [@sveltejs/adapter-cloudflare](https://github.com/sveltejs/kit/blob/main/packages/adapter-cloudflare/CHANGELOG.md)
@@ -9,6 +9,7 @@
 - [Marked](https://github.com/markedjs/marked/releases)
 - [Typescript](https://github.com/microsoft/TypeScript/releases)
 - [Typescript-Eslint](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md)
+- [prettier](https://github.com/prettier/prettier/blob/main/CHANGELOG.md)
 - [prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte/blob/version-3/CHANGELOG.md)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md)
 - [@inlang/paraglide-js](https://inlang.com/m/gerre34r/library-inlang-paraglideJs/changelog)
@@ -18,5 +19,6 @@
 - [pnpm](https://github.com/pnpm/pnpm/releases)
 - [@vercel/analytics](https://github.com/vercel/analytics/releases)
 - [@vercel/speed-insights](https://github.com/vercel/speed-insights/releases)
+- [globals](https://github.com/sindresorhus/globals/releases)
 
 `pnpm update <pkg>`

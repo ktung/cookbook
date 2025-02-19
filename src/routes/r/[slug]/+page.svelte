@@ -152,6 +152,8 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .cook-mode {

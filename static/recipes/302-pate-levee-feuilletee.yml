@@ -1,75 +1,47 @@
 name:
-  en: 300 - Pâte levée feuilletée
-  fr: 300 - Pâte levée feuilletée
+  en: 302 - Pâte levée feuilletée
+  fr: 302 - Pâte levée feuilletée
 ingredients:
   - name: allPurposeFlour
-    percentage: 50
-  - name: flour00
-    percentage: 50
-  - name: whiteSugar
-    percentage: 11.53846154
-  - name: honey
-    percentage: 1.923076923
-  - name: salt
-    percentage: 1.923076923
-  - name: activeDryYeast
-    percentage: 2.307692308
-  - name: unsaltedButter82
-    percentage: 9.615384615
-  - name: wholeMilk3_25
-    percentage: 19.23076923
-  - name: water
-    percentage: 30.76923077
-  - name: unsaltedButter82
-    percentage: 46.15384615
-presetTotalIngredient: 581
+    percentage: 100
+presetTotalIngredient: 100
 process:
   fr: |
-    - Pétrissage 3mins en 1re, 8mins en 2e. Doit etre bien pétri
-    - Pointage 15mins (T.26°C) puis passage au froid
-    - Abaisse pate et beurre à 4mm
-    - Tourrage 6mm : 1 tour double, 1 tour simple
-    - Détaillage 4mm
-    - 29x8cm
-    - Apprêt 25-26°C humide 2h30
-    - Dorrure
-    - Cuisson 175°C 17mins
+    - Démarrer la poolish 60%
+      - Mélanger eau, levure, farine
+      - Laisser pousser jusqu'à avoir beaucoup de bulles à la surface, consistence assez liquide
+    - Pétrissage
+      - Mélanger l'ensemble des ingrédients, beurre à la fin
+    - Filmer. Pointage 10-30 mins (20-22°C)
+    - Abaisse 1-2cm d'épaisseur
+    - 15-30mins congel pour bloquer la fermentation
+    - Passage frigo 4°C 30mins - 12h
+    - Préparer beurre tourrage à la taille L/2 x l et épaisseur bien répartit
+    - Incorporer le beurre : même consistence que la pate
+    - Abaisse 4-5mm d'épaisseur (~50x20cm)
+    - Tour double, ouvrir les plis
+    - Froid 30mins minimum
+    - Abaisse 4-5mm d'épaisseur (~47x20cm)
+    - Tour simple, ouvrir les plis
+    - Froid 30mins minimum
+    - Abaisse 27x27cm
+    - Détaillage
+      - 2 croissants : 8x28cm, pis diagonale
+      - 1 chocolatine : 8x15x0,04cm
+    - Façonnage
+      - Entaille la base au milieu de 1-1,5cm pour étirer
+      - Enrouler sans appuyer pour ne pas abimer le feuillatage
+      - Pointe en bas pour pas que ça se décolle à la cuisson
+    - Apprêt 2h-2h30 27°-28°. Hygrométrie 85% (Pas trop chaud, le beurre ne doit pas fondre)
+    - Dorer avec un spray pour une pas abimer les feuillets
+    - Cuisson ventilé sur plaque perforée minimum 16mins
+      - Doit bien avoir sécher : peut être soulever sans se plier
     - Ressuage grille 20mins
-  # - ---
-  # - Pétrissage
-  #   - Mélanger l'ensemble des ingrédients, beurre à la fin
-  # - Filmer. Pointage 10-30 mins (20-22°C)
-  # - Abaisse 1-2cm d'épaisseur
-  # - 15-30mins congel pour bloquer la fermentation
-  # - Passage frigo 4°C 30mins - 12h
-  # - Préparer beurre tourrage à la taille L/2 x l et épaisseur bien répartit
-  # - Incorporer le beurre : même consistence que la pate
-  # - Abaisse 4-5mm d'épaisseur (~50x20cm)
-  # - Tour double, ouvrir les plis
-  # - Froid 30mins minimum
-  # - Abaisse 4-5mm d'épaisseur (~47x20cm)
-  # - Tour simple, ouvrir les plis
-  # - Froid 30mins minimum
-  # - Abaisse 27x27cm
-  # - Détaillage
-  #   - 2 croissants : 8x28cm, pis diagonale
-  #   - 1 chocolatine : 8x15x0,04cm
-  # - Façonnage
-  #   - Entaille la base au milieu de 1-1,5cm pour étirer
-  #   - Enrouler sans appuyer pour ne pas abimer le feuillatage
-  #   - Pointe en bas pour pas que ça se décolle à la cuisson
-  # - Apprêt 2h-2h30 27°-28°. Hygrométrie 85% (Pas trop chaud, le beurre ne doit pas fondre)
-  # - Dorer avec un spray pour une pas abimer les feuillets
-  # - Cuisson ventilé sur plaque perforée minimum 16mins
-  #   - Doit bien avoir sécher : peut être soulever sans se plier
-  # - Ressuage grille 20mins
 notes:
   fr: |
-    - Utilisation congelé
-      - Laisser pousser dans le four fermé 8h (22°C-70%)
-      - Cuisson 18mins 175°C ventilé
-    - Use instant yeast https://www.youtube.com/watch?v=mz3FAr2z2pI
-    - Ingrédient froid, pâte froide
+    - Poolish :
+      - Farine = Eau
+      - + une partie de la levure (dépend du temps accordé à la fermentation)
     - Beurre de tourrage 25 à 27% de la détrempe (~120g)
     - 1 croissant pro = 70-80g de pate cru
     - 1 croissant CAP/maison = 65-70g de pate cru
@@ -81,7 +53,6 @@ notes:
       - Utiliser un beurre avec minimum 82% de matiere grasses
       - Utiliser un beurre "sec" : avec le plus d'acides gras saturés. Ça devrait augmenter la témpérature de fusion
 references:
-  - https://www.youtube.com/watch?v=KDDj722y3I8
   # - https://www.youtube.com/watch?v=al--1T_9lgM
   # - https://www.youtube.com/watch?v=Ku9wAbLbI9A
   - http://technomitron.aainb.com/constituants-viennoiserie-patisserie/le-beurre/
@@ -99,8 +70,35 @@ references:
   - https://www.youtube.com/watch?v=6EiPq6q_-kg
   - https://www.youtube.com/watch?v=d-qe7eaZ2qY
   - https://www.youtube.com/watch?v=ByARoxgNEjo
+  - https://chefmaillardtpropat.wordpress.com/la-poolish/
+  - https://www.youtube.com/watch?v=2NC0W5Xtvoc
+# | - | - | - |
+# |-|-|-|
+# |Farine T55|1000g|250g|
+# |Sucre blanc|140g|35g|
+# |Sel|20g|5g|
+# |Levure seche|30g|7,5g|
+# |Beurre froid détrempe|100g|25g|
+# |Lait amande|200g|50g|
+# |Eau|300g|75g|
+# |Total|1790g|448g|
 
-# ----
+# Poolish 60% de liquide
+# Levure fraiche (g) = litre eau * 40 / temps (h)
+# |-|-|-|
+# |Farine T55|-|75g|
+# |Eau|-|75g|
+# |Levure fraiche 60mins|-|0,075*40/1 = 3g|
+# |Levure seche 20-60mins|-|7,5g|
+
+# Pétrissée
+# |-|-|-|
+# |Farine T55|-|175g|
+# |Sucre|-|35g|
+# |Sel|-|5g|
+# |Levure seche|-|-|
+# |Beurre détrempe|-|25g|
+# |Lait amande|-|50g|
 
 # ## Cuisson
 # > 17mins 200°C ventilé sur plaque perforée :
@@ -115,3 +113,7 @@ references:
 # - Farine forte en protéines pour être plus riche en gluten 13/15g prot/100g
 # - Beurre froid "dur", sortir le beurre. Attendre jusqu'à qu'il soit plastique puis sortir le paton. Pour avoir la même consistence
 # - Test de pétrissage : prendre une part, bouler, étirer. Réseau non créée = le croissant peut casser à la pousse
+
+# https://www.youtube.com/watch?v=g9MpP4OOpms
+# https://terracaf.ca/fr/blogs/blog/difference-between-dutch-and-natural-cocoa
+# Poudre cacao 50g (pour 1000g farine)

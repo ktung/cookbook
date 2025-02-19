@@ -86,3 +86,23 @@ tofu:
   price: 0.005592 # 6.99/1250
   source: Adonis
   lastCheckDate: 2025-02-09
+burgerBun:
+  price: 0.007673076923 # 3.99/(65*8)
+  source: IGA
+  lastCheckDate: 2025-02-12
+groundedBeef:
+  price: 0.01495024876 # 6.01/402
+  source: IGA
+  lastCheckDate: 2025-02-12
+tomato:
+  price: 0.00549 # 5.49/1000
+  source: IGA
+  lastCheckDate: 2025-02-12
+lettuce:
+  price: 0.02240384615 # 6.99/312
+  source: IGA
+  lastCheckDate: 2025-02-12
+instantYeast:
+  price: 0.01759911894 # 7.99/454
+  source: Adonis
+  lastCheckDate: 2025-02-14

@@ -1,0 +1,21 @@
+name:
+  en: 400 - Burger
+  fr: 400 - Burger
+ingredients:
+  - name: burgerBun
+    percentage: 65
+  - name: groundedBeef
+    percentage: 100
+  - name: tomato
+    percentage: 20
+  - name: lettuce
+    percentage: 20
+presetTotalIngredient: 205
+process:
+  fr: |
+    - Faire des beef patties de 100g
+    - Couper les tomates en rondelles, assaisonner avec sel
+notes:
+  fr: |
+    - All bought
+    - 1 pain ~= 65g

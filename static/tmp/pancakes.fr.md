@@ -55,25 +55,3 @@ Traditional Pancakes Ingredients:
 1 Tbsp (12g) baking powder 
 2 (21g) Tbsp melted butter
 https://www.joshuaweissman.com/post/pancakes
----
-Recette de la pâte à brioche
-• Farine T45: 300g 
-• Sel: 6g 
-• Sucre: 40g  
-• Levure fraiche: 15g 
-• Oeuf: 120g 
-• Lait: 75g 
-• Beurre: 120g 
-
----
-Recette de la pâte à brioche
-• Farine T45: 500g 
-• Sel: 10g 
-• Sucre: 70g  
-• Levure fraiche: 15g 
-• Oeuf: 150g 
-• Lait: 150g 
-• Beurre: 150g 
-1nuit
-1h30 appret
-12pcs 80g

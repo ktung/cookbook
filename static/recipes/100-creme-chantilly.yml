@@ -1,0 +1,17 @@
+name:
+  en: 100 - Creme Chantilly
+  fr: 100 - Creme Chantilly
+ingredients:
+  - name: cream35
+    percentage: 100
+  - name: icingSugar
+    percentage: 20
+  - name: vanillaExtract
+    percentage: 5
+presetTotalIngredient: 125
+process:
+  fr: |
+    - Monter la creme
+    - Ajouter le sucre et vanille à la fin
+references:
+  - https://philippe-etchebest.com/les-choux-chantilly/

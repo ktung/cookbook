@@ -1,6 +1,31 @@
 name:
   en: 301 - Pâte levée feuilletée
   fr: 301 - Pâte levée feuilletée
+# sections:
+# - name: detrempe
+#   ingredients:
+#   - name: allPurposeFlour
+#     percentage: 50
+#   - name: flour00
+#     percentage: 50
+#   - name: whiteSugar
+#     percentage: 11.53846154
+#   - name: honey
+#     percentage: 1.923076923
+#   - name: salt
+#     percentage: 1.923076923
+#   - name: instantYeast
+#     percentage: 1.923076923
+#   - name: unsaltedButter82
+#     percentage: 9.615384615
+#   - name: wholeMilk3_25
+#     percentage: 19.23076923
+#   - name: water
+#     percentage: 30.76923077
+# - name: beurreTourage
+#   ingredients:
+#   - name: allPurposeFlour
+#     percentage: 30
 ingredients:
   - name: allPurposeFlour
     percentage: 50
@@ -13,7 +38,7 @@ ingredients:
   - name: salt
     percentage: 1.923076923
   - name: instantYeast
-    percentage: 1.234615385
+    percentage: 1.923076923
   - name: unsaltedButter82
     percentage: 9.615384615
   - name: wholeMilk3_25
@@ -21,8 +46,8 @@ ingredients:
   - name: water
     percentage: 30.76923077
   - name: unsaltedButter82
-    percentage: 46.15384615
-presetTotalIngredient: 580
+    percentage: 53.84615385
+presetTotalIngredient: 600
 process:
   fr: |
     - Pétrissage 3mins en 1re, 8mins en 2e. Doit etre bien pétri

@@ -22,6 +22,10 @@
   name:
     fr: 100 - Crème brûlée
     en: 100 - Creme brulee
+- filename: 100-creme-chantilly.yml
+  name:
+    fr: 100 - Creme Chantilly
+    en: 100 - Creme Chantilly
 - filename: 100-creme-pat.yml
   name:
     fr: 100 - Crème patissiere

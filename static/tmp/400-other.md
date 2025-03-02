@@ -126,6 +126,11 @@ gnocchi
 https://www.youtube.com/watch?v=HIY0LPBAtgk
 https://www.youtube.com/watch?v=LEiXhgBC-gE
 
+https://www.youtube.com/watch?v=D4LFO3W9Q6w
+Pommes de terres 400g
+Farine blé 150g
+~3cm long
+
 PLF
 https://www.youtube.com/watch?v=hJxaVD6eAtc
 
@@ -157,10 +162,6 @@ brownie
 https://www.instagram.com/p/C-AwkH9oZTc/
 https://www.instagram.com/p/C7JOq6YojIT/
 
-brioche
-https://www.instagram.com/p/CkkcyMfosSG/
-https://www.instagram.com/p/CTSBYdbKOCS/
-
 cake marbré
 https://www.instagram.com/p/C5qykBUsfDV/
 
@@ -184,16 +185,7 @@ Cuisson 200°C 12mins conventionel
 https://www.mycake.fr/biscuit-cuillere/
 https://www.ptitchef.com/recettes/dessert/biscuits-a-la-cuillere-ou-boudoirs-fid-1568046
 https://www.marmiton.org/recettes/recette_biscuits-a-la-cuillere_166073.aspx
----
-Creme chantilly
-Creme à fouetter 100
-Sucre glace 20
-Vanille 5
 
-- Monter la creme
-- Ajouter le sucre et vanille à la fin
-
-https://philippe-etchebest.com/les-choux-chantilly/
 ---
 
 

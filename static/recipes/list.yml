@@ -62,6 +62,10 @@
   name:
     fr: 100 - Moelleux chocolat
     en: 100 - Chocolate cake
+- filename: 100-muffins-bleuet.yml
+  name:
+    fr: 100 - Muffins bleuet
+    en: 100 - Muffins bleuet
 - filename: 100-pain-mie.yml
   name:
     fr: 100 - Pain mie
@@ -78,6 +82,10 @@
   name:
     fr: 100 - Pate brisee
     en: 100 - Pate brisee
+- filename: 100-pate-quiche.yml
+  name:
+    fr: 100 - Pate a quiche
+    en: 100 - Pate a quiche
 - filename: 100-pizza-dough.yml
   name:
     fr: 100 - Pate à pizza
@@ -86,6 +94,10 @@
   name:
     fr: 100 - Pâte feuilletée
     en: 100 - Rough puff pastry
+- filename: 100-quiche-lorraine.yml
+  name:
+    fr: 100 - Quiche lorraine
+    en: 100 - Quiche lorraine
 - filename: 100-teriyaki-sauce.yml
   name:
     fr: 100 - Teriyaki Sauce

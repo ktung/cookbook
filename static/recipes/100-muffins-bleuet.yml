@@ -1,0 +1,28 @@
+name:
+  en: 100 - Muffins bleuet
+  fr: 100 - Muffins bleuet
+ingredients:
+  - name: allPurposeFlour
+    percentage: 160
+  - name: bakingPowder
+    percentage: 10
+  - name: salt
+    percentage: 2
+  - name: butter
+    percentage: 57
+  - name: whiteSugar
+    percentage: 100
+  - name: egg
+    percentage: 50
+  - name: wholeMilk3_25
+    percentage: 120
+  - name: blueberries
+    percentage: 150
+presetTotalIngredient: 811
+process:
+  fr: |
+    - Fariner les bleuets
+    - Cuisson 12-15mins 180°C conventionel
+notes:
+  fr: |
+    - 8 muffins de 70g-100g ?

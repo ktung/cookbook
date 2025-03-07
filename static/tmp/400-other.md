@@ -90,9 +90,6 @@ https://ici.radio-canada.ca/mordu/techniques/3180/faire-praline
 roulé canelle
 https://www.ricardocuisine.com/recettes/4738-bavarois-aux-fraises
 ---
-muffin
-https://www.youtube.com/watch?v=XOaSImiSxak
-https://www.recettes.qc.ca/recettes/recette/muffins-bananes-et-chocolat-138128
 
 fondant beaulois
 https://liliebakery.fr/fondant-baulois-recette/
@@ -100,11 +97,6 @@ https://liliebakery.fr/fondant-baulois-recette/
 caramel beurre salé
 https://www.latelierderoxane.com/blog/recette-de-caramel-beurre-sale/
 
-muffin banane chocolat
-https://www.recettes.qc.ca/recettes/recette/muffins-bananes-et-chocolat-138128
-
-muffin citron miel
-https://www.instagram.com/p/C9INPu3IG1v/
 
 sabayon
 https://search.brave.com/search?q=sabayon&source=android

@@ -1,0 +1,16 @@
+name:
+  en: 100 - Quiche lorraine
+  fr: 100 - Quiche lorraine
+ingredients:
+  - name: allPurposeFlour
+    percentage: 200
+presetTotalIngredient: 100
+process:
+  fr: |
+    ..
+notes:
+  fr: |
+    ..
+references:
+  - https://www.marmiton.org/recettes/recette_quiche-lorraine-de-sophie_57113.aspx
+  - https://www.ricardocuisine.com/recettes/5058-quiche-lorraine-la-meilleure

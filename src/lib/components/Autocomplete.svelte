@@ -18,6 +18,35 @@
     let slug = filename.replace(".yml", "");
     return `${base}/r/${slug}`;
   }
+
+  let selectedIndex = $state(-1);
+
+  function handleKeydown(event) {
+    if (!showDropdown || filteredItems.length === 0) {
+      return;
+    }
+
+    switch (event.key) {
+      case 'ArrowDown':
+        event.preventDefault();
+        selectedIndex = (selectedIndex + 1) % filteredItems.length;
+        break;
+      case 'ArrowUp':
+        event.preventDefault();
+        selectedIndex = selectedIndex <= 0 ? filteredItems.length - 1 : selectedIndex - 1;
+        break;
+      case 'Enter':
+        if (selectedIndex >= 0) {
+          event.preventDefault();
+          window.location.href = selectRecipe(filteredItems[selectedIndex].filename);
+        }
+        break;
+      case 'Escape':
+        showDropdown = false;
+        selectedIndex = -1;
+        break;
+    }
+  }
 </script>
 
 <div class="autocomplete">
@@ -25,13 +54,20 @@
     type="text"
     placeholder={m.searchPlaceholder()}
     bind:value={searchTerm}
+    onkeydown={handleKeydown}
     onfocus={() => showDropdown = true}
     onblur={() => setTimeout(() => showDropdown = false, 200)} />
 
   {#if showDropdown}
     <div class="autocomplete-list">
-      {#each filteredItems as recipe}
-        <a class="autocomplete-item" href={selectRecipe(recipe.filename)}>{recipe.name[currentLang]}</a>
+      {#each filteredItems as recipe, i (recipe)}
+        <a 
+          class="autocomplete-item" 
+          class:selected={i === selectedIndex}
+          href={selectRecipe(recipe.filename)}
+        >
+          {recipe.name[currentLang]}
+        </a>
       {/each}
     </div>
   {/if}
@@ -41,6 +77,11 @@
   .autocomplete {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .autocomplete-item.selected {
+    background-color: hsl(37, 100%, 53%);
+    color: white;
   }
 
   @media (min-width: 1024px) {

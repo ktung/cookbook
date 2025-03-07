@@ -11,7 +11,7 @@
 
 <div>
   <ol>
-    {#each data.notes as note}
+    {#each data.notes as note (note.slug)}
       <li>
         <a href={`${base}/notes/${note.slug}`}>{note.title}</a>
       </li>

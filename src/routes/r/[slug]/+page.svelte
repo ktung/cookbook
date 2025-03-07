@@ -93,7 +93,7 @@
 
   {#if !!recipe.ingredients}
   <div class="ingredients">
-    {#each recipe.ingredients as ingredient}
+    {#each recipe.ingredients as ingredient (ingredient.name)}
     <label for="ingredient-{ingredient.name}">{translate(ingredient.name)} {round2(ingredient.percentage)}%</label>
 
     <IngredientInput
@@ -139,7 +139,7 @@
   <div class="references">
     <h3>References</h3>
     <ul>
-      {#each recipe.references as reference}
+      {#each recipe.references as reference (reference)}
         <li><a href={reference} target="_blank">{reference}</a></li>
       {/each}
     </ul>

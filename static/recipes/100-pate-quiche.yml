@@ -1,0 +1,26 @@
+name:
+  en: 100 - Pate a quiche
+  fr: 100 - Pate a quiche
+ingredients:
+  - name: allPurposeFlour
+    percentage: 200
+  - name: butter
+    percentage: 90
+  - name: egg
+    percentage: 50
+  - name: water
+    percentage: 20
+  - name: salt
+    percentage: 2
+presetTotalIngredient: 388
+process:
+  fr: |
+    1. Sabler farine, sel et beurre en dés
+    2. Ajoute l'eau et l'oeuf jusqu'à pate homogène
+    3. Laissr reposer 2h au frigo
+    4. Etaler
+notes:
+  fr: |
+    ~1 cercle 24cm 2mm épaisseur
+references:
+  - https://www.undejeunerdesoleil.com/2013/04/pates-brisee-maison-recettes-astuces.html

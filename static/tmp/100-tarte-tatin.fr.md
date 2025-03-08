@@ -15,9 +15,6 @@ draft: true
 - https://www.allrecipes.com/recipe/230610/apple-tarte-tatin/
 - https://cooking.nytimes.com/recipes/1016883-foolproof-tarte-tatin
 
-- https://philippe-etchebest.com/la-pate-brisee/?utm_source=Youtube&utm_medium=Description&utm_campaign=100
-- https://www.undejeunerdesoleil.com/2013/04/pates-brisee-maison-recettes-astuces.html
-- https://www.meilleurduchef.com/fr/recette/pate-brisee.html
 - https://www.meilleurduchef.com/fr/recette/tarte-tatin.html
 
 https://www.ricardocuisine.com/recettes/4075-gateau-des-anges

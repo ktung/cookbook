@@ -1,0 +1,20 @@
+name:
+  en: 100 - Quiche lorraine
+  fr: 100 - Quiche lorraine
+ingredients:
+  - name: bacon
+    percentage: 33.3
+  - name: cream35
+    percentage: 41.6
+  - name: egg
+    percentage: 25
+presetTotalIngredient: 600
+process:
+  fr: |
+    ..
+notes:
+  fr: |
+    ..
+references:
+  - https://www.marmiton.org/recettes/recette_quiche-lorraine-de-sophie_57113.aspx
+  - https://www.ricardocuisine.com/recettes/5058-quiche-lorraine-la-meilleure

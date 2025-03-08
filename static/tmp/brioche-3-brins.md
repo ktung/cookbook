@@ -176,3 +176,30 @@ amz 23.5 x 12.7 x 8 = 2387cm3 *3/4 = 1790
 
 680g (1,5lb) = 25,4x12,7x7,6 = 2400g
 
+---
+---
+brioche
+https://www.instagram.com/p/CkkcyMfosSG/
+https://www.instagram.com/p/CTSBYdbKOCS/
+---
+Recette de la pâte à brioche
+• Farine T45: 300g 
+• Sel: 6g 
+• Sucre: 40g  
+• Levure fraiche: 15g 
+• Oeuf: 120g 
+• Lait: 75g 
+• Beurre: 120g 
+
+---
+Recette de la pâte à brioche
+• Farine T45: 500g 
+• Sel: 10g 
+• Sucre: 70g  
+• Levure fraiche: 15g 
+• Oeuf: 150g 
+• Lait: 150g 
+• Beurre: 150g 
+1nuit
+1h30 appret
+12pcs 80g

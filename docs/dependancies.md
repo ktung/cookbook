@@ -6,6 +6,7 @@
 - [@sveltejs/adapter-vercel](https://github.com/sveltejs/kit/blob/main/packages/adapter-vercel/CHANGELOG.md)
 - [eslint](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
 - [@eslint/compat](https://github.com/eslint/rewrite/blob/main/packages/compat/CHANGELOG.md)
+- [eslint-plugin-svelte](https://github.com/sveltejs/eslint-plugin-svelte/releases)
 - [Marked](https://github.com/markedjs/marked/releases)
 - [Typescript](https://github.com/microsoft/TypeScript/releases)
 - [Typescript-Eslint](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md)

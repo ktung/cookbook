@@ -2,9 +2,13 @@ name:
   en: 100 - Quiche lorraine
   fr: 100 - Quiche lorraine
 ingredients:
-  - name: allPurposeFlour
-    percentage: 200
-presetTotalIngredient: 100
+  - name: bacon
+    percentage: 33.3
+  - name: cream35
+    percentage: 41.6
+  - name: egg
+    percentage: 25
+presetTotalIngredient: 600
 process:
   fr: |
     ..

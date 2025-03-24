@@ -93,7 +93,8 @@
 
   {#if !!recipe.ingredients}
   <div class="ingredients">
-    {#each recipe.ingredients as ingredient (ingredient.name)}
+    <!-- eslint-disable-next-line svelte/require-each-key -- todo fix it -->
+    {#each recipe.ingredients as ingredient}
     <label for="ingredient-{ingredient.name}">{translate(ingredient.name)} {round2(ingredient.percentage)}%</label>
 
     <IngredientInput

@@ -28,8 +28,8 @@
     en: 100 - Creme Chantilly
 - filename: 100-creme-pat.yml
   name:
-    fr: 100 - Crème patissiere
-    en: 100 - Crème patissiere
+    fr: 101 - Crème patissiere
+    en: 101 - Crème patissiere
 - filename: 100-crepes.yml
   name:
     fr: 100 - Crepes
@@ -110,6 +110,10 @@
   name:
     fr: 100 - Pain courant
     en: 100 - White bread
+- filename: 101-creme-pat.yml
+  name:
+    fr: 100 - Crème patissiere
+    en: 100 - Crème patissiere
 - filename: 101-pasta.yml
   name:
     fr: 101 - Pasta
@@ -166,6 +170,10 @@
   name:
     fr: 302 - Pâte levée feuilletée
     en: 302 - Pâte levée feuilletée
+- filename: 303-pate-levee-feuilletee.yml
+  name:
+    fr: 303 - Pâte levée feuilletée
+    en: 303 - Pâte levée feuilletée
 - filename: 400-burger.yml
   name:
     fr: 400 - Burger

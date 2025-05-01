@@ -142,11 +142,6 @@ https://www.instagram.com/p/CqVqlcVoAul/?img_index=1
 gateau orange
 https://www.instagram.com/p/CaruEpXJqOc/
 
-flan
-https://www.instagram.com/p/CdbHrtqo7Ag/?img_index=1
-https://www.instagram.com/p/C-k2Yymo67L/?img_index=1
-https://www.instagram.com/p/C9aK-DyIWyg/
-
 fondant chocolat
 https://www.instagram.com/p/Cyi8AKVIY5W/?img_index=1
 

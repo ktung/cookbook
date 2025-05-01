@@ -1,0 +1,36 @@
+name:
+  en: 100 - Pate brisee sucree
+  fr: 100 - Pate brisee sucrée
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: eggYolk
+    percentage: 9
+  - name: water
+    percentage: 18
+  - name: salt
+    percentage: 3.65
+  - name: butter
+    percentage: 45.5
+  - name: whiteSugar
+    percentage: 40
+presetTotalIngredient: 428
+notes:
+  fr: |
+    ~1 cercle 24cm 4mm épaisseur
+#     Mélanger la farine, le sel et le beurre en dés dans un récipient. Travailler rapidement en sablant (le beurre doit être recouvert de farine de manière à former du ‘sable’)
+# Ajouter l’eau ou le jaune et l’eau ou l’oeuf entier selon la recette. Mélanger à nouveau du bout des doigts jusqu’à obtenir une pâte homogène (il ne doit pas y avoir de trace de beurre seul). Couvrir de papier film et laisser reposer au réfrigérateur pendant au moins deux heures (voir toute une nuit).
+# Quand on la sort du réfrigérateur elle sera dure c’est tout à fait normal (le beurre a figé). Il suffit de laisser le pâton quelques minutes à température ambiante pour qu’il se détende un peu, avant de l’étaler au rouleau.
+references:
+  - https://www.undejeunerdesoleil.com/2013/04/pates-brisee-maison-recettes-astuces.html
+  - https://www.instagram.com/p/C-k2Yymo67L/?img_index=3
+# 250 farine
+# 25g poudre amande
+# 140 beurre
+# 80g sucre glace
+# 1 oeuf
+# 1g sel
+# crémer beurre + sucre
+# add oeuf
+# add farine amande sel
+# réserver au frais

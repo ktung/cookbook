@@ -1,0 +1,42 @@
+name:
+  en: 200 - Flan patissier
+  fr: 200 - Flan patissier
+ingredients:
+  - name: milk
+    percentage: 500
+  - name: egg
+    percentage: 150
+  - name: whiteSugar
+    percentage: 140
+  - name: cornStrach
+    percentage: 40
+  - name: butter
+    percentage: 70
+  - name: vanillaExtract
+    percentage: 5
+presetTotalIngredient: 905
+process:
+  fr: |
+    - Préparer la pâte sucrée, détailler à 2mm et réserver au froid
+    - Chauffer le lait à ébullition
+    - Blanchir les oeufs avec le sucre
+    - Rajouter la fécule de mais
+    - Verser une partie du lait chaud dans la préparation
+    - Verser la préparation dans le lait restant et cuire
+    - Verser la préparation dans le moule et laisser refroidir
+    - Cuisson 180°C 345mins
+    - Laisser refroidir dans le moule puis frigo
+notes:
+  fr: |
+    - un peu de sucre au fond de la casserole pour éviter que la caséine accroche
+references:
+  - https://www.marmiton.org/recettes/recette_flan-boulanger-le-vrai_35963.aspx
+  - https://cuisine.journaldesfemmes.fr/recette/323490-flan-patissier
+  - https://www.marmiton.org/recettes/recette_flan-patissier-traditionnel_15330.aspx
+  - https://www.youtube.com/watch?v=YvYJHUbHBH4
+
+  # - https://empreintesucree.fr/flan-patissier-vanille/
+  # - https://www.marieclaire.fr/,lait-entier-demi-ecreme-ecreme-lequel-choisir,728574.asp
+  # - https://www.instagram.com/p/C-k2Yymo67L/?img_index=1
+  # - https://www.instagram.com/p/CdbHrtqo7Ag/?img_index=1
+  # - https://www.instagram.com/p/C9aK-DyIWyg/

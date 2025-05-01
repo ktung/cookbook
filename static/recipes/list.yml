@@ -28,8 +28,8 @@
     en: 100 - Creme Chantilly
 - filename: 100-creme-pat.yml
   name:
-    fr: 101 - Crème patissiere
-    en: 101 - Crème patissiere
+    fr: 100 - Crème patissiere
+    en: 100 - Crème patissiere
 - filename: 100-crepes.yml
   name:
     fr: 100 - Crepes
@@ -78,6 +78,10 @@
   name:
     fr: 100 - Pasta
     en: 100 - Pasta
+- filename: 100-pate-brisee-sucree.yml
+  name:
+    fr: 100 - Pate brisee sucrée
+    en: 100 - Pate brisee sucree
 - filename: 100-pate-brisee.yml
   name:
     fr: 100 - Pate brisee
@@ -112,8 +116,8 @@
     en: 100 - White bread
 - filename: 101-creme-pat.yml
   name:
-    fr: 100 - Crème patissiere
-    en: 100 - Crème patissiere
+    fr: 101 - Crème patissiere
+    en: 101 - Crème patissiere
 - filename: 101-pasta.yml
   name:
     fr: 101 - Pasta
@@ -130,6 +134,10 @@
   name:
     fr: 200 - Challah
     en: 200 - Challah
+- filename: 200-flan-patissier.yml
+  name:
+    fr: 200 - Flan patissier
+    en: 200 - Flan patissier
 - filename: 200-frangipane.yml
   name:
     fr: 200 - Frangipane

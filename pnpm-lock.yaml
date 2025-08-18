@@ -25,8 +25,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0
       '@sveltejs/adapter-auto':
-        specifier: ^4.0.0
-        version: 4.0.0(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))
+        specifier: ^6.1.0
+        version: 6.1.0(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))
       '@sveltejs/adapter-cloudflare':
         specifier: ^5.0.3
         version: 5.0.3(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(wrangler@3.105.1(@cloudflare/workers-types@4.20250303.0))
@@ -931,6 +931,9 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.4':
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
 
+  '@jridgewell/sourcemap-codec@1.5.5':
+    resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
+
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
@@ -1208,8 +1211,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-auto@4.0.0':
-    resolution: {integrity: sha512-kmuYSQdD2AwThymQF0haQhM8rE5rhutQXG4LNbnbShwhMO4qQGnKaaTy+88DuNSuoQDi58+thpq8XpHc1+oEKQ==}
+  '@sveltejs/adapter-auto@6.1.0':
+    resolution: {integrity: sha512-shOuLI5D2s+0zTv2ab5M5PqfknXqWbKi+0UwB9yLTRIdzsK1R93JOO8jNhIYSHdW+IYXIYnLniu+JZqXs7h9Wg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1989,9 +1992,6 @@ packages:
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
-
-  import-meta-resolve@4.1.0:
-    resolution: {integrity: sha512-I6fiaX09Xivtk+THaMfAwnA3MVA5Big1WHF1Dfx9hFuvNIWpXnorlkzhcQf6ehrqQiiZECRt1poOAkPmer3ruw==}
 
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
@@ -3402,6 +3402,8 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.4': {}
 
+  '@jridgewell/sourcemap-codec@1.5.5': {}
+
   '@jridgewell/trace-mapping@0.3.29':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
@@ -3410,7 +3412,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.4
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   '@lix-js/client@2.2.1':
     dependencies:
@@ -3707,10 +3709,9 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))':
+  '@sveltejs/adapter-auto@6.1.0(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))':
     dependencies:
       '@sveltejs/kit': 2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7))
-      import-meta-resolve: 4.1.0
 
   '@sveltejs/adapter-cloudflare@5.0.3(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.37.3)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(wrangler@3.105.1(@cloudflare/workers-types@4.20250303.0))':
     dependencies:
@@ -4558,8 +4559,6 @@ snapshots:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
-
-  import-meta-resolve@4.1.0: {}
 
   imurmurhash@0.1.4: {}
 

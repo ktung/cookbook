@@ -34,8 +34,8 @@ importers:
         specifier: ^3.0.9
         version: 3.0.9(@sveltejs/kit@2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))
       '@sveltejs/adapter-vercel':
-        specifier: ^5.9.1
-        version: 5.9.1(@sveltejs/kit@2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(rollup@4.34.9)
+        specifier: ^5.10.2
+        version: 5.10.2(@sveltejs/kit@2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(rollup@4.34.9)
       '@sveltejs/kit':
         specifier: ^2.37.1
         version: 2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7))
@@ -1100,8 +1100,8 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@rollup/pluginutils@5.2.0':
-    resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
+  '@rollup/pluginutils@5.3.0':
+    resolution: {integrity: sha512-5EdhGZtnu3V88ces7s53hhfK5KSASnJZv8Lulpc04cWO3REESroJXg73DFsOmgbU2BhwV0E20bu2IDZb3VKW4Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -1235,8 +1235,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/adapter-vercel@5.9.1':
-    resolution: {integrity: sha512-6z3Fta+VT+k22K7esJ8AGstV7nBZkXbHNS+jH7wHkMzg0gnEn+KiKoJiopgLFaSZuROiuA0QxnOvgbSL7lBfAQ==}
+  '@sveltejs/adapter-vercel@5.10.2':
+    resolution: {integrity: sha512-uWm0jtXbwvXxmELiIXSQ7tcPjlG8roadujxImIxqbKKZ64itZDwTbUsVXYEfUX59LvLjolW9jaODhL6sBTh5NQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
@@ -1386,8 +1386,8 @@ packages:
       vue-router:
         optional: true
 
-  '@vercel/nft@0.30.0':
-    resolution: {integrity: sha512-xVye7Z0riD9czsMuEJYpFqm2FR33r3euYaFzuEPCoUtYuDwmus3rJfKtcFU7Df+pgj8p4zs78x5lOWYoLNr+7Q==}
+  '@vercel/nft@0.30.1':
+    resolution: {integrity: sha512-2mgJZv4AYBFkD/nJ4QmiX5Ymxi+AisPLPcS/KPXVqniyQNqKXX+wjieAbDXQP3HcogfEbpHoRMs49Cd4pfkk8g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3659,7 +3659,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@rollup/pluginutils@5.2.0(rollup@4.34.9)':
+  '@rollup/pluginutils@5.3.0(rollup@4.34.9)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
@@ -3750,10 +3750,10 @@ snapshots:
     dependencies:
       '@sveltejs/kit': 2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7))
 
-  '@sveltejs/adapter-vercel@5.9.1(@sveltejs/kit@2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(rollup@4.34.9)':
+  '@sveltejs/adapter-vercel@5.10.2(@sveltejs/kit@2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(rollup@4.34.9)':
     dependencies:
       '@sveltejs/kit': 2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7))
-      '@vercel/nft': 0.30.0(rollup@4.34.9)
+      '@vercel/nft': 0.30.1(rollup@4.34.9)
       esbuild: 0.25.9
     transitivePeerDependencies:
       - encoding
@@ -3928,10 +3928,10 @@ snapshots:
       '@sveltejs/kit': 2.37.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7)))(svelte@5.38.7)(vite@6.2.1(@types/node@24.1.0)(jiti@1.21.7))
       svelte: 5.38.7
 
-  '@vercel/nft@0.30.0(rollup@4.34.9)':
+  '@vercel/nft@0.30.1(rollup@4.34.9)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.0
-      '@rollup/pluginutils': 5.2.0(rollup@4.34.9)
+      '@rollup/pluginutils': 5.3.0(rollup@4.34.9)
       acorn: 8.15.0
       acorn-import-attributes: 1.9.5(acorn@8.15.0)
       async-sema: 3.1.1

@@ -29,7 +29,7 @@
     "@sveltejs/adapter-cloudflare": "^5.0.3",
     "@sveltejs/adapter-static": "^3.0.9",
     "@sveltejs/adapter-vercel": "^5.10.2",
-    "@sveltejs/kit": "^2.39.1",
+    "@sveltejs/kit": "^2.42.2",
     "@sveltejs/vite-plugin-svelte": "^5.1.1",
     "@types/js-yaml": "^4.0.9",
     "@types/sanitize-html": "^2.16.0",

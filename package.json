@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
-    "@inlang/paraglide-js": "^2.3.2",
+    "@inlang/paraglide-js": "^2.4.0",
     "@sveltejs/adapter-auto": "^6.1.0",
     "@sveltejs/adapter-cloudflare": "^5.0.3",
     "@sveltejs/adapter-static": "^3.0.9",

@@ -1,24 +1,10 @@
 import adapterAuto from '@sveltejs/adapter-auto';
-import adapterCloudflare from '@sveltejs/adapter-cloudflare';
 import adapterStatic from '@sveltejs/adapter-static';
 import adapterVercel from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 let customAdapter;
-if (process.env.ADAPTER === 'cloudflare') {
-  customAdapter = adapterCloudflare({
-    routes: {
-      include: ['/*'],
-      exclude: ['<all>']
-    },
-    platformProxy: {
-      configPath: 'wrangler.toml',
-      environment: undefined,
-      experimentalJsonConfig: false,
-      persist: false
-    }
-  });
-} else if (process.env.ADAPTER === 'static') {
+if (process.env.ADAPTER === 'static') {
   customAdapter = adapterStatic({
     fallback: '404.html'
   });

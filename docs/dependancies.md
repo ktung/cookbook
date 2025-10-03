@@ -2,7 +2,6 @@
 - [svelte](https://github.com/sveltejs/svelte/blob/main/packages/svelte/CHANGELOG.md)
 - [@sveltejs/kit](https://github.com/sveltejs/kit/blob/main/packages/kit/CHANGELOG.md)
 - [Svelte-Check](https://github.com/sveltejs/language-tools/releases)
-- [@sveltejs/adapter-cloudflare](https://github.com/sveltejs/kit/blob/main/packages/adapter-cloudflare/CHANGELOG.md)
 - [@sveltejs/adapter-vercel](https://github.com/sveltejs/kit/blob/main/packages/adapter-vercel/CHANGELOG.md)
 - [eslint](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
 - [@eslint/compat](https://github.com/eslint/rewrite/blob/main/packages/compat/CHANGELOG.md)

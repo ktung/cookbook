@@ -1,0 +1,36 @@
+name:
+  en: 100 - Banana bread
+  fr: 100 - Banana bread
+ingredients:
+  - name: banana
+    percentage: 138
+  - name: brownSugar
+    percentage: 44
+  - name: mapleSyrup
+    percentage: 27.8
+  - name: cinnamon
+    percentage: 2.76
+  - name: egg
+    percentage: 55
+  - name: allPurposeFlour
+    percentage: 100
+  - name: bakingPowder
+    percentage: 2.76
+  - name: butter
+    percentage: 44
+presetTotalIngredient: 750
+process:
+  fr: |
+    - Ecraser bananes
+    - Add sucre, sirop, canelle
+    - Add oeuf
+    - Add farine, levure
+    - add beurre fondu, noix (100g) ?
+    - Beurrer le moule 20-22cm, add banane coupé en topping
+    - Cuisson 160°C ventilé, 50mins (tester)
+notes:
+  fr: |
+    1 banane ~= 130g
+    Pas dbeurre ?
+references:
+  - https://www.instagram.com/p/DBCBp2coXS5/

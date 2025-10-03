@@ -1,7 +1,15 @@
+- filename: 100-banana-bread.yml
+  name:
+    fr: 100 - Banana bread
+    en: 100 - Banana bread
 - filename: 100-bao-dough.yml
   name:
     fr: 100 - Pate à bao
     en: 100 - Bao Dough
+- filename: 100-bechamel.yml
+  name:
+    fr: 100 - Béchamel
+    en: 100 - Béchamel
 - filename: 100-burger-buns.yml
   name:
     fr: 100 - Pains burger
@@ -38,6 +46,10 @@
   name:
     fr: 100 - Financier
     en: 100 - Financier
+- filename: 100-genoise.yml
+  name:
+    fr: 100 - Génoise
+    en: 100 - Génoise
 - filename: 100-gnocchis.yml
   name:
     fr: 100 - Gnocchis
@@ -134,6 +146,10 @@
   name:
     fr: 200 - Challah
     en: 200 - Challah
+- filename: 200-chouquettes.yml
+  name:
+    fr: 200 - Chouquettes
+    en: 200 - Chouquettes
 - filename: 200-flan-patissier.yml
   name:
     fr: 200 - Flan patissier

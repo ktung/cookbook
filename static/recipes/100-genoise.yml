@@ -1,0 +1,22 @@
+name:
+  en: 100 - Génoise
+  fr: 100 - Génoise
+ingredients:
+  - name: egg
+    percentage: 100
+  - name: whiteSugar
+    percentage: 62.5
+  - name: allPurposeFlour
+    percentage: 62.5
+presetTotalIngredient: 450
+process:
+  fr: |
+    - Monter les oeufs avec le sucre en sabayon (sous bain marie, 65°C 71max)
+    - Continuer à monter hors du feu jusqu'à 2-3x volume, texture ruban bien monté
+    - Ajouter la farine tamisée, homogénéiser à la maryse
+    - Cercle de 20-24cm selon volume
+    - Cuisson 15mins 180°C (tester la cuisson)
+references:
+  - https://www.instagram.com/p/DNqckZnu8JI/
+  - https://www.instagram.com/p/DAJM4Y4IGhA/
+  - https://www.5ingredients15minutes.com/recettes/framboisier/

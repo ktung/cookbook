@@ -41,6 +41,8 @@
 - https://www.instagram.com/p/CtiEG2dO8RQ/
 # Sablés breton
 - https://www.instagram.com/p/DMiVGA8oDy8/
+# Creme brulée
+- https://www.cuisineaz.com/recettes/creme-brulee-rapide-31743.aspx
 # Brownies
 - https://www.instagram.com/p/DMQEn26t0Yv/
 - https://www.instagram.com/p/C9fXcE2oM0M/
@@ -108,8 +110,6 @@
 # Pate à tarte sucrée
 - https://www.instagram.com/p/DB1q9FXIIDd/
 - https://www.instagram.com/p/DAbYODiow_a/
-# Banana bread
-- https://www.instagram.com/p/DBCBp2coXS5/
 # Tarte tatin
 - https://www.instagram.com/p/DAs7Hz4OdTO/
 # Financier framboise
@@ -200,18 +200,4 @@ https://www.instagram.com/p/DNF-Mzlt5yN/
 - https://www.youtube.com/watch?v=97apbyvwbvY
 - https://www.instagram.com/p/CkfjIMvoLRZ/
 
-
----
-# Génoise
-https://www.instagram.com/p/DNqckZnu8JI/
-- https://www.instagram.com/p/DAJM4Y4IGhA/
-
-4 oeufs
-125 sucre
-125 farine
-
-Bain marie oeuf sucre, mélange 65°C (71°C max)
-Hors du feu, continuer à monter : triple de volume, texture ruban bien monté
-Ajouter farine tamisée, homogénéiser à la maryne
-Cercle de 20-22cm
-Cuisson 15mins 180°C (tester la cuisson)
+Voir 400-other.md

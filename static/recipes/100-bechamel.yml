@@ -1,0 +1,18 @@
+name:
+  en: 100 - Béchamel
+  fr: 100 - Béchamel
+ingredients:
+  - name: butter
+    percentage: 13.15
+  - name: allPurposeFlour
+    percentage: 13.15
+  - name: milk
+    percentage: 73.70
+presetTotalIngredient: 380
+process:
+  fr: |
+    - Faire fondre le beurre
+    - Ajouter la farine pour préparer le roux
+    - Ajouter le lait, cuire en mélangeant jusqu'à consistence
+    - Assaisonner sel, poivre, cumin
+references:

@@ -1,18 +1,25 @@
-<script>
-  import { base } from "$app/paths";
-  import { page } from "$app/state";
-  import { i18n } from "$lib/i18n";
-  import { availableLanguageTags, languageTag } from "$lib/paraglide/runtime";
+<script lang="ts">
+  import { getLocale, locales, setLocale } from "$lib/paraglide/runtime";
+
+  let locale = $state(getLocale());
+
+  function onChangeLocale(event: Event) {
+    const target = event.target as HTMLSelectElement;
+    const newLocale = target.value as typeof locale;
+    setLocale(newLocale);
+  }
 </script>
 
 <div>
-  {#each availableLanguageTags as lang (lang)}
-  <a href={i18n.route(page.url.pathname)}
-    hreflang={lang}
-    aria-current={lang === languageTag() ? "page" : undefined}>
-    <img src="{base}/lang/{lang}.svg" alt="{lang}" />
-  </a>
-{/each}
+  <select
+    class="select"
+    bind:value={locale}
+    onchange={onChangeLocale}
+    aria-label="Language preference:">
+    {#each locales as lang (lang)}
+      <option value={lang}>{lang}</option>
+    {/each}
+  </select>
 </div>
 
 <style>

@@ -1,0 +1,26 @@
+name:
+  en: 101 - Génoise
+  fr: 101 - Génoise
+ingredients:
+  - name: egg
+    percentage: 100
+  - name: whiteSugar
+    percentage: 66.5
+  - name: allPurposeFlour
+    percentage: 66.5
+  - name: bakingPowder
+    percentage: 1
+presetTotalIngredient: 703
+process:
+  fr: |
+    - Monter les oeufs avec le sucre en sabayon (sous bain marie, 65°C 71max)
+    - Continuer à monter hors du feu jusqu'à 2-3x volume, texture ruban bien monté et blanchit
+    - Incorporer la farine tamisée en plusieurs fois, homogénéiser à la maryse
+    - Chemiser le moule (20cm) avec papier sulfurisé qui dépasse en hauteur
+    - Taper le moule pour aplanir
+    - Cuisson 45-55mins 150°C (tester au couteau)
+    - Resuage sur grille
+references:
+  - https://www.instagram.com/p/DNqckZnu8JI/
+  - https://www.instagram.com/p/DAJM4Y4IGhA/
+  - https://www.5ingredients15minutes.com/recettes/framboisier/

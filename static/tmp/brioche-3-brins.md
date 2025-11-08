@@ -203,3 +203,13 @@ Recette de la pâte à brioche
 1nuit
 1h30 appret
 12pcs 80g
+
+
+Recette de BRIOCHE
+-Farine T45: 1000g
+-Sel: 20g
+-Sucre: 130g
+-Levure: 30g
+-Lait: 300g
+-Oeuf: 300g
+-Beurre: 300g

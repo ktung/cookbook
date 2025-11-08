@@ -21,8 +21,6 @@
 - https://www.youtube.com/watch?v=YTj6eyndrFQ
 # You Tiao
 - https://www.youtube.com/watch?v=U4TuHJkQM_k
-# Tarte citron meringuée
-- https://www.youtube.com/watch?v=nRx9T_oeUc8
 # Pates à l'ail citronnée
 - https://www.youtube.com/watch?v=zaXZeXpS01o
 # English muffin
@@ -63,16 +61,10 @@
 - https://www.instagram.com/p/DIeUz2qtdd1/
 # Cheesecake mangue
 - https://www.instagram.com/p/DGVy9IzOBIf/
-# Croissant
-- https://www.instagram.com/p/DF-vR2rNg3G/
 # Fondant choco
 - https://www.instagram.com/p/DFx5vvdItai/
-# Mousse choco
-- https://www.instagram.com/p/DFLRwKxoyPi/
-- https://www.instagram.com/p/DCPTvCpI7b5/
-- https://www.instagram.com/p/DAjDbk2oRsf/
-# Tarte citron
-- https://www.instagram.com/p/DEu4CdVowf5/
+# Strudel
+- https://www.lilvienna.com/how-to-make-strudel-dough/
 # Chausson chocolat
 - https://www.instagram.com/p/DEsX0uMIu-p/
 # Biscuit roulé (genoise?)
@@ -107,9 +99,6 @@
 - https://www.instagram.com/p/C__Al_KIBnH/
 # Moelleux chocolat
 - https://www.instagram.com/p/DCXCl_Co94a/
-# Pate à tarte sucrée
-- https://www.instagram.com/p/DB1q9FXIIDd/
-- https://www.instagram.com/p/DAbYODiow_a/
 # Tarte tatin
 - https://www.instagram.com/p/DAs7Hz4OdTO/
 # Financier framboise
@@ -201,3 +190,58 @@ https://www.instagram.com/p/DNF-Mzlt5yN/
 - https://www.instagram.com/p/CkfjIMvoLRZ/
 
 Voir 400-other.md
+---
+https://baranbakery.com/molly-cake/
+<!-- TODO
+https://gateauetcuisinerachida.com/molly-cake/ -->
+molly cake
+- clarifier oeufs
+- monter les blancs en meringue bien montée
+- Ajouter jaunes oeuf + vanille
+- Ajouter farine tamisée, sel, levure chimique
+- Monter la crème
+- Ajouter la crème à l'appareil
+- Moule 22x33cm, beurrer ou papier cuisson
+- Cuisson 180C 30-40mins (tester)
+  - Refaire à basse cuisson 150-165C (1h20 ?)
+
+- Oeuf 200
+- Sucre 300 (333 ? wtf ?)
+- Vanille 1 tsp
+- Farine 180 (333? wtf ?)
+- Levure chimique 2tsp
+- Sel 1/4tsp
+- Crème 240 (333 wtf ?)
+
+---
+https://empreintesucree.fr/glacage-miroir-chocolat-noir/
+---
+# Mousse choco
+- https://www.instagram.com/p/DFLRwKxoyPi/
+- https://www.instagram.com/p/DCPTvCpI7b5/
+- https://www.instagram.com/p/DAjDbk2oRsf/
+
+Mousse chocolat nestlé
+200g chocolat noir 64
+6 oeufs
+- Faire fondre le chocolat au bain marie, puis laisser tiédir
+- Clarifier les oeufs
+- Monter les blancs en neige
+- Mélanger le chocolat avec les jaunes d'oeufs
+- Prendre une partie des blancs pour détendre le mélange
+- Incorporer délicatement les blancs
+- Refroidir au frigo 6h min
+
+Version blancs oeuf et version creme
+https://www.lindt.ca/fr/recipes/Lindt-Chocolate-Mousse
+---
+formater creme pat correctement
+---
+Royal chocolat
+https://empreintesucree.fr/royal-au-chocolat/
+https://liliebakery.fr/royal-chocolat/
+---
+https://empreintesucree.fr/cercles-a-tartes-cadres-a-entremets/
+https://empreintesucree.fr/cerf-dellier-materiel-de-patisserie/
+https://fr.ca.brodandtaylor.com/collections/bread-baking/products/dough-sheeter-large
+https://www.debuyer.com/fr/le-laminoir-pro-4354.html

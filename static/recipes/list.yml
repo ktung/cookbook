@@ -130,10 +130,18 @@
   name:
     fr: 101 - Crème patissiere
     en: 101 - Crème patissiere
+- filename: 101-genoise.yml
+  name:
+    fr: 101 - Génoise
+    en: 101 - Génoise
 - filename: 101-pasta.yml
   name:
     fr: 101 - Pasta
     en: 101 - Pasta
+- filename: 101-pate-brisee-sucree.yml
+  name:
+    fr: 101 - Pate brisee sucrée
+    en: 101 - Pate brisee sucree
 - filename: 200-banh-xeo.yml
   name:
     fr: 200 - Banh Xeo

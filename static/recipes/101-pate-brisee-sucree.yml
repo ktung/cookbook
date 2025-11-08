@@ -1,0 +1,33 @@
+name:
+  en: 101 - Pate brisee sucree
+  fr: 101 - Pate brisee sucrée
+ingredients:
+  - name: allPurposeFlour
+    percentage: 89
+  - name: almondFlour
+    percentage: 11
+  - name: icingSugar
+    percentage: 32
+  - name: egg
+    percentage: 18
+  - name: salt
+    percentage: 0.72
+  - name: butter
+    percentage: 42.8
+presetTotalIngredient: 542
+process:
+  fr: |
+    - Farine + poudre amande + sucre + sel + beurre froid coupés en déserver
+    - Petite vitesse à la feuille jusqu'à sable
+    - Add oeuf entier battu
+    - Mélange jusqu'à homogène, terminer en frasant à la main
+    - Abaisse 2mm entre 2 papier sufurisé, puis réserver au frigo (ou congel)
+    - Pate + moule 30mins congel pour pas que la pate retombe à la cuisson, il faut la pate bien dur
+    - Cuisson 15mins 160C ventilé, sous tapis silpain ou airmat
+    - Sortir décercler, dorer avec 1 jaune d'oeuf + 5g creme
+    - Cuisson 15mins 160C ventilé
+notes:
+  fr: |
+    - ~12cercles de 8cm de diamètre
+references:
+  - https://www.instagram.com/p/DB1q9FXIIDd/

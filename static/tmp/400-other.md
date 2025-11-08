@@ -79,7 +79,6 @@ cuisson 15-20mins
 https://www.ricardocuisine.com/recettes/5944-creme-au-beurre-a-la-vanille-sans-oeufs
 https://encoreungateau.com/tarte-tropezienne-vraie-recette-micka/
 https://www.google.com/search?q=sponge+cake&oq=sponge+cake&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEIMjEyNGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8
-https://www.marmiton.org/recettes/recette-avis_the-tarte-au-citron-meringuee_22082.aspx
 https://www.marmiton.org/recettes/recette_glacage-au-citron_168842.aspx
 https://search.brave.com/search?q=cr%C3%A8me+p%C3%A2tissi%C3%A8re+oeuf+complet&source=android&summary=1&summary_og=a61e8f3374c93de934f65f
 https://www.marieclaire.fr/cuisine/differences-cremes-patisseries,1379880.asp
@@ -96,10 +95,6 @@ https://liliebakery.fr/fondant-baulois-recette/
 
 caramel beurre salé
 https://www.latelierderoxane.com/blog/recette-de-caramel-beurre-sale/
-
-
-sabayon
-https://search.brave.com/search?q=sabayon&source=android
 
 pate a choux
 https://www.youtube.com/watch?v=9nDxvSixabw
@@ -152,7 +147,6 @@ https://www.instagram.com/p/C7JOq6YojIT/
 cake marbré
 https://www.instagram.com/p/C5qykBUsfDV/
 
-migrer les recettes sur ptung-recipes
 avoir un systeme de draft
 
 Pois chiche
@@ -172,9 +166,6 @@ Cuisson 200°C 12mins conventionel
 https://www.mycake.fr/biscuit-cuillere/
 https://www.ptitchef.com/recettes/dessert/biscuits-a-la-cuillere-ou-boudoirs-fid-1568046
 https://www.marmiton.org/recettes/recette_biscuits-a-la-cuillere_166073.aspx
-
----
-
 
 ---
 Buche

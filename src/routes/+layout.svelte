@@ -1,7 +1,4 @@
 <script>
-  import { ParaglideJS } from '@inlang/paraglide-sveltekit'
-  import { i18n } from '$lib/i18n'
-
   import '../app.css';
   import Navigation from '$lib/components/Navigation.svelte';
   import LanguageSelector from '$lib/components/LanguageSelector.svelte';
@@ -16,18 +13,16 @@
   injectSpeedInsights();
 </script>
 
-<ParaglideJS {i18n}>
-  <header>
-    <Navigation />
-    <LanguageSelector />
-  </header>
+<header>
+  <Navigation />
+  <LanguageSelector />
+</header>
 
-  <div class="main">
-    {@render children()}
-  </div>
+<div class="main">
+  {@render children()}
+</div>
 
-  <Footer />
-</ParaglideJS>
+<Footer />
 
 <style>
   header {

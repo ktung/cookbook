@@ -1,0 +1,31 @@
+name:
+  en: 100 - Brownie
+  fr: 100 - Brownie
+ingredients:
+  - name: chocolat
+    percentage: 200
+  - name: butter
+    percentage: 180
+  - name: egg
+    percentage: 150
+  - name: brownSugar
+    percentage: 180
+  - name: heavyCream35
+    percentage: 100
+  - name: flour
+    percentage: 110
+presetTotalIngredient: 920
+process:
+  fr: |
+    - Faire fondre le chocolat avec le beurre
+    - Blanchir les oeufs avec le sucre
+    - Mélanger, ajouter la crème liquide
+    - Ajouter la farine
+    - Cuisson ventilée 30-35mins 165C ou 25mins 190C
+    - Tester doit ressortir pas 100% sec
+
+notes:
+  fr: |
+    - Chocolat dessert noir 64%
+references:
+  - https://www.instagram.com/p/C9fXcE2oM0M/

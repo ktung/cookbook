@@ -10,6 +10,10 @@
   name:
     fr: 100 - Béchamel
     en: 100 - Béchamel
+- filename: 100-brownie.yml
+  name:
+    fr: 100 - Brownie
+    en: 100 - Brownie
 - filename: 100-burger-buns.yml
   name:
     fr: 100 - Pains burger

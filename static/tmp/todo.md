@@ -42,9 +42,8 @@
 # Creme brulée
 - https://www.cuisineaz.com/recettes/creme-brulee-rapide-31743.aspx
 # Brownies
-- https://www.instagram.com/p/DMQEn26t0Yv/
-- https://www.instagram.com/p/C9fXcE2oM0M/
-- https://www.instagram.com/p/DDxJK0eR00y/
+- https://www.instagram.com/p/C-AwkH9oZTc/
+- https://www.instagram.com/p/C7JOq6YojIT/
 # Madeleines
 - https://www.instagram.com/p/DL0rwUJoo4i/
 - https://www.instagram.com/p/DExh2uooNRo/

@@ -1,6 +1,5 @@
 1. Fondant chocolat
 2. Kouign amann
-3. Brownie
 
 bread undercooked / fully cooked / overcooked
 underproof / nicely proof / overproof
@@ -139,10 +138,6 @@ https://www.instagram.com/p/CaruEpXJqOc/
 
 fondant chocolat
 https://www.instagram.com/p/Cyi8AKVIY5W/?img_index=1
-
-brownie
-https://www.instagram.com/p/C-AwkH9oZTc/
-https://www.instagram.com/p/C7JOq6YojIT/
 
 cake marbré
 https://www.instagram.com/p/C5qykBUsfDV/

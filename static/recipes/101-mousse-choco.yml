@@ -1,0 +1,28 @@
+name:
+  en: 101 - Mousse au chocolat
+  fr: 101 - Mousse au chocolat
+ingredients:
+  - name: chocolat
+    percentage: 200
+  - name: heavyCream35
+    percentage: 300
+  - name: milk
+    percentage: 150
+  - name: eggYolk
+    percentage: 40
+  - name: sugar
+    percentage: 30
+presetTotalIngredient: 500
+process:
+  fr: |
+    - Monter la crème
+    - Chauffer le lait et le sucre à petite ébullition (~83%)
+    - Verser le mélange chaud sur le chocolat
+    - Lorsque le mélange redescend à 40C, incorporer la crème fouettée
+    - Refroidir au frigo 6h min
+notes:
+  fr: |
+    - Chocolat dessert noir 64%
+    - Jaune oeuf ~20g
+references:
+  - https://liliebakery.fr/royal-chocolat/

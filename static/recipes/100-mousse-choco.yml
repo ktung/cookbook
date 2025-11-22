@@ -1,0 +1,27 @@
+name:
+  en: 100 - Mousse au chocolat
+  fr: 100 - Mousse au chocolat
+ingredients:
+  - name: chocolat
+    percentage: 100
+  - name: egg
+    percentage: 150
+presetTotalIngredient: 500
+process:
+  fr: |
+    - Faire fondre le chocolat au bain marie, puis laisser tiédir
+    - Clarifier les oeufs
+    - Monter les blancs en neige
+    - Mélanger le chocolat avec les jaunes d'oeufs
+    - Prendre une partie des blancs pour détendre le mélange
+    - Incorporer délicatement les blancs
+    - Refroidir au frigo 6h min
+notes:
+  fr: |
+    - Chocolat dessert noir 64%
+references:
+  - Nestlé Dessert
+  - https://www.instagram.com/p/DFLRwKxoyPi/
+  - https://www.instagram.com/p/DCPTvCpI7b5/
+  - https://www.instagram.com/p/DAjDbk2oRsf/
+  - https://www.lindt.ca/fr/recipes/Lindt-Chocolate-Mousse

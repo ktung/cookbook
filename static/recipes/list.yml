@@ -74,6 +74,10 @@
   name:
     fr: 100 - Moelleux chocolat
     en: 100 - Chocolate cake
+- filename: 100-mousse-choco.yml
+  name:
+    fr: 100 - Mousse au chocolat
+    en: 100 - Mousse au chocolat
 - filename: 100-muffins-bleuet.yml
   name:
     fr: 100 - Muffins bleuet
@@ -134,6 +138,10 @@
   name:
     fr: 101 - Génoise
     en: 101 - Génoise
+- filename: 101-mousse-choco.yml
+  name:
+    fr: 101 - Mousse au chocolat
+    en: 101 - Mousse au chocolat
 - filename: 101-pasta.yml
   name:
     fr: 101 - Pasta

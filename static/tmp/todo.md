@@ -42,9 +42,8 @@
 # Creme brulée
 - https://www.cuisineaz.com/recettes/creme-brulee-rapide-31743.aspx
 # Brownies
-- https://www.instagram.com/p/DMQEn26t0Yv/
-- https://www.instagram.com/p/C9fXcE2oM0M/
-- https://www.instagram.com/p/DDxJK0eR00y/
+- https://www.instagram.com/p/C-AwkH9oZTc/
+- https://www.instagram.com/p/C7JOq6YojIT/
 # Madeleines
 - https://www.instagram.com/p/DL0rwUJoo4i/
 - https://www.instagram.com/p/DExh2uooNRo/
@@ -61,8 +60,6 @@
 - https://www.instagram.com/p/DIeUz2qtdd1/
 # Cheesecake mangue
 - https://www.instagram.com/p/DGVy9IzOBIf/
-# Fondant choco
-- https://www.instagram.com/p/DFx5vvdItai/
 # Strudel
 - https://www.lilvienna.com/how-to-make-strudel-dough/
 # Chausson chocolat
@@ -97,8 +94,24 @@
 - https://www.instagram.com/p/DCpD6Xqo0Tl/
 - https://www.instagram.com/p/DBHGZd9Ibjl/
 - https://www.instagram.com/p/C__Al_KIBnH/
+- https://www.instagram.com/p/DFx5vvdItai/
 # Moelleux chocolat
-- https://www.instagram.com/p/DCXCl_Co94a/
+
+
+200 g de chocolat noir
+120 g de beurre (+10g pour le moule)
+4 oeufs
+120 g de sucre
+80 g de farine (+ 10g pour le moule)
+1/2 sachet de levure chimique (soit 6g)
+50 g de pépites de chocolat noir
+Sucre glace
+
+chocolat + beurre bain marie
+Oeuf + sucre, monter en ruban
+add farine + levure + pépites chocolat
+Cuisson 40mins 180C
+
 # Tarte tatin
 - https://www.instagram.com/p/DAs7Hz4OdTO/
 # Financier framboise
@@ -215,25 +228,6 @@ molly cake
 
 ---
 https://empreintesucree.fr/glacage-miroir-chocolat-noir/
----
-# Mousse choco
-- https://www.instagram.com/p/DFLRwKxoyPi/
-- https://www.instagram.com/p/DCPTvCpI7b5/
-- https://www.instagram.com/p/DAjDbk2oRsf/
-
-Mousse chocolat nestlé
-200g chocolat noir 64
-6 oeufs
-- Faire fondre le chocolat au bain marie, puis laisser tiédir
-- Clarifier les oeufs
-- Monter les blancs en neige
-- Mélanger le chocolat avec les jaunes d'oeufs
-- Prendre une partie des blancs pour détendre le mélange
-- Incorporer délicatement les blancs
-- Refroidir au frigo 6h min
-
-Version blancs oeuf et version creme
-https://www.lindt.ca/fr/recipes/Lindt-Chocolate-Mousse
 ---
 formater creme pat correctement
 ---

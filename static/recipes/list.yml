@@ -50,6 +50,10 @@
   name:
     fr: 100 - Financier
     en: 100 - Financier
+- filename: 100-galette-sarrasin.yml
+  name:
+    fr: 100 - Galette sarrasin
+    en: 100 - Galette sarrasin
 - filename: 100-genoise.yml
   name:
     fr: 100 - Génoise

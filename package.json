@@ -50,6 +50,6 @@
     "@sveltejs/kit": "^2.49.1",
     "@inlang/paraglide-js": "^2.5.0",
     "@vercel/analytics": "^1.6.1",
-    "@vercel/speed-insights": "^1.2.0"
+    "@vercel/speed-insights": "^1.3.1"
   }
 }

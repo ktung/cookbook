@@ -28,7 +28,7 @@
     "@sveltejs/adapter-static": "^3.0.10",
     "@types/js-yaml": "^4.0.9",
     "@types/sanitize-html": "^2.16.0",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-svelte": "^3.13.1",
     "globals": "^16.5.0",

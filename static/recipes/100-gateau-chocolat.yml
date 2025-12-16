@@ -1,0 +1,30 @@
+name:
+  en: 100 - Gateau chocolat
+  fr: 100 - Gateau chocolat
+ingredients:
+  - name: darkChocolate
+    percentage: 200
+  - name: butter
+    percentage: 120
+  - name: egg
+    percentage: 200
+  - name: whiteSugar
+    percentage: 100
+  - name: allPurposeFlour
+    percentage: 80
+  - name: bakingPowder
+    percentage: 6
+  - name: chocolteChips
+    percentage: 50
+presetTotalIngredient: 756
+process:
+  fr: |
+    Faire fondre le chocolat et le beurre
+    Monter les oeufs avec le sucre en ruban
+    Ajouter le mélange chocolat beurre
+    Ajouter farine, levure, pépites chocolat
+    Moule rond 22cm
+    Cuisson 180°C ventilé 40mins
+    Laisser refroidir avant de démouler
+references:
+  - https://www.youtube.com/watch?v=GENxS5H7HqI

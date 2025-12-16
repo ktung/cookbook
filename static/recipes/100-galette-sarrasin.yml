@@ -1,0 +1,17 @@
+name:
+  en: 100 - Galette sarrasin
+  fr: 100 - Galette sarrasin
+ingredients:
+  - name: buckwheatFlour
+    percentage: 100
+  - name: water
+    percentage: 183
+  - name: butter
+    percentage: 11.1
+presetTotalIngredient: 530
+process:
+  fr: |
+    - Mélanger farine + eau
+    - Ajouter beurre fondu
+notes:
+references:

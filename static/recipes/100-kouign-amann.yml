@@ -1,0 +1,34 @@
+name:
+  en: 100 - Kouign Amann
+  fr: 100 - Kouign Amann
+ingredients:
+  - name: allPurposeFlour
+    percentage: 100
+  - name: water
+    percentage: 70
+  - name: instantDryYeast
+    percentage: 1
+  - name: salt
+    percentage: 1
+  - name: whiteSugar
+    percentage: 5
+  - name: butter
+    percentage: 5
+  - name: whiteSugar
+    percentage: 50
+  - name: butter
+    percentage: 83.3
+presetTotalIngredient: 946
+process:
+  fr: |
+    - Pointage 1h, 2 rabats à 30mins
+    - 2 tours simple
+    - Étaler à 4mm
+    - Diviser en 12 carrés
+    - Façonnage moule muffin avec sucre
+    - Apprêt 15mins
+    - Cuisson 170C conventionnel 25-30mins
+    - Démouler à chaud
+references:
+  - https://www.youtube.com/watch?v=AAheBhpu2_o
+  - https://www.chainbaker.com/kouign-amann/

@@ -95,23 +95,6 @@
 - https://www.instagram.com/p/DBHGZd9Ibjl/
 - https://www.instagram.com/p/C__Al_KIBnH/
 - https://www.instagram.com/p/DFx5vvdItai/
-# Moelleux chocolat
-
-
-200 g de chocolat noir
-120 g de beurre (+10g pour le moule)
-4 oeufs
-120 g de sucre
-80 g de farine (+ 10g pour le moule)
-1/2 sachet de levure chimique (soit 6g)
-50 g de pépites de chocolat noir
-Sucre glace
-
-chocolat + beurre bain marie
-Oeuf + sucre, monter en ruban
-add farine + levure + pépites chocolat
-Cuisson 40mins 180C
-
 # Tarte tatin
 - https://www.instagram.com/p/DAs7Hz4OdTO/
 # Financier framboise
@@ -191,13 +174,9 @@ https://www.instagram.com/p/DNF-Mzlt5yN/
 - https://www.youtube.com/watch?v=Mebs-WosLbk
 - https://www.instagram.com/p/DG4yZRjJ4Iv/
 - https://www.instagram.com/p/DDm2m7nIw2a/
-# Cookies
-- https://www.instagram.com/p/DMqGv00INbc/
-- https://www.instagram.com/p/DGdrHUnIwhD/
-- https://www.instagram.com/p/DDXaYzTIUBJ/
 
 
-- Cookies wrap in plastic, cylinder shape go to freezer, then divide and cook on the go
+
 - https://www.youtube.com/watch?v=SEN4HJgTGDU
 - https://www.youtube.com/watch?v=97apbyvwbvY
 - https://www.instagram.com/p/CkfjIMvoLRZ/

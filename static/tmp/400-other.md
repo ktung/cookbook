@@ -1,5 +1,4 @@
 1. Fondant chocolat
-2. Kouign amann
 
 bread undercooked / fully cooked / overcooked
 underproof / nicely proof / overproof

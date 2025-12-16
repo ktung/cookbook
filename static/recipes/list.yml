@@ -26,6 +26,10 @@
   name:
     fr: 100 - Ciabatta
     en: 100 - Ciabatta
+- filename: 100-cookies.yml
+  name:
+    fr: 100 - Cookies
+    en: 100 - Cookies
 - filename: 100-creme-amande.yml
   name:
     fr: 100 - Crème amande
@@ -54,6 +58,10 @@
   name:
     fr: 100 - Galette sarrasin
     en: 100 - Galette sarrasin
+- filename: 100-gateau-chocolat.yml
+  name:
+    fr: 100 - Gateau chocolat
+    en: 100 - Gateau chocolat
 - filename: 100-genoise.yml
   name:
     fr: 100 - Génoise
@@ -70,6 +78,10 @@
   name:
     fr: 100 - Chocholat chaud
     en: 100 - Hot chocolate
+- filename: 100-kouign-amann.yml
+  name:
+    fr: 100 - Kouign Amann
+    en: 100 - Kouign Amann
 - filename: 100-madeleines.yml
   name:
     fr: 100 - Madeleines

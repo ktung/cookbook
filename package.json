@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "svelte": "^5.53.5",
-    "@sveltejs/adapter-vercel": "^6.3.2",
+    "@sveltejs/adapter-vercel": "^6.3.3",
     "@sveltejs/vite-plugin-svelte": "^6.2.4",
     "@sveltejs/kit": "^2.53.4",
     "@inlang/paraglide-js": "^2.12.0",

@@ -80,7 +80,6 @@ https://www.google.com/search?q=sponge+cake&oq=sponge+cake&gs_lcrp=EgZjaHJvbWUyB
 https://www.marmiton.org/recettes/recette_glacage-au-citron_168842.aspx
 https://search.brave.com/search?q=cr%C3%A8me+p%C3%A2tissi%C3%A8re+oeuf+complet&source=android&summary=1&summary_og=a61e8f3374c93de934f65f
 https://www.marieclaire.fr/cuisine/differences-cremes-patisseries,1379880.asp
-https://encoreungateau.com/ganache-montee/
 https://www.marmiton.org/recettes/recette_paris-brest-praline_21485.aspx
 https://cuisine.journaldesfemmes.fr/recette/356631-pralin-maison
 https://ici.radio-canada.ca/mordu/techniques/3180/faire-praline

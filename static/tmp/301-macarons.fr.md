@@ -17,13 +17,6 @@ Ingrédients des macarons :
 160°C 14mins
 
 
-creme a ébulition
-choco mélange
-La quantité de crème varie selon le chocolat utilisé (pour 200 g de chocolat) :
-•    20 cl ganache chocolat noir
-•    15 cl ganache chocolat au lait
-•    10 cl ganache chocolat blanc. 
-
 - https://www.youtube.com/watch?v=uQ_SPhcdckI
 ---
 MACARONS
@@ -69,9 +62,5 @@ pas + que 68% de chocolat
 
 ---
 https://www.joshuaweissman.com/post/homemade-macarons
-
----
-https://encoreungateau.com/ganache-montee/
-https://www.mycake.fr/ganache-montee/
 ---
 https://camille-patisserie.com/recette-patisserie/gateaux/creme-grainee/

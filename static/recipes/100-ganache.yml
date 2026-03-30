@@ -1,0 +1,22 @@
+name:
+  en: 100 - Ganache
+  fr: 100 - Ganache
+ingredients:
+  - name: chocolate
+    percentage: 200
+  - name: heavyCream
+    percentage: 200
+presetTotalIngredient: 400
+process:
+  fr: |
+    - Chauffer la crème à ébullition
+    - Faire fondre le chocolat
+    - Mélanger énergiquement pour créer une émulsion
+notes:
+  fr: |
+    La quantité de crème varie selon le chocolat utilisé (pour 200 g de chocolat) :
+      20 cl ganache chocolat noir
+      15 cl ganache chocolat au lait
+      10 cl ganache chocolat blanc.
+references:
+  -

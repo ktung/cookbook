@@ -162,8 +162,6 @@ https://www.instagram.com/p/DIl78x8oj4Y/
 
 # Fraisier
 https://www.instagram.com/p/DNdlRizxHG9/
-# Ganache montée chocolat blanc
-https://www.instagram.com/p/DNLiMbIIcFt/
 # Chouquette
 https://www.instagram.com/p/DNF-Mzlt5yN/
 - https://www.instagram.com/p/DL-SpZMIH-G/

@@ -58,6 +58,14 @@
   name:
     fr: 100 - Galette sarrasin
     en: 100 - Galette sarrasin
+- filename: 100-ganache-montee.yml
+  name:
+    fr: 100 - Ganache montée
+    en: 100 - Ganache montée
+- filename: 100-ganache.yml
+  name:
+    fr: 100 - Ganache
+    en: 100 - Ganache
 - filename: 100-gateau-chocolat.yml
   name:
     fr: 100 - Gateau chocolat
@@ -154,6 +162,10 @@
   name:
     fr: 101 - Crème patissiere
     en: 101 - Crème patissiere
+- filename: 101-crepes.yml
+  name:
+    fr: 101 - Crepes
+    en: 101 - Crepes
 - filename: 101-genoise.yml
   name:
     fr: 101 - Génoise
@@ -174,6 +186,10 @@
   name:
     fr: 200 - Banh Xeo
     en: 200 - Banh Xeo
+- filename: 200-biscuit-pate-chou.yml
+  name:
+    fr: 200 - Biscuit pate à chou
+    en: 200 - Biscuit pate à chou
 - filename: 200-brioche.yml
   name:
     fr: 200 - Brioche
@@ -238,3 +254,7 @@
   name:
     fr: 400 - Burger
     en: 400 - Burger
+- filename: feuilletée inversée
+  name:
+    fr: ""
+    en: ""

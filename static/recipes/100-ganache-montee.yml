@@ -1,0 +1,26 @@
+name:
+  en: 100 - Ganache montée
+  fr: 100 - Ganache montée
+ingredients:
+  - name: chocolate
+    percentage: 200
+  - name: heavyCream
+    percentage: 200
+presetTotalIngredient: 400
+process:
+  fr: |
+    - Chauffer la moitié crème à ébullition
+    - Faire fondre le chocolat
+    - Mélanger énergiquement pour créer une émulsion
+    - Ajouter la 2e moitié de crème froide
+    - Après refroidissement (6h frigo), monter la ganache
+notes:
+  fr: |
+    La quantité de crème varie selon le chocolat utilisé (pour 100 g de chocolat) :
+      chocolat noir : 300g
+      chocolat lait : 250g
+      chocolat blanc : 240g
+references:
+  - https://encoreungateau.com/ganache-montee/
+  - https://www.mycake.fr/ganache-montee/
+  - https://www.instagram.com/p/DNLiMbIIcFt/

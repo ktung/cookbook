@@ -1,0 +1,106 @@
+name:
+  en: 200 - Biscuit pate à chou
+  fr: 200 - Biscuit pate à chou
+ingredients:
+  - name: milk
+    percentage: 125
+  - name: butter
+    percentage: 90
+  - name: allPurposeFlour
+    percentage: 135
+  - name: egg
+    percentage: 100
+  - name: eggYolk
+    percentage: 150
+  - name: eggWhite
+    percentage: 225
+  - name: whiteSugar
+    percentage: 110
+presetTotalIngredient: 468
+process:
+  fr: |
+    - Préchauffer le four à 200°C.
+
+    - Clarifier une partie des oeufs
+    - Faire fondre le beurre avec le lait, porter à ébullition
+    - Hors du feu, ajouter la farine en une fois, 
+    - Remettre sur le feu pour désécher la panade
+    - Hors du feu, ajouter petit à petit le mélange oeuf entier + jaune d'oeuf
+
+    - Monter les 3 blancs d’œufs et serrer avec le sucre semoule, arrêter la meringue lorsque la texture est encore souple.
+    - Ajouter un peu de blancs montés à la pâte à choux et mélanger.
+    - Incorporer ensuite délicatement le reste des blancs montés à l’aide d’une maryse.
+
+    - Verser la préparation sur 1 plaque de 30×40 cm recouverte d’une feuille de papier cuisson et étaler à l’aide d’une spatule.
+    - Cuisson 200°C ventilé 10 minutes
+    - À la sortie du four, vérifier la cuisson de votre biscuit à l’aide d’un couteau puis le laisser refroidir et le saupoudrer de sucre glace pour le décoller plus facilement du papier cuisson.
+notes:
+  fr: |
+    - ou biscuit japonais
+    - 1 blanc oeuf ~= 30g
+references:
+  - https://www.instagram.com/p/DSQHHHAiKm4/
+  - https://www.instagram.com/reel/DPeqOOtiEZd/
+  - https://www.instagram.com/reel/DKSXyb0IP-T/
+  - https://ninametayer.com/recette-de-buche-de-noel-roulee-au-chocolat-danastasia-et-nina/
+  - https://www.iletaitunefoislapatisserie.com/2022/12/biscuit-roule-japonais-recette-buche.html
+  - https://encoreungateau.com/biscuit-japonais-pate-choux/
+#   - name: milk
+#     percentage: 55
+#   - name: water
+#     percentage: 55
+#   - name: salt
+#     percentage: 2
+#   - name: butter
+#     percentage: 25
+#   - name: oil
+#     percentage: 40
+#   - name: allPurposeFlour
+#     percentage: 40
+#   - name: egg
+#     percentage: 100
+#   - name: eggWhite
+#     percentage: 90
+#   - name: whiteSugar
+#     percentage: 55
+# presetTotalIngredient: 462
+
+# Chauffer beurre, lait, eau, sel
+# A ébulliton ajouter farine
+# Désécher la pate
+# Hors du feu, ajouter les oeufs battus petit à petit
+# Ajouter huile
+
+# Cuisson 12mins 190C
+
+# ----
+# ingredients:
+#   - name: milk
+#     percentage: 125
+#   - name: butter
+#     percentage: 90
+#   - name: allPurposeFlour
+#     percentage: 135
+#   - name: egg
+#     percentage: 100
+#   - name: eggYolk
+#     percentage: 150
+#   - name: eggWhite
+#     percentage: 225
+#   - name: whiteSugar
+#     percentage: 110
+# presetTotalIngredient: 935
+
+# Recette pour plaque GN1/1 (50x30cm)
+# Cuisson 10mins 180
+# Sortir la feuille de la plaque après cuisson
+
+# # craquelin : tant pour tant beurre, farine, sucre
+# ----
+# Biscuit japonais au cacao
+# 85 g de farine
+# 25 g de cacao en poudre
+# 60 g de beurre
+# 2 cl de lait entier
+# 8 œufs (dont 2 entiers, 6 jaunes et 6 blancs séparés)
+# 50 g de sucre semoule

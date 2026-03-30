@@ -1,0 +1,30 @@
+name:
+  en: 101 - Crepes
+  fr: 101 - Crepes
+ingredients:
+  - name: allPurposeFlour
+    percentage: 0.2306273063
+  - name: wholeMilk3_25
+    percentage: 0.4612546125
+  - name: egg
+    percentage: 0.184501845
+  - name: brownSugar
+    percentage: 0.05535055351
+  - name: salt
+    percentage: 0.0036900369
+  - name: semiSaltedButter
+    percentage: 0.06457564576 # 50-90
+presetTotalIngredient: 1084
+process:
+  fr: |
+    - Faire fondre le beurre
+    - Farine + lait, mélanger
+    - Oeuf, cassonade, sel
+    - Beurre fondu à température
+    - Laisser reposer minimum 1h température ambiante
+notes:
+  fr: |
+    - 10 crepes
+references:
+  - https://www.youtube.com/watch?v=fj4dLZPzYQw
+  - https://www.youtube.com/watch?v=mDO5lmdbMgI

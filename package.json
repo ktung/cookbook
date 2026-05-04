@@ -38,7 +38,7 @@
     "prettier": "^3.8.3",
     "prettier-plugin-svelte": "^3.5.1",
     "sanitize-html": "^2.17.3",
-    "svelte-check": "^4.4.6",
+    "svelte-check": "^4.4.7",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.0",
     "vite": "^7.3.2"

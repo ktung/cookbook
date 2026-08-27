@@ -3,10 +3,10 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "packageManager": "pnpm@12.0.0",
+  "packageManager": "pnpm@10.34.5",
   "engines": {
     "node": ">=24.20.0",
-    "pnpm": ">=12.0.0"
+    "pnpm": ">=10.34.5"
   },
   "scripts": {
     "dev": "vite dev",
@@ -14,9 +14,9 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "format": "pnpx @biomejs/biome format --write src",
-    "format-full": "pnpx @biomejs/biome check --write src",
-    "lint": "pnpx @biomejs/biome check",
+    "format": "pnpm dlx @biomejs/biome format --write src",
+    "format-full": "pnpm dlx @biomejs/biome check --write src",
+    "lint": "pnpm dlx @biomejs/biome check",
     "prepare": "husky"
   },
   "devDependencies": {

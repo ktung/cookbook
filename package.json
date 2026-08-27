@@ -3,11 +3,19 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.34.5",
-  "engines": {
-    "node": ">=24.20.0",
-    "pnpm": ">=10.34.5"
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.20.0",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^10.34.5",
+      "onFail": "error"
+    }
   },
+  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",

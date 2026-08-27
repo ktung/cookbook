@@ -1,52 +1,59 @@
 <script>
-  import { base } from "$app/paths";
-  import * as m from "$lib/paraglide/messages.js"
-  import { currentLanguage } from "$lib/services/language-util";
-  import { normalizeString } from "$lib/services/strings";
+import { base } from '$app/paths';
+import * as m from '$lib/paraglide/messages.js';
+import { currentLanguage } from '$lib/services/language-util';
+import { normalizeString } from '$lib/services/strings';
 
-  let { recipes } = $props();
+let { recipes } = $props();
 
-  let searchTerm = $state("");
-  let currentLang = currentLanguage();
+let searchTerm = $state('');
+let currentLang = currentLanguage();
 
-  let filteredItems = $derived(recipes.filter((recipe) => {
-    return normalizeString(recipe.name[currentLang]).includes(normalizeString(searchTerm));
-  }));
-  let showDropdown = $state(false);
+let filteredItems = $derived(
+  recipes.filter((recipe) => {
+    return normalizeString(recipe.name[currentLang]).includes(
+      normalizeString(searchTerm),
+    );
+  }),
+);
+let showDropdown = $state(false);
 
-  function selectRecipe(filename) {
-    let slug = filename.replace(".yml", "");
-    return `${base}/r/${slug}`;
+function selectRecipe(filename) {
+  let slug = filename.replace('.yml', '');
+  return `${base}/r/${slug}`;
+}
+
+let selectedIndex = $state(-1);
+
+function handleKeydown(event) {
+  if (!showDropdown || filteredItems.length === 0) {
+    return;
   }
 
-  let selectedIndex = $state(-1);
-
-  function handleKeydown(event) {
-    if (!showDropdown || filteredItems.length === 0) {
-      return;
-    }
-
-    switch (event.key) {
-      case 'ArrowDown':
+  switch (event.key) {
+    case 'ArrowDown':
+      event.preventDefault();
+      selectedIndex = (selectedIndex + 1) % filteredItems.length;
+      break;
+    case 'ArrowUp':
+      event.preventDefault();
+      selectedIndex =
+        selectedIndex <= 0 ? filteredItems.length - 1 : selectedIndex - 1;
+      break;
+    case 'Enter':
+      if (selectedIndex >= 0) {
         event.preventDefault();
-        selectedIndex = (selectedIndex + 1) % filteredItems.length;
-        break;
-      case 'ArrowUp':
-        event.preventDefault();
-        selectedIndex = selectedIndex <= 0 ? filteredItems.length - 1 : selectedIndex - 1;
-        break;
-      case 'Enter':
-        if (selectedIndex >= 0) {
-          event.preventDefault();
-          window.location.href = selectRecipe(filteredItems[selectedIndex].filename);
-        }
-        break;
-      case 'Escape':
-        showDropdown = false;
-        selectedIndex = -1;
-        break;
-    }
+        window.location.href = selectRecipe(
+          filteredItems[selectedIndex].filename,
+        );
+      }
+      break;
+    case 'Escape':
+      showDropdown = false;
+      selectedIndex = -1;
+      break;
   }
+}
 </script>
 
 <div class="autocomplete">

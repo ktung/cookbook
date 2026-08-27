@@ -60,3 +60,5 @@
 - dark mode
 - pre commit reorganize i18n ordre alphabétique
 - Button "Surprise me!" : show a random recipe
+- https://mise.jdx.dev/
+- https://biomejs.dev/

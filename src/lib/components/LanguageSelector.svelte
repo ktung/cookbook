@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { getLocale, locales, setLocale } from "$lib/paraglide/runtime";
+import { getLocale, locales, setLocale } from '$lib/paraglide/runtime';
 
-  let locale = $state(getLocale());
+let locale = $state(getLocale());
 
-  function onChangeLocale(event: Event) {
-    const target = event.target as HTMLSelectElement;
-    const newLocale = target.value as typeof locale;
-    setLocale(newLocale);
-  }
+function onChangeLocale(event: Event) {
+  const target = event.target as HTMLSelectElement;
+  const newLocale = target.value as typeof locale;
+  setLocale(newLocale);
+}
 </script>
 
 <div>

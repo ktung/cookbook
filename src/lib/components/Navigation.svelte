@@ -1,7 +1,7 @@
 <script>
-  import { base } from "$app/paths";
-  import { page } from "$app/state";
-  import * as m from "$lib/paraglide/messages.js"
+import { base } from '$app/paths';
+import { page } from '$app/state';
+import * as m from '$lib/paraglide/messages.js';
 </script>
 
 <div>

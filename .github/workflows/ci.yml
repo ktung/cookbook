@@ -6,6 +6,11 @@ on:
 
 
 jobs:
+  hello:
+    uses: ./.github/workflows/hello.yml
+    with:
+      actor: ${{ github.actor }}
+
   quality:
     name: quality
     runs-on: ubuntu-latest

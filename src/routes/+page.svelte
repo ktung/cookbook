@@ -1,5 +1,5 @@
 <script lang="ts">
-import { base } from '$app/paths';
+import { resolve } from '$app/paths';
 import Autocomplete from '$lib/components/Autocomplete.svelte';
 import * as m from '$lib/paraglide/messages.js';
 import type { PageData } from './$types';
@@ -11,7 +11,7 @@ function redirectRandomRecipe() {
   let randomRecipe = recipes[Math.floor(Math.random() * recipes.length)];
 
   let slug = randomRecipe.filename.replace('.yml', '');
-  window.location.href = `${base}/r/${slug}`;
+  window.location.href = resolve('/r/[slug]', { slug: slug });
 }
 </script>
 

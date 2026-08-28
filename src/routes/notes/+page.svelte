@@ -1,5 +1,5 @@
 <script lang="ts">
-import { base } from '$app/paths';
+import { resolve } from '$app/paths';
 import type { PageData } from './$types';
 
 let { data }: { data: PageData } = $props();
@@ -13,7 +13,7 @@ let { data }: { data: PageData } = $props();
   <ol>
     {#each data.notes as note (note.slug)}
       <li>
-        <a href={`${base}/notes/${note.slug}`}>{note.title}</a>
+        <a href={resolve('/notes/[slug]', {slug: note.slug})}>{note.title}</a>
       </li>
     {/each}
   </ol>

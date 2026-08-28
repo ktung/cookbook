@@ -1,5 +1,5 @@
 <script>
-import { base } from '$app/paths';
+import { resolve } from '$app/paths';
 import * as m from '$lib/paraglide/messages.js';
 import { currentLanguage } from '$lib/services/language-util';
 import { normalizeString } from '$lib/services/strings';
@@ -20,7 +20,7 @@ let showDropdown = $state(false);
 
 function selectRecipe(filename) {
   let slug = filename.replace('.yml', '');
-  return `${base}/r/${slug}`;
+  return resolve('/r/[slug]', { slug: slug });
 }
 
 let selectedIndex = $state(-1);

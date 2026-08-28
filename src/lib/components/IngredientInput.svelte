@@ -1,27 +1,29 @@
 <script lang="ts">
-  import { round2IfNecessary } from "$lib/services/calculator";
+import { round2IfNecessary } from '$lib/services/calculator';
 
-  interface Props {
-    id: string,
-    ingredientPercentage: number,
-    totalRecipePercentage: number,
-    totalIngredient: number,
-    onInput: (totalIngredient: number) => void
-  }
+interface Props {
+  id: string;
+  ingredientPercentage: number;
+  totalRecipePercentage: number;
+  totalIngredient: number;
+  onInput: (totalIngredient: number) => void;
+}
 
-  let {
-    id,
-    ingredientPercentage,
-    totalRecipePercentage,
-    totalIngredient,
-    onInput
-  }: Props = $props();
+let {
+  id,
+  ingredientPercentage,
+  totalRecipePercentage,
+  totalIngredient,
+  onInput,
+}: Props = $props();
 
-  export function handleOninput(ev: InputEvent) {
-    const { valueAsNumber } = ev.target as HTMLInputElement;
-    let totalIngredient = round2IfNecessary(valueAsNumber * totalRecipePercentage / ingredientPercentage);
-    onInput(totalIngredient);
-  }
+export function handleOninput(ev: InputEvent) {
+  const { valueAsNumber } = ev.target as HTMLInputElement;
+  let totalIngredient = round2IfNecessary(
+    (valueAsNumber * totalRecipePercentage) / ingredientPercentage,
+  );
+  onInput(totalIngredient);
+}
 </script>
 
 <input

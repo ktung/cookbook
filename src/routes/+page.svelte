@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { base } from "$app/paths";
-  import Autocomplete from "$lib/components/Autocomplete.svelte";
-  import type { PageData } from "./$types";
-  import * as m from "$lib/paraglide/messages.js"
+import { base } from '$app/paths';
+import Autocomplete from '$lib/components/Autocomplete.svelte';
+import * as m from '$lib/paraglide/messages.js';
+import type { PageData } from './$types';
 
-  let { data }: { data: PageData } = $props();
+let { data }: { data: PageData } = $props();
 
-  function redirectRandomRecipe() {
-    let recipes = data.recipes;
-    let randomRecipe = recipes[Math.floor(Math.random() * recipes.length)];
+function redirectRandomRecipe() {
+  let recipes = data.recipes;
+  let randomRecipe = recipes[Math.floor(Math.random() * recipes.length)];
 
-    let slug = randomRecipe.filename.replace(".yml", "");
-    window.location.href = `${base}/r/${slug}`;
-  }
+  let slug = randomRecipe.filename.replace('.yml', '');
+  window.location.href = `${base}/r/${slug}`;
+}
 </script>
 
 <svelte:head>

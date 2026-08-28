@@ -1,73 +1,84 @@
 <script lang="ts">
-  import IngredientInput from "$lib/components/IngredientInput.svelte";
-  import { translate } from "$lib/services/ingredient-translator";
-  import type { PageData } from "./$types";
-  import * as m from "$lib/paraglide/messages.js"
-  import { currentLanguage } from "$lib/services/language-util";
-  import { ceil2, round2 } from "$lib/services/calculator";
-  import sanitizeHtml from 'sanitize-html';
-  import { base } from "$app/paths";
-  import { load as loadYaml } from 'js-yaml';
-  import { onDestroy } from "svelte";
-  import { currency } from "$lib/stores/currency";
+import { load as loadYaml } from 'js-yaml';
+import sanitizeHtml from 'sanitize-html';
+import { onDestroy } from 'svelte';
+import { base } from '$app/paths';
+import IngredientInput from '$lib/components/IngredientInput.svelte';
+import * as m from '$lib/paraglide/messages.js';
+import { ceil2, round2 } from '$lib/services/calculator';
+import { translate } from '$lib/services/ingredient-translator';
+import { currentLanguage } from '$lib/services/language-util';
+import { currency } from '$lib/stores/currency';
+import type { PageData } from './$types';
 
-  const { data }: { data: PageData } = $props();
-  const recipe = data.recipe;
-  let prices = $state(data.prices);
-  const currentLang = currentLanguage();
+const { data }: { data: PageData } = $props();
+const recipe = data.recipe;
+let prices = $state(data.prices);
+const currentLang = currentLanguage();
 
-  const totalPercentage = $derived(
-    recipe.ingredients.reduce((sum, ingredient) => sum + ingredient.percentage, 0)
-  );
-  let totalIngredient = $state(recipe.presetTotalIngredient);
+const totalPercentage = $derived(
+  recipe.ingredients.reduce(
+    (sum, ingredient) => sum + ingredient.percentage,
+    0,
+  ),
+);
+let totalIngredient = $state(recipe.presetTotalIngredient);
 
-  let htmlProcess = !recipe.process || !recipe.process[currentLang] ? '' : recipe.process[currentLang].split('\n')
-    .map(line => line.trim())
-    .filter(line => line.length > 0)
-    .map(line => `${line}<br />`)
-    .map(content => sanitizeHtml(content))
-    .join('');
-  let htmlNotes = !recipe.notes || !recipe.notes[currentLang] ? '' : recipe.notes[currentLang].split('\n')
-    .map(line => line.trim())
-    .filter(line => line.length > 0)
-    .map(line => `${line}<br />`)
-    .map(content => sanitizeHtml(content))
-    .join('');
+let htmlProcess =
+  !recipe.process || !recipe.process[currentLang]
+    ? ''
+    : recipe.process[currentLang]
+        .split('\n')
+        .map((line) => line.trim())
+        .filter((line) => line.length > 0)
+        .map((line) => `${line}<br />`)
+        .map((content) => sanitizeHtml(content))
+        .join('');
+let htmlNotes =
+  !recipe.notes || !recipe.notes[currentLang]
+    ? ''
+    : recipe.notes[currentLang]
+        .split('\n')
+        .map((line) => line.trim())
+        .filter((line) => line.length > 0)
+        .map((line) => `${line}<br />`)
+        .map((content) => sanitizeHtml(content))
+        .join('');
 
-  function ingredientOninput(newTotal: number) {
-    totalIngredient = newTotal;
-  }
+function ingredientOninput(newTotal: number) {
+  totalIngredient = newTotal;
+}
 
-  const currencySign = $derived($currency === 'cad' ? '$' : '€');
+const currencySign = $derived($currency === 'cad' ? '$' : '€');
 
-  async function handleCurrencyChange() {
-    const priceYml = await fetch(`${base}/price/${$currency}.yml`);
-    const priceText = await priceYml.text();
-    prices = loadYaml(priceText);
-  }
+async function handleCurrencyChange() {
+  const priceYml = await fetch(`${base}/price/${$currency}.yml`);
+  const priceText = await priceYml.text();
+  prices = loadYaml(priceText);
+}
 
-  let wakeLock: WakeLockSentinel | null = null;
-  let cookMode = $state(false);
-  async function toggleCookMode() {
-    try {
-      if (!cookMode) {
-        wakeLock = await navigator.wakeLock.request('screen');
-        cookMode = true;
-      } else {
-        await wakeLock?.release();
-        wakeLock = null;
-        cookMode = false;
-      }
-    } catch (err) {
-      console.error('Wake Lock error:', err);
+let wakeLock: WakeLockSentinel | null = null;
+let cookMode = $state(false);
+async function toggleCookMode() {
+  try {
+    if (!cookMode) {
+      wakeLock = await navigator.wakeLock.request('screen');
+      cookMode = true;
+    } else {
+      await wakeLock?.release();
+      wakeLock = null;
+      cookMode = false;
     }
+  } catch (err) {
+    console.error('Wake Lock error:', err);
   }
+}
 
-  onDestroy(async () => {
-    if (wakeLock) {
-      await wakeLock.release();
-    }
-  });
+onDestroy(async () => {
+  if (wakeLock) {
+    await wakeLock.release();
+  }
+});
 </script>
 
 <svelte:head>

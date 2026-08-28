@@ -1,16 +1,18 @@
 import { error } from '@sveltejs/kit';
-import type { PageLoad } from './$types';
 import { marked } from 'marked';
-import { currentLanguage } from '$lib/services/language-util';
 import sanitizeHtml from 'sanitize-html';
+import { currentLanguage } from '$lib/services/language-util';
+import type { PageLoad } from './$types';
 
 const notesFr = import.meta.glob('/static/notes/fr/*.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 });
 
 const notesEn = import.meta.glob('/static/notes/en/*.md', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
 });
 
@@ -18,7 +20,7 @@ export const load: PageLoad = async ({ params }) => {
   const currentLang = currentLanguage();
 
   const path = `/static/notes/${currentLang}/${params.slug}.md`;
-  let content;
+  let content: string;
   if (currentLang === 'fr') {
     content = notesFr[path];
   } else {

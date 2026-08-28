@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { base } from "$app/paths";
-  import type { PageData } from "./$types";
+import { base } from '$app/paths';
+import type { PageData } from './$types';
 
-  let { data }: { data: PageData } = $props();
+let { data }: { data: PageData } = $props();
 </script>
 
 <svelte:head>

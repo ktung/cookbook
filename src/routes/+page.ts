@@ -1,5 +1,5 @@
-import { base } from '$app/paths';
 import { load as loadYaml } from 'js-yaml';
+import { base } from '$app/paths';
 import type { PageLoad } from './$types';
 
 interface RecipeItem {

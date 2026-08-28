@@ -1,9 +1,9 @@
+import { load as loadYaml } from 'js-yaml';
+import { get } from 'svelte/store';
 import { browser } from '$app/environment';
 import { base } from '$app/paths';
 import { currency } from '$lib/stores/currency';
-import { get } from 'svelte/store';
 import type { PageLoad } from './$types';
-import { load as loadYaml } from 'js-yaml';
 
 interface Recipe {
   name: { en?: string; fr: string };

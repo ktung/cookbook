@@ -1,6 +1,6 @@
+// biome-ignore-all syntax: reason
 import * as m from '$lib/paraglide/messages.js';
 
-// prettier-ignore
 export function translate(name: string) {
   switch (name) {
     case 'allPurposeFlour': return m.allPurposeFlour();

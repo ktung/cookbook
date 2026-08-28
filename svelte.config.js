@@ -6,12 +6,12 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 let customAdapter;
 if (process.env.ADAPTER === 'static') {
   customAdapter = adapterStatic({
-    fallback: '404.html'
+    fallback: '404.html',
   });
 } else if (process.env.ADAPTER === 'vercel') {
   customAdapter = adapterVercel();
 } else {
-  customAdapter = adapterAuto()
+  customAdapter = adapterAuto();
 }
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -27,9 +27,9 @@ const config = {
     adapter: customAdapter,
     paths: {
       assets: process.env.ASSETS_PATH ? process.env.ASSETS_PATH : '',
-      base: process.env.BASE_PATH ? process.env.BASE_PATH : ''
-    }
-  }
+      base: process.env.BASE_PATH ? process.env.BASE_PATH : '',
+    },
+  },
 };
 
 export default config;

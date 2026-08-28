@@ -1,16 +1,16 @@
 <script>
-  import '../app.css';
-  import Navigation from '$lib/components/Navigation.svelte';
-  import LanguageSelector from '$lib/components/LanguageSelector.svelte';
-  import Footer from './footer.svelte';
+import '../app.css';
 
-  import { injectAnalytics } from '@vercel/analytics/sveltekit'
-  import { injectSpeedInsights } from '@vercel/speed-insights';
+import { injectAnalytics } from '@vercel/analytics/sveltekit';
+import { injectSpeedInsights } from '@vercel/speed-insights';
+import LanguageSelector from '$lib/components/LanguageSelector.svelte';
+import Navigation from '$lib/components/Navigation.svelte';
+import Footer from './footer.svelte';
 
-  let { children } = $props();
+let { children } = $props();
 
-  injectAnalytics();
-  injectSpeedInsights();
+injectAnalytics();
+injectSpeedInsights();
 </script>
 
 <header>

@@ -33,7 +33,7 @@
     "@sveltejs/adapter-static": "^3.0.10",
     "@types/js-yaml": "^4.0.9",
     "@types/sanitize-html": "^2.16.1",
-    "globals": "^17.11.0",
+    "globals": "^17.12.0",
     "husky": "^9.1.7",
     "js-yaml": "^5.4.1",
     "marked": "^18.0.11",

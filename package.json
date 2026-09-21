@@ -43,7 +43,7 @@
     "vite": "8.3.0"
   },
   "dependencies": {
-    "@inlang/paraglide-js": "^2.25.1",
+    "@inlang/paraglide-js": "^2.25.4",
     "@sveltejs/adapter-vercel": "^6.3.4",
     "@sveltejs/kit": "^2.70.3",
     "@sveltejs/vite-plugin-svelte": "7.3.0",
